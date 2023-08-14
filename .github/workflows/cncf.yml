@@ -1,7 +1,7 @@
 name: CNCF
 on:
   schedule:
-    - cron: "0 10 * * *"
+    - cron: "30 13 * * *"
 
 jobs:
   build-and-deploy-landscape:
@@ -39,7 +39,7 @@ jobs:
         run: |
           landscape2 build \
             --settings-file ./cncf/settings.yml \
-            --data-url https://raw.githubusercontent.com/cynthia-sg/landscape/cynthia-sg/security-audit-dates/landscape.yml \
+            --data-file ./landscape/landscape.yml \
             --logos-path ./landscape/hosted_logos \
             --cache-dir /tmp/landscape-cache \
             --output-dir /tmp/landscape

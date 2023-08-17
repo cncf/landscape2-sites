@@ -37,7 +37,7 @@ jobs:
         uses: actions/cache@v3
         with:
           path: /tmp/landscape-cache
-          key: landscape-cache-${{ inputs.foundation }}-${ github.sha }}
+          key: landscape-cache-${{ inputs.foundation }}-${{ github.sha }}
           restore-keys: |
             landscape-cache-${{ inputs.foundation }}-
 

@@ -1,8 +1,7 @@
 name: CNCF
 on:
-  push:
-    branches:
-      - main
+  schedule:
+    - cron: "5 15 * * *"
 
 jobs:
   build-landscape:

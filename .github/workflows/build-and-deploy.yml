@@ -8,6 +8,7 @@ on:
         required: true
         type: string
       s3_bucket:
+        required: true
         type: string
     secrets:
       AWS_ACCESS_KEY_ID: {}

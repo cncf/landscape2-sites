@@ -1,7 +1,7 @@
 name: CNCF
 on:
   schedule:
-    - cron: "5 15 * * *"
+    - cron: "0 16 * * *"
 
 jobs:
   build-landscape:

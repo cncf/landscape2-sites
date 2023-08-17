@@ -1,7 +1,7 @@
 name: CNCF
 on:
   schedule:
-    - cron: "30 13 * * *"
+    - cron: "0 8 * * *"
 
 jobs:
   build-and-deploy-landscape:
@@ -19,6 +19,7 @@ jobs:
           repository: "cncf/landscape"
           path: "./landscape"
           sparse-checkout: |
+            landscape.yml
             hosted_logos
 
       - name: Install tar in container (needed for the cache)
@@ -46,7 +47,7 @@ jobs:
 
       - name: Deploy landscape
         env:
-          AWS_REGION: "us-east-2"
+          AWS_REGION: ${{ secrets.AWS_REGION }}
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
         run: |

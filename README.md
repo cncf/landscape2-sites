@@ -1,6 +1,10 @@
 # Landscape2 sites
 
-This repository contains the configuration of the Landscape2 sites.
+This repository contains the settings and deployment workflows of some foundations' landscapes.
+
+| Foundation | Landscape url                            |
+| ---------- | ---------------------------------------- |
+| CNCF       | <https://d3p7z0397yhzys.cloudfront.net/> |
 
 ## Contributing
 

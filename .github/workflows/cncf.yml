@@ -1,56 +1,19 @@
 name: CNCF
 on:
-  schedule:
-    - cron: "0 8 * * *"
+  push:
+    branches:
+      - main
 
 jobs:
-  build-and-deploy-landscape:
-    runs-on: ubuntu-latest
-    container:
-      image: public.ecr.aws/g6m3a0y9/landscape2
-      options: --user root
-    steps:
-      - name: Checkout this repository
-        uses: actions/checkout@v3
-
-      - name: Checkout cncf/landscape repository
-        uses: actions/checkout@v3
-        with:
-          repository: "cncf/landscape"
-          path: "./landscape"
-          sparse-checkout: |
-            landscape.yml
-            hosted_logos
-
-      - name: Install tar in container (needed for the cache)
-        run: apk add --update --no-progress tar
-
-      - name: Setup cache
-        uses: actions/cache@v3
-        with:
-          path: /tmp/landscape-cache
-          key: landscape-cache-cncf-${ github.sha }}
-          restore-keys: |
-            landscape-cache-cncf-
-
-      - name: Build landscape
-        env:
-          GITHUB_TOKENS: ${{ secrets.GH_TOKENS }}
-          CRUNCHBASE_API_KEY: ${{ secrets.CRUNCHBASE_API_KEY }}
-        run: |
-          landscape2 build \
-            --settings-file ./cncf/settings.yml \
-            --data-file ./landscape/landscape.yml \
-            --logos-path ./landscape/hosted_logos \
-            --cache-dir /tmp/landscape-cache \
-            --output-dir /tmp/landscape
-
-      - name: Deploy landscape
-        env:
-          AWS_REGION: ${{ secrets.AWS_REGION }}
-          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
-          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-        run: |
-          landscape2 deploy s3 \
-            --bucket landscape2-prototype-demo \
-            --landscape-dir /tmp/landscape
+  build-landscape:
+    uses: tegioz/landscape2-sites/.github/workflows/build-and-deploy.yml@main
+    with:
+      foundation: cncf
+      repository: cncf/landscape
+      s3_bucket: landscape2-prototype-demo
+    secrets:
+      AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+      AWS_REGION: ${{ secrets.AWS_REGION }}
+      AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+      CRUNCHBASE_API_KEY: ${{ secrets.CRUNCHBASE_API_KEY }}
+      GH_TOKENS: ${{ secrets.GH_TOKENS }}

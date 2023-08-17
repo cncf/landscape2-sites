@@ -1,5 +1,7 @@
 # Landscape2 sites
 
+[![CNCF](https://github.com/tegioz/landscape2-sites/actions/workflows/cncf.yml/badge.svg)](https://github.com/tegioz/landscape2-sites/actions/workflows/cncf.yml)
+
 This repository contains the settings and deployment workflows of some foundations' landscapes.
 
 | Foundation | Landscape url                            |

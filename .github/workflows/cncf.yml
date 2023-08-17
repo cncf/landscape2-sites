@@ -1,3 +1,4 @@
+name: CNCF
 on:
   push:
     branches:

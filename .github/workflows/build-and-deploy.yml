@@ -11,11 +11,16 @@ on:
         required: true
         type: string
     secrets:
-      AWS_ACCESS_KEY_ID: {}
-      AWS_REGION: {}
-      AWS_SECRET_ACCESS_KEY: {} 
-      CRUNCHBASE_API_KEY: {}
-      GH_TOKENS: {}
+      AWS_ACCESS_KEY_ID:
+        required: false
+      AWS_REGION:
+        required: false
+      AWS_SECRET_ACCESS_KEY:
+        required: false
+      CRUNCHBASE_API_KEY:
+        required: false
+      GH_TOKENS:
+        required: false
 
 jobs:
   build-landscape:
@@ -57,7 +62,7 @@ jobs:
             --data-file ./landscape/landscape.yml \
             --logos-path ./landscape/hosted_logos \
             --cache-dir /tmp/landscape-cache \
-            --output-dir /tmp/
+            --output-dir /tmp/landscape
 
       - name: Deploy landscape
         env:

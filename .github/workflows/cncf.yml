@@ -8,6 +8,7 @@ jobs:
     uses: tegioz/landscape2-sites/.github/workflows/build-and-deploy.yml@main
     with:
       foundation: cncf
-      repository: cncf/landscape
+      repository: cynthia-sg/landscape
+      repository_ref: cynthia-sg/fix-urls
       s3_bucket: landscape2-prototype-demo
     secrets: inherit

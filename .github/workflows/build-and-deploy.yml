@@ -7,6 +7,9 @@ on:
       repository:
         required: true
         type: string
+      repository_ref:
+        required: false
+        type: string
       s3_bucket:
         required: true
         type: string
@@ -25,6 +28,7 @@ jobs:
         uses: actions/checkout@v3
         with:
           repository: ${{ inputs.repository }}
+          repository_ref: ${{ inputs.repository_ref }}
           path: "./landscape"
           sparse-checkout: |
             landscape.yml

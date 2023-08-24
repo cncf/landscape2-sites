@@ -5,7 +5,7 @@ on:
 
 jobs:
   build-landscape:
-    uses: tegioz/landscape2-sites/.github/workflows/build-and-deploy.yml@main
+    uses: cncf/landscape2-sites/.github/workflows/build-and-deploy.yml@main
     with:
       foundation: cncf
       repository: cncf/landscape

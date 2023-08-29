@@ -10,9 +10,6 @@ on:
       repository_ref:
         required: false
         type: string
-      s3_bucket:
-        required: true
-        type: string
 
 jobs:
   build-landscape:
@@ -64,5 +61,5 @@ jobs:
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
         run: |
           landscape2 deploy s3 \
-            --bucket ${{ inputs.s3_bucket }} \
+            --bucket landscape2-${{ inputs.foundation }} \
             --landscape-dir /tmp/landscape

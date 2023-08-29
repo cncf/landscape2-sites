@@ -13,5 +13,4 @@ jobs:
     with:
       foundation: cncf
       repository: cncf/landscape
-      s3_bucket: landscape2-prototype-demo
     secrets: inherit

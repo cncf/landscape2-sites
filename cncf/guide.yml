@@ -1,6 +1,6 @@
 categories:
-  - name: "Introduction"
-    content: |
+  - category: "Introduction"
+    content: >
       If you've researched cloud native applications and technologies, you've probably come
       across the [CNCF cloud native landscape](https://landscape.cncf.io). Unsurprisingly,
       the sheer scale of it can be overwhelming. So many categories and so many technologies.
@@ -15,16 +15,16 @@ categories:
       of its layers, columns, and categories.
 
     subcategories:
-      - name: "What is the cloud native landscape?"
-        content: |
+      - subcategory: "What is the cloud native landscape?"
+        content: >
           The goal of the cloud native landscape is to compile and organize all cloud native open
           source projects and proprietary products into categories, providing an overview of the
           current ecosystem. Organizations that have a cloud native project or product can
           [submit a PR](https://github.com/cncf/landscape/) to request it to be added to the
           landscape.
 
-      - name: "How to use this guide"
-        content: |
+      - subcategory: "How to use this guide"
+        content: >
           In this guide, you'll find one chapter per layer and column which discusses each category
           within it. Categories are broken down into: what it is, the problem it addresses, how it
           helps, and technical 101. While the first three sections assume no technical background,
@@ -43,8 +43,8 @@ categories:
           > Please note that new projects are continuously becoming part of the CNCF so
           > always refer to the actual landscape - things are moving fast!
 
-      - name: "Contribute to the CNCF Landscape"
-        content: |
+      - subcategory: "Contribute to the CNCF Landscape"
+        content: >
           Are you searching for an exciting project to contribute to within the CNCF ecosystem?
           Look no further! The CNCF hosts a wide range of projects that span cloud-native computing.
           To find the perfect project for your skills and interests, check out our comprehensive
@@ -53,8 +53,8 @@ categories:
           both newcomers and experienced contributors. Join our vibrant community and make your mark on
           cloud-native innovation today!
 
-  - name: "Provisioning"
-    content: |
+  - category: "Provisioning"
+    content: >
       Provisioning is the first layer in the cloud native landscape. It encompasses tools that
       are used to *create and harden* the foundation on which cloud native apps are built.
       You'll find tools to automatically configure, create, and manage the infrastructure,
@@ -64,12 +64,12 @@ categories:
       discuss each category at a time.
 
     subcategories:
-      - name: "Automation & Configuration"
+      - subcategory: "Automation & Configuration"
         keywords:
           - "Infrastructure-as-Code (IaC)"
           - "Automation"
           - "Declarative Configuration"
-        content: |
+        content: >
           #### What it is
 
           Automation and configuration tools speed up the creation and configuration of compute
@@ -121,12 +121,12 @@ categories:
           API which don't appear on the landscape. There is also a very robust set of other open
           source and vendor provided tools.
 
-      - name: "Container Registry"
+      - subcategory: "Container Registry"
         keywords:
           - "Container"
           - "OCI Image"
           - "Registry"
-        content: |
+        content: >
           #### What it is
 
           Before diving into container registries, we need to define three tightly related concepts:
@@ -170,14 +170,14 @@ categories:
           provider provides its own hosted registry and many other registries can be deployed standalone or
           directly into your Kubernetes cluster via tools like Helm.
 
-      - name: "Security & Compliance"
+      - subcategory: "Security & Compliance"
         keywords:
           - "Image scanning"
           - "Image signing"
           - "Policy enforcement"
           - "Audit"
           - "Certificate Management"
-        content: |
+        content: >
           #### What it is
 
           Cloud native applications are designed to be rapidly iterated on. Think of your mobile phone's
@@ -219,13 +219,13 @@ categories:
           founded explicitly to bring Kubernetes native frameworks to market. At the time of this writing
           Falco, Notary/TUF, and OPA are CNCF projects in this space.
 
-      - name: "Key Management"
+      - subcategory: "Key Management"
         keywords:
           - "AuthN and AuthZ"
           - "Identity"
           - "Access"
           - "Secrets"
-        content: |
+        content: >
           #### What it is
 
           Before digging into key management, let's first define cryptographic keys. A key is a string of
@@ -259,15 +259,15 @@ categories:
           key management tool allowing you to manage different types of keys. Keycloak, on the other hand,
           is an identity broker which can be used to manage access keys for different services.
 
-      - name: "Summary: Provisioning"
-        content: |
+      - subcategory: "Summary: Provisioning"
+        content: >
           As we've seen, the provisioning layer focuses on building the foundation of your cloud native
           platforms and applications with tools handling everything from infrastructure provisioning to
           container registries to security. Next, we'll discuss the runtime layer containing cloud native
           storage, container runtime, and networking.
 
-  - name: "Runtime"
-    content: |
+  - category: "Runtime"
+    content: >
       Now that we've established the foundation of a cloud native environment, we'll move one
       infrastructure layer up and zoom into the runtime layer. It encompasses everything a container
       needs to run in a cloud native environment. That includes the code used to start a container,
@@ -280,13 +280,13 @@ categories:
       to talk to each other.
 
     subcategories:
-      - name: "Cloud Native Storage"
+      - subcategory: "Cloud Native Storage"
         keywords:
           - "Persistent volume"
           - "CSI"
           - "Storage API"
           - "Backup and restore"
-        content: |
+        content: >
           #### What it is
 
           Storage is where the persistent data of an app is stored, often referred to as a persistent volume.
@@ -335,11 +335,11 @@ categories:
           things. Tools like Velero help simplify the process of backing up and restoring both the
           Kubernetes clusters themselves as well as persistent data used by the applications.
 
-      - name: "Container Runtime"
+      - subcategory: "Container Runtime"
         keywords:
           - "Container"
           - "MicroVM"
-        content: |
+        content: >
           #### What it is
 
           As discussed under container registry, a container is a set of compute constraints used to execute
@@ -377,12 +377,12 @@ categories:
           aim at solving a specific container-related problem such as gVisor which provides an additional
           security layer between containers and the OS.
 
-      - name: "Cloud Native Network"
+      - subcategory: "Cloud Native Network"
         keywords:
           - "SDN"
           - "Network Overlay"
           - "CNI"
-        content: |
+        content: >
           #### What it is
 
           Containers talk to each other and to the infrastructure layer through a cloud native network.
@@ -431,8 +431,8 @@ categories:
           tools, providing additional insights into network traffic, enforcing network policies, and even
           extending container networks and policies to your broader datacenter.
 
-      - name: "Summary: Runtime"
-        content: |
+      - subcategory: "Summary: Runtime"
+        content: >
           This concludes our overview of the runtime layer which provides all the tools containers need to
           run in a cloud native environment:
 
@@ -440,8 +440,8 @@ categories:
           * The container runtime which creates and starts containers executing application code
           * Cloud native networking provides connectivity for containerized apps to communicate.
 
-  - name: "Orchestration & Management"
-    content: |
+  - category: "Orchestration & Management"
+    content: >
       Now that we've covered both the provisioning and runtime layer we can now dive into orchestration
       and management. Here you'll find tooling to handle running and connecting your cloud native
       applications. This section covers everything from Kubernetes itself, one of the key enablers of
@@ -450,12 +450,12 @@ categories:
       by these tools.
 
     subcategories:
-      - name: "Scheduling & Orchestration"
+      - subcategory: "Scheduling & Orchestration"
         keywords:
           - "Cluster"
           - "Scheduler"
           - "Orchestration"
-        content: |
+        content: >
           #### What it is
 
           Orchestration and scheduling refer to running and managing
@@ -530,11 +530,11 @@ categories:
           While Kubernetes isn't the only orchestrator the CNCF hosts (both Crossplane and Volcano are
           incubating projects), it is the most commonly used and actively maintained orchestrator.
 
-      - name: "Coordination & Service Discovery"
+      - subcategory: "Coordination & Service Discovery"
         keywords:
           - "DNS"
           - "Service Discovery"
-        content: |
+        content: >
           #### What it is
 
           Modern applications are composed of multiple individual services that need to collaborate to
@@ -584,10 +584,10 @@ categories:
           and are built into Kubernetes. Others have custom libraries or tools to allow services to operate
           effectively.
 
-      - name: "Remote Procedure Call"
+      - subcategory: "Remote Procedure Call"
         keywords:
           - "gRPC"
-        content: |
+        content: >
           #### What it is
 
           Remote Procedure Call (RPC) is a particular technique enabling applications to talk to each other.
@@ -612,11 +612,11 @@ categories:
           coordinated upgrades for multiple services. gRPC is a particularly popular RPC implementation and
           has been adopted by the CNCF.
 
-      - name: "Service Proxy"
+      - subcategory: "Service Proxy"
         keywords:
           - "Service Proxy"
           - "Ingress"
-        content: |
+        content: >
           #### What it is
 
           A service proxy is a tool that intercepts traffic to or from a given service, applies some logic to
@@ -665,10 +665,10 @@ categories:
 
           Please note, the CNCF includes load balancers and ingress providers into this category.
 
-      - name: "API Gateway"
+      - subcategory: "API Gateway"
         keywords:
           - "API Gateway"
-        content: |
+        content: >
           #### What it is
 
           While humans generally interact with computer programs via a GUI (graphical user interface) such as
@@ -720,13 +720,13 @@ categories:
           limiting, and chargeback. They allow application developers to abstract away changes to their
           downstream APIs from their customers and offload tasks like onboarding new customers to the gateway.
 
-      - name: "Service Mesh"
+      - subcategory: "Service Mesh"
         keywords:
           - "Service mesh"
           - "Sidecar"
           - "Data plane"
           - "Control plane"
-        content: |
+        content: >
           #### What it is
 
           Service meshes manage traffic (i.e. communication) between services. They enable platform teams
@@ -796,8 +796,8 @@ categories:
           > plugins for other tools, and much more. For more detailed information, check out the
           > [service mesh interface](https://smi-spec.io/) specification.
 
-      - name: "Summary: Orchestration & Management"
-        content: |
+      - subcategory: "Summary: Orchestration & Management"
+        content: >
           As we've seen, tools in this layer deal with how all these independent containerized services are
           managed as a group. Orchestration and scheduling tools can be thought of as a  cluster OS
           managing containerized applications across your cluster. Coordination and service discovery,
@@ -808,20 +808,20 @@ categories:
           covers databases, streaming and messaging, application definition, and image build, as well as
           continuous integration and delivery.
 
-  - name: "App Definition and Development"
-    content: |
+  - category: "App Definition and Development"
+    content: >
       Everything we have discussed up to this point was related to building a reliable, secure environment
       and providing all needed dependencies. We've now arrived at the top layer of the CNCF cloud
       native landscape. As the name suggests, the application definition and development layer focuses
       on the tools that enable engineers to build apps.
 
     subcategories:
-      - name: "Database"
+      - subcategory: "Database"
         keywords:
           - "SQL"
           - "DB"
           - "Persistence"
-        content: |
+        content: >
           #### What it is
 
           A database is an application through which other apps can efficiently store and retrieve data.
@@ -867,13 +867,13 @@ categories:
           > databases that have been adapted to a cloud native reality. There are also some databases that
           > are no-SQL but SQL compatible, such as YugabyteDB and Vitess.
 
-      - name: "Streaming & Messaging"
+      - subcategory: "Streaming & Messaging"
         keywords:
           - "Choreography"
           - "Streaming"
           - "MQ"
           - "Message bus"
-        content: |
+        content: >
           #### What it is
 
           To accomplish a common goal, services need to communicate with one another and keep each other in
@@ -936,12 +936,12 @@ categories:
           systems. Strimzi, Pravega, and Tremor are sandbox projects with each being tailored to a unique
           use case around streaming and messaging.
 
-      - name: "Application Definition & Image Build"
+      - subcategory: "Application Definition & Image Build"
         keywords:
           - "Package Management"
           - "Charts"
           - "Operators"
-        content: |
+        content: >
           #### What it is
 
           Application definition and image build is a broad category that can be broken down into two main
@@ -998,7 +998,7 @@ categories:
           research these tools further if you want to make Kubernetes easier for developers and operators.
           You'll likely find something that meets your needs.
 
-      - name: "Continuous Integration & Delivery"
+      - subcategory: "Continuous Integration & Delivery"
         keywords:
           - "CI/CD"
           - "Continuous integration"
@@ -1006,7 +1006,7 @@ categories:
           - "Continuous deployment"
           - "Blue/green"
           - "Canary deploy"
-        content: |
+        content: >
           #### What it is
 
           Continuous integration (CI) and continuous delivery (CD) tools enable fast and efficient development
@@ -1066,8 +1066,8 @@ categories:
           [Continuous Delivery Foundation](https://cd.foundation/). Look for tools in this space to help
           your organization automate your path to production.
 
-      - name: "Summary: App Definition & Development"
-        content: |
+      - subcategory: "Summary: App Definition & Development"
+        content: >
           As we've seen, tools in the application definition and development layer enable engineers to build
           cloud native apps. You'll find databases to store and retrieve data or streaming and messaging
           tools allowing for decoupled, choreographed architectures. Application definition and image build
@@ -1078,8 +1078,8 @@ categories:
           This chapter concludes the layers of the CNCF landscape. Next we'll focus on the observability and
           analysis "column".
 
-  - name: "Observability and Analysis"
-    content: |
+  - category: "Observability and Analysis"
+    content: >
       Now that we've worked our way through the layers of the CNCF landscape, we'll focus on the columns
       starting with observability and analysis.
 
@@ -1099,13 +1099,13 @@ categories:
       here, consider it a reliability tool rather than an observability or analysis tool.
 
     subcategories:
-      - name: "Monitoring"
+      - subcategory: "Monitoring"
         keywords:
           - "Monitoring"
           - "Time series"
           - "Alerting"
           - "Metrics"
-        content: |
+        content: >
           #### What it is
 
           Monitoring refers to instrumenting an app to collect, aggregate, and analyze logs and metrics to
@@ -1139,10 +1139,10 @@ categories:
           term strategy. There are a number of CNCF projects in this space that largely revolve around
           Prometheus, the CNCF graduated project.
 
-      - name: "Logging"
+      - subcategory: "Logging"
         keywords:
           - "Logging"
-        content: |
+        content: >
           #### What it is
 
           Applications emit a steady stream of log messages describing what they are doing at any given time.
@@ -1179,11 +1179,11 @@ categories:
 
           Fluentd is the only CNCF project in this space.
 
-      - name: "Tracing"
+      - subcategory: "Tracing"
         keywords:
           - "Span"
           - "Tracing"
-        content: |
+        content: >
           #### What it is
 
           In a microservices world, services are constantly communicating with each other over the network.
@@ -1213,10 +1213,10 @@ categories:
           meshes and their proxies) in the data path of your application. Jaeger and Open Tracing are CNCF
           projects in this space.
 
-      - name: "Chaos Engineering"
+      - subcategory: "Chaos Engineering"
         keywords:
           - "Chaos Engineering"
-        content: |
+        content: >
           #### What it is
 
           Chaos engineering refers to the practice of intentionally introducing faults into a system in
@@ -1261,8 +1261,8 @@ categories:
           introducing deliberate chaos engineering practices teams are able to practice and automate
           failure recovery. Chaos Mesh and Litmus Chaos are two CNCF tools in this space.
 
-      - name: "Summary: Observability & Analysis"
-        content: |
+      - subcategory: "Summary: Observability & Analysis"
+        content: >
           As we've seen, the observability and analysis column is all about understanding the health of your
           system and ensuring it stays operational even under tough conditions. Logging tools capture event
           messages emitted by apps, monitoring watches logs and metrics, and tracing follows the path of
@@ -1273,8 +1273,8 @@ categories:
           Next, we'll focus on cloud native platforms. Configuring tools across the landscape so they work
           well together is no easy task. Platforms bundle them together, easing adoption.
 
-  - name: "Platform"
-    content: |
+  - category: "Platform"
+    content: >
       As we've seen so far, each of the categories discussed solves a particular problem. Storage alone
       does not provide all you need to manage your app. You'll need an orchestration tool, a container
       runtime, service discovery, networking, an API gateway, etc. Platforms bundle different tools from
@@ -1294,8 +1294,8 @@ categories:
       is at the core of the cloud native stack.
 
     subcategories:
-      - name: "Certified Kubernetes - Distribution"
-        content: |
+      - subcategory: "Certified Kubernetes - Distribution"
+        content: >
           #### What it is
 
           A distribution, or distro, is when a vendor takes core Kubernetes — that's the unmodified, open
@@ -1352,10 +1352,10 @@ categories:
           this category. There are a lot of great open source and commercial options available. We encourage
           you to think carefully about your needs when you begin evaluating distributions.
 
-      - name: "Certified Kubernetes - Hosted"
+      - subcategory: "Certified Kubernetes - Hosted"
         keywords:
           - "Hosted"
-        content: |
+        content: >
           #### What it is
 
           Hosted Kubernetes is a service offered by infrastructure providers like AWS, Digital Ocean, Azure,
@@ -1394,10 +1394,10 @@ categories:
           be limited in what you can do. Managed clusters provide stricter limits on configuring your
           Kubernetes cluster than DIY Kubernetes clusters.
 
-      - name: "Certified Kubernetes - Installer"
+      - subcategory: "Certified Kubernetes - Installer"
         keywords:
           - "Installer"
-        content: |
+        content: >
           #### What it is
 
           Kubernetes installers help install Kubernetes on a machine. They automate the Kubernetes
@@ -1433,8 +1433,8 @@ categories:
           certified Kubernetes administrator exam. Minikube, kind, kops, and kubespray are all CNCF-owned
           Kubernetes installer projects.
 
-      - name: "PaaS/Container Service"
-        content: |
+      - subcategory: "PaaS/Container Service"
+        content: >
           #### What it is
 
           A Platform-as-a-Service, or PaaS, is an environment that allows users to run applications
@@ -1473,8 +1473,8 @@ categories:
           space but most of the offerings are open source and Cloud Foundry is managed by the Cloud Foundry
           Foundation.
 
-      - name: "Summary: Platform"
-        content: |
+      - subcategory: "Summary: Platform"
+        content: >
           As we've seen there are multiple tools that help ease Kubernetes adoption. From Kubernetes
           distributions and hosted Kubernetes to more barebones installers or PaaS, they all take various
           installation and configuration burdens and pre-package them for you. Each solution comes with its
@@ -1487,8 +1487,8 @@ categories:
           There are multiple aspects to consider. While there is no single best tool for all use cases,
           there certainly will be an optimal tool for your needs.
 
-  - name: "Summary: Cloud Native Landscape"
-    content: |
+  - category: "Summary: Cloud Native Landscape"
+    content: >
       Now that we've broken the CNCF Cloud Native Landscape down and discussed it layer by layer,
       category by category, it probably feels less overwhelming. There is a logical structure to it and,
       once you understand it, navigating the landscape becomes a lot easier.

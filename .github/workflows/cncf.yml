@@ -4,6 +4,8 @@ on:
   push:
     branches:
       - main
+    paths:
+      - cncf/**
   schedule:
     - cron: "0 8 * * *"
   workflow_dispatch:

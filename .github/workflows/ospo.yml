@@ -1,0 +1,19 @@
+name: OSPO
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - ospo/**
+  schedule:
+    - cron: "0 9 * * *"
+  workflow_dispatch:
+
+jobs:
+  build-landscape:
+    uses: cncf/landscape2-sites/.github/workflows/build-and-deploy.yml@main
+    with:
+      foundation: ospo
+      repository: todogroup/ospolandscape
+    secrets: inherit

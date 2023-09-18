@@ -1,0 +1,19 @@
+name: ASWF
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - aswf/**
+  schedule:
+    - cron: "0 12 * * *"
+  workflow_dispatch:
+
+jobs:
+  build-landscape:
+    uses: cncf/landscape2-sites/.github/workflows/build-and-deploy.yml@main
+    with:
+      foundation: aswf
+      repository: AcademySoftwareFoundation/aswf-landscape
+    secrets: inherit

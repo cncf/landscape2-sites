@@ -1,0 +1,19 @@
+name: RISCV
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - riscv/**
+  schedule:
+    - cron: "0 17 * * *"
+  workflow_dispatch:
+
+jobs:
+  build-landscape:
+    uses: cncf/landscape2-sites/.github/workflows/build-and-deploy.yml@main
+    with:
+      foundation: riscv
+      repository: riscv-admin/riscv-landscape
+    secrets: inherit

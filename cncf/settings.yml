@@ -154,7 +154,6 @@ groups:
       - Provisioning
       - Observability and Analysis
       - Serverless
-      - Wasm
   - name: Members
     categories:
       - CNCF Members
@@ -162,6 +161,9 @@ groups:
     categories:
       - Platform
       - Special
+  - name: Wasm
+    categories:
+      - Wasm
 
 # Name of the members category (optional)
 #

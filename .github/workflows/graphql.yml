@@ -1,0 +1,19 @@
+name: GraphQL
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - graphql/**
+  schedule:
+    - cron: "0 10 * * *"
+  workflow_dispatch:
+
+jobs:
+  build-landscape:
+    uses: cncf/landscape2-sites/.github/workflows/build-and-deploy.yml@main
+    with:
+      foundation: graphql
+      repository: graphql/graphql-landscape
+    secrets: inherit

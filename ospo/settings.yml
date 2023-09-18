@@ -46,6 +46,11 @@ images:
 #       - <SUBCATEGORY1_NAME>
 #       - <SUBCATEGORY2_NAME>
 #
+categories:
+  - name: OSPO Adopter
+    subcategories:
+      - OSPO Adоpter
+      - OSPO Associate
 
 # Colors (optional)
 #

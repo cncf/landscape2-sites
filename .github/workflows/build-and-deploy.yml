@@ -42,13 +42,28 @@ jobs:
           restore-keys: |
             landscape-cache-${{ inputs.foundation }}-
 
-      - name: Build landscape
+      - name: Build landscape (without guide)
+        if: ${{ hashFiles(format('./{0}/guide.yml', inputs.foundation)) == '' }}
         env:
           GITHUB_TOKENS: ${{ secrets.GH_TOKENS }}
           CRUNCHBASE_API_KEY: ${{ secrets.CRUNCHBASE_API_KEY }}
         run: |
           landscape2 build \
             --settings-file ./${{ inputs.foundation }}/settings.yml \
+            --data-file ./landscape/landscape.yml \
+            --logos-path ./landscape/hosted_logos \
+            --cache-dir /tmp/landscape-cache \
+            --output-dir /tmp/landscape
+
+      - name: Build landscape (with guide)
+        if: ${{ hashFiles(format('./{0}/guide.yml', inputs.foundation)) != '' }}
+        env:
+          GITHUB_TOKENS: ${{ secrets.GH_TOKENS }}
+          CRUNCHBASE_API_KEY: ${{ secrets.CRUNCHBASE_API_KEY }}
+        run: |
+          landscape2 build \
+            --settings-file ./${{ inputs.foundation }}/settings.yml \
+            --guide-file ./${{ inputs.foundation }}/guide.yml \
             --data-file ./landscape/landscape.yml \
             --logos-path ./landscape/hosted_logos \
             --cache-dir /tmp/landscape-cache \

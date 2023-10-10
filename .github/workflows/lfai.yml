@@ -16,4 +16,6 @@ jobs:
     with:
       foundation: lfai
       repository: lfai/lfai-landscape
+    concurrency:
+      group: build-and-deploy
     secrets: inherit

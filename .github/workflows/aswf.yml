@@ -16,4 +16,6 @@ jobs:
     with:
       foundation: aswf
       repository: AcademySoftwareFoundation/aswf-landscape
+    concurrency:
+      group: build-and-deploy
     secrets: inherit

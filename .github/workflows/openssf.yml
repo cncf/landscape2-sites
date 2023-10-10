@@ -16,4 +16,6 @@ jobs:
     with:
       foundation: openssf
       repository: ossf/ossf-landscape
+    concurrency:
+      group: build-and-deploy
     secrets: inherit

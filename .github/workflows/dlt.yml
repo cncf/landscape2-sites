@@ -16,4 +16,6 @@ jobs:
     with:
       foundation: dlt
       repository: hyperledger-dlt-landscape/hyperledger-dlt-landscape
+    concurrency:
+      group: build-and-deploy
     secrets: inherit

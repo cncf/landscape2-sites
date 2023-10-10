@@ -16,4 +16,6 @@ jobs:
     with:
       foundation: ospo
       repository: todogroup/ospolandscape
+    concurrency:
+      group: build-and-deploy
     secrets: inherit

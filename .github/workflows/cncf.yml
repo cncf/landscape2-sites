@@ -16,6 +16,4 @@ jobs:
     with:
       foundation: cncf
       repository: cncf/landscape
-    concurrency:
-      group: build-and-deploy
     secrets: inherit

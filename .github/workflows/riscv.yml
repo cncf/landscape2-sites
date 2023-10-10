@@ -16,6 +16,4 @@ jobs:
     with:
       foundation: riscv
       repository: riscv-admin/riscv-landscape
-    concurrency:
-      group: build-and-deploy
     secrets: inherit

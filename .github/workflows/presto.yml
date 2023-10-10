@@ -16,6 +16,4 @@ jobs:
     with:
       foundation: presto
       repository: prestodb/presto-landscape
-    concurrency:
-      group: build-and-deploy
     secrets: inherit

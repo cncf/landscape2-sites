@@ -1,11 +1,6 @@
 name: CDF
 
 on:
-  push:
-    branches:
-      - main
-    paths:
-      - cdf/**
   schedule:
     - cron: "0 13 * * *"
   workflow_dispatch:

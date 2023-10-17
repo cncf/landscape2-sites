@@ -1,11 +1,6 @@
 name: LFAI
 
 on:
-  push:
-    branches:
-      - main
-    paths:
-      - lfai/**
   schedule:
     - cron: "0 15 * * *"
   workflow_dispatch:

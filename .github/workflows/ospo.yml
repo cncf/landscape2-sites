@@ -1,11 +1,6 @@
 name: OSPO
 
 on:
-  push:
-    branches:
-      - main
-    paths:
-      - ospo/**
   schedule:
     - cron: "0 9 * * *"
   workflow_dispatch:

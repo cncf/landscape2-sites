@@ -1,11 +1,6 @@
 name: Presto
 
 on:
-  push:
-    branches:
-      - main
-    paths:
-      - presto/**
   schedule:
     - cron: "0 11 * * *"
   workflow_dispatch:

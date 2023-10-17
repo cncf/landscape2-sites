@@ -169,6 +169,17 @@ groups:
 #
 members_category: Hyperledger Members
 
+# QR code configuration (optional)
+#
+# Defines the configuration of the QR code that will be displayed on the UI as
+# well as on the downloadable landscape in PDF and PNG formats.
+#
+# qr_code:
+#   url: <URL>
+#
+qr_code:
+  url: https://dlt.landscape2.io
+
 # Screenshot width (optional)
 #
 # Width of the landscape screenshots automatically generated (in pixels).

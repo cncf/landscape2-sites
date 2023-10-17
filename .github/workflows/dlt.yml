@@ -1,11 +1,6 @@
 name: DLT
 
 on:
-  push:
-    branches:
-      - main
-    paths:
-      - dlt/**
   schedule:
     - cron: "0 14 * * *"
   workflow_dispatch:

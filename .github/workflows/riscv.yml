@@ -1,11 +1,6 @@
 name: RISCV
 
 on:
-  push:
-    branches:
-      - main
-    paths:
-      - riscv/**
   schedule:
     - cron: "0 17 * * *"
   workflow_dispatch:

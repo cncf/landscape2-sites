@@ -1,11 +1,6 @@
 name: OpenSSF
 
 on:
-  push:
-    branches:
-      - main
-    paths:
-      - openssf/**
   schedule:
     - cron: "0 16 * * *"
   workflow_dispatch:

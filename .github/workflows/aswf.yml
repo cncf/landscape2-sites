@@ -1,11 +1,6 @@
 name: ASWF
 
 on:
-  push:
-    branches:
-      - main
-    paths:
-      - aswf/**
   schedule:
     - cron: "0 12 * * *"
   workflow_dispatch:

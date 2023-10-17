@@ -1,11 +1,6 @@
 name: GraphQL
 
 on:
-  push:
-    branches:
-      - main
-    paths:
-      - graphql/**
   schedule:
     - cron: "0 10 * * *"
   workflow_dispatch:

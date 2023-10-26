@@ -1,4 +1,4 @@
-name: CNCF settings validation
+name: CNCF validate settings
 
 on:
   pull_request:
@@ -10,7 +10,6 @@ on:
 jobs:
   validate-landscape-settings:
     runs-on: ubuntu-latest
-    name: "Validate landscape settings file"
     steps:
       - uses: actions/checkout@v3
       - uses: cncf/landscape2-validate-action@v2

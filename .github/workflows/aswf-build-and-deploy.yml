@@ -1,14 +1,14 @@
-name: RISCV
+name: ASWF build and deploy
 
 on:
   schedule:
-    - cron: "0 17 * * *"
+    - cron: "0 12 * * *"
   workflow_dispatch:
 
 jobs:
   build-landscape:
     uses: cncf/landscape2-sites/.github/workflows/build-and-deploy.yml@main
     with:
-      foundation: riscv
-      repository: riscv-admin/riscv-landscape
+      foundation: aswf
+      repository: AcademySoftwareFoundation/aswf-landscape
     secrets: inherit

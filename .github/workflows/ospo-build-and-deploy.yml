@@ -1,14 +1,14 @@
-name: OpenSSF
+name: OSPO build and deploy
 
 on:
   schedule:
-    - cron: "0 16 * * *"
+    - cron: "0 9 * * *"
   workflow_dispatch:
 
 jobs:
   build-landscape:
     uses: cncf/landscape2-sites/.github/workflows/build-and-deploy.yml@main
     with:
-      foundation: openssf
-      repository: ossf/ossf-landscape
+      foundation: ospo
+      repository: todogroup/ospolandscape
     secrets: inherit

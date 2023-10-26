@@ -1,14 +1,14 @@
-name: OSPO
+name: LFAI build and deploy
 
 on:
   schedule:
-    - cron: "0 9 * * *"
+    - cron: "0 15 * * *"
   workflow_dispatch:
 
 jobs:
   build-landscape:
     uses: cncf/landscape2-sites/.github/workflows/build-and-deploy.yml@main
     with:
-      foundation: ospo
-      repository: todogroup/ospolandscape
+      foundation: lfai
+      repository: lfai/lfai-landscape
     secrets: inherit

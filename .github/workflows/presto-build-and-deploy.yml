@@ -1,14 +1,14 @@
-name: ASWF
+name: Presto build and deploy
 
 on:
   schedule:
-    - cron: "0 12 * * *"
+    - cron: "0 11 * * *"
   workflow_dispatch:
 
 jobs:
   build-landscape:
     uses: cncf/landscape2-sites/.github/workflows/build-and-deploy.yml@main
     with:
-      foundation: aswf
-      repository: AcademySoftwareFoundation/aswf-landscape
+      foundation: presto
+      repository: prestodb/presto-landscape
     secrets: inherit

@@ -8,7 +8,7 @@ on:
       - cncf/guide.yml
 
 jobs:
-  validate-landscape-settings:
+  validate-landscape-guide:
     runs-on: ubuntu-latest
     name: "Validate landscape guide file"
     steps:

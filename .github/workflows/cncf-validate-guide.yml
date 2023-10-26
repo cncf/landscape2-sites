@@ -1,0 +1,19 @@
+name: CNCF guide validation
+
+on:
+  pull_request:
+    branches:
+      - main
+    paths:
+      - cncf/guide.yml
+#
+jobs:
+  validate-landscape-settings:
+    runs-on: ubuntu-latest
+    name: "Validate landscape guide file"
+    steps:
+      - uses: actions/checkout@v3
+      - uses: cncf/landscape2-validate-action@v2
+        with:
+          target_kind: guide
+          target_path: cncf/guide.yml

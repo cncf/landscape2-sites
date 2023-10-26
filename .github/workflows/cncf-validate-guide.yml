@@ -6,7 +6,7 @@ on:
       - main
     paths:
       - cncf/guide.yml
-#
+
 jobs:
   validate-landscape-settings:
     runs-on: ubuntu-latest

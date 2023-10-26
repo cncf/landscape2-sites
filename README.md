@@ -2,18 +2,18 @@
 
 This repository contains the settings and deployment workflows of some foundations' landscapes.
 
-| Foundation                                                                                                                                                             | Landscape url                   |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------- |
-| [![ASWF](https://github.com/cncf/landscape2-sites/actions/workflows/aswf.yml/badge.svg)](https://github.com/cncf/landscape2-sites/actions/workflows/aswf.yml)          | <https://aswf.landscape2.io>    |
-| [![CDF](https://github.com/cncf/landscape2-sites/actions/workflows/cdf.yml/badge.svg)](https://github.com/cncf/landscape2-sites/actions/workflows/cdf.yml)             | <https://cdf.landscape2.io>     |
-| [![CNCF](https://github.com/cncf/landscape2-sites/actions/workflows/cncf.yml/badge.svg)](https://github.com/cncf/landscape2-sites/actions/workflows/cncf.yml)          | <https://cncf.landscape2.io>    |
-| [![DLT](https://github.com/cncf/landscape2-sites/actions/workflows/dlt.yml/badge.svg)](https://github.com/cncf/landscape2-sites/actions/workflows/dlt.yml)             | <https://dlt.landscape2.io>     |
-| [![GraphQL](https://github.com/cncf/landscape2-sites/actions/workflows/graphql.yml/badge.svg)](https://github.com/cncf/landscape2-sites/actions/workflows/graphql.yml) | <https://graphql.landscape2.io> |
-| [![LFAI](https://github.com/cncf/landscape2-sites/actions/workflows/lfai.yml/badge.svg)](https://github.com/cncf/landscape2-sites/actions/workflows/lfai.yml)          | <https://lfai.landscape2.io>    |
-| [![OpenSSF](https://github.com/cncf/landscape2-sites/actions/workflows/openssf.yml/badge.svg)](https://github.com/cncf/landscape2-sites/actions/workflows/openssf.yml) | <https://openssf.landscape2.io> |
-| [![OSPO](https://github.com/cncf/landscape2-sites/actions/workflows/ospo.yml/badge.svg)](https://github.com/cncf/landscape2-sites/actions/workflows/ospo.yml)          | <https://ospo.landscape2.io>    |
-| [![Presto](https://github.com/cncf/landscape2-sites/actions/workflows/presto.yml/badge.svg)](https://github.com/cncf/landscape2-sites/actions/workflows/presto.yml)    | <https://presto.landscape2.io>  |
-| [![RISCV](https://github.com/cncf/landscape2-sites/actions/workflows/riscv.yml/badge.svg)](https://github.com/cncf/landscape2-sites/actions/workflows/riscv.yml)       | <https://riscv.landscape2.io>   |
+| Foundation                                                                                                                                                                                                                            | Landscape url                   |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------- |
+| [![ASWF build and deploy](https://github.com/cncf/landscape2-sites/actions/workflows/aswf-build-and-deploy.yml/badge.svg?branch=main)](https://github.com/cncf/landscape2-sites/actions/workflows/aswf-build-and-deploy.yml)          | <https://aswf.landscape2.io>    |
+| [![CDF build and deploy](https://github.com/cncf/landscape2-sites/actions/workflows/cdf-build-and-deploy.yml/badge.svg?branch=main)](https://github.com/cncf/landscape2-sites/actions/workflows/cdf-build-and-deploy.yml)             | <https://cdf.landscape2.io>     |
+| [![CNCF build and deploy](https://github.com/cncf/landscape2-sites/actions/workflows/cncf-build-and-deploy.yml/badge.svg?branch=main)](https://github.com/cncf/landscape2-sites/actions/workflows/cncf-build-and-deploy.yml)          | <https://cncf.landscape2.io>    |
+| [![DLT build and deploy](https://github.com/cncf/landscape2-sites/actions/workflows/dlt-build-and-deploy.yml/badge.svg?branch=main)](https://github.com/cncf/landscape2-sites/actions/workflows/dlt-build-and-deploy.yml)             | <https://dlt.landscape2.io>     |
+| [![GraphQL build and deploy](https://github.com/cncf/landscape2-sites/actions/workflows/graphql-build-and-deploy.yml/badge.svg?branch=main)](https://github.com/cncf/landscape2-sites/actions/workflows/graphql-build-and-deploy.yml) | <https://graphql.landscape2.io> |
+| [![LFAI build and deploy](https://github.com/cncf/landscape2-sites/actions/workflows/lfai-build-and-deploy.yml/badge.svg?branch=main)](https://github.com/cncf/landscape2-sites/actions/workflows/lfai-build-and-deploy.yml)          | <https://lfai.landscape2.io>    |
+| [![OpenSSF build and deploy](https://github.com/cncf/landscape2-sites/actions/workflows/openssf-build-and-deploy.yml/badge.svg?branch=main)](https://github.com/cncf/landscape2-sites/actions/workflows/openssf-build-and-deploy.yml) | <https://openssf.landscape2.io> |
+| [![OSPO build and deploy](https://github.com/cncf/landscape2-sites/actions/workflows/ospo-build-and-deploy.yml/badge.svg?branch=main)](https://github.com/cncf/landscape2-sites/actions/workflows/ospo-build-and-deploy.yml)          | <https://ospo.landscape2.io>    |
+| [![Presto build and deploy](https://github.com/cncf/landscape2-sites/actions/workflows/presto-build-and-deploy.yml/badge.svg?branch=main)](https://github.com/cncf/landscape2-sites/actions/workflows/presto-build-and-deploy.yml)    | <https://presto.landscape2.io>  |
+| [![RISCV build and deploy](https://github.com/cncf/landscape2-sites/actions/workflows/riscv-build-and-deploy.yml/badge.svg?branch=main)](https://github.com/cncf/landscape2-sites/actions/workflows/riscv-build-and-deploy.yml)       | <https://riscv.landscape2.io>   |
 
 ## Contributing
 

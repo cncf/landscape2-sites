@@ -1,14 +1,14 @@
-name: CDF
+name: CNCF build and deploy
 
 on:
   schedule:
-    - cron: "0 13 * * *"
+    - cron: "0 8 * * *"
   workflow_dispatch:
 
 jobs:
   build-landscape:
     uses: cncf/landscape2-sites/.github/workflows/build-and-deploy.yml@main
     with:
-      foundation: cdf
-      repository: cdfoundation/cdf-landscape
+      foundation: cncf
+      repository: cncf/landscape
     secrets: inherit

@@ -1,14 +1,14 @@
-name: CNCF
+name: DLT build and deploy
 
 on:
   schedule:
-    - cron: "0 8 * * *"
+    - cron: "0 14 * * *"
   workflow_dispatch:
 
 jobs:
   build-landscape:
     uses: cncf/landscape2-sites/.github/workflows/build-and-deploy.yml@main
     with:
-      foundation: cncf
-      repository: cncf/landscape
+      foundation: dlt
+      repository: hyperledger-dlt-landscape/hyperledger-dlt-landscape
     secrets: inherit

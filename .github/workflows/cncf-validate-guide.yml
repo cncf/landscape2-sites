@@ -1,4 +1,4 @@
-name: CNCF guide validation
+name: CNCF validate guide
 
 on:
   pull_request:
@@ -10,7 +10,6 @@ on:
 jobs:
   validate-landscape-guide:
     runs-on: ubuntu-latest
-    name: "Validate landscape guide file"
     steps:
       - uses: actions/checkout@v3
       - uses: cncf/landscape2-validate-action@v2

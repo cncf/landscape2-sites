@@ -1,0 +1,18 @@
+name: DLT validate guide
+
+on:
+  pull_request:
+    branches:
+      - main
+    paths:
+      - dlt/guide.yml
+
+jobs:
+  validate-landscape-guide:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: cncf/landscape2-validate-action@v2
+        with:
+          target_kind: guide
+          target_path: dlt/guide.yml

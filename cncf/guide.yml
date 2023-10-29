@@ -20,7 +20,7 @@ categories:
           The goal of the cloud native landscape is to compile and organize all cloud native open
           source projects and proprietary products into categories, providing an overview of the
           current ecosystem. Organizations that have a cloud native project or product can
-          [submit a PR](https://github.com/cncf/landscape/) to request it to be added to the
+          [submit a PR](https://github.com/cncf/landscape2-sites/) to request it to be added to the
           landscape.
 
       - subcategory: "How to use this guide"

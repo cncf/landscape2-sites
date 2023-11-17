@@ -14,6 +14,7 @@ This repository contains the settings and deployment workflows of some foundatio
 | [![OpenSSF build and deploy](https://github.com/cncf/landscape2-sites/actions/workflows/openssf-build-and-deploy.yml/badge.svg?branch=main)](https://github.com/cncf/landscape2-sites/actions/workflows/openssf-build-and-deploy.yml) | <https://openssf.landscape2.io> |
 | [![OSPO build and deploy](https://github.com/cncf/landscape2-sites/actions/workflows/ospo-build-and-deploy.yml/badge.svg?branch=main)](https://github.com/cncf/landscape2-sites/actions/workflows/ospo-build-and-deploy.yml)          | <https://ospo.landscape2.io>    |
 | [![Presto build and deploy](https://github.com/cncf/landscape2-sites/actions/workflows/presto-build-and-deploy.yml/badge.svg?branch=main)](https://github.com/cncf/landscape2-sites/actions/workflows/presto-build-and-deploy.yml)    | <https://presto.landscape2.io>  |
+| [![SPDX build and deploy](https://github.com/cncf/landscape2-sites/actions/workflows/spdx-build-and-deploy.yml/badge.svg?branch=main)](https://github.com/cncf/landscape2-sites/actions/workflows/spdx-build-and-deploy.yml)       | <https://spdx.landscape2.io>   |
 | [![RISCV build and deploy](https://github.com/cncf/landscape2-sites/actions/workflows/riscv-build-and-deploy.yml/badge.svg?branch=main)](https://github.com/cncf/landscape2-sites/actions/workflows/riscv-build-and-deploy.yml)       | <https://riscv.landscape2.io>   |
 
 ## Contributing

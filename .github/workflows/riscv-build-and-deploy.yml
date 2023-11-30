@@ -1,8 +1,8 @@
 name: RISCV build and deploy
 
 on:
-  schedule:
-    - cron: "0 17 * * *"
+  # schedule:
+  #   - cron: "0 17 * * *"
   workflow_dispatch:
 
 jobs:

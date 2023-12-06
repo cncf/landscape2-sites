@@ -177,6 +177,9 @@ groups:
   - name: Members
     categories:
       - LF Energy Member
+  - name: Software Stack
+    categories:
+      - Project Stack
 
 # Name of the members category (optional)
 #

@@ -13,7 +13,7 @@ foundation: SPDX
 
 # Images (required)
 #
-# Urls some images used in the landscape UI.
+# Urls of some images used in the landscape UI.
 #
 # images:
 #   favicon: <FAVICON_URL>
@@ -26,6 +26,15 @@ images:
   footer_logo: "https://spdx.dev/wp-content/uploads/sites/31/2023/08/logo-white.svg"
   header_logo: "https://raw.githubusercontent.com/spdx/sbom-landscape/1f5537571ee3acf6a17fe339cab3615073f1bf39/images/left-logo.svg"
   open_graph: "https://spdx.dev/wp-content/uploads/sites/31/2023/08/favicon.png"
+
+# Analytics (optional)
+#
+# Analytics providers configuration. When an analytics provider is set up, some
+# additional code from the provider will be injected into the web application.
+#
+# analytics:
+#   gtm:                            # Google Tag Manager configuration
+#     container_id: <CONTAINER_ID>  # Landscape web application container ID
 
 # Categories (optional)
 #

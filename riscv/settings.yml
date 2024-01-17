@@ -13,7 +13,7 @@ foundation: RISCV
 
 # Images (required)
 #
-# Urls some images used in the landscape UI.
+# Urls of some images used in the landscape UI.
 #
 # images:
 #   favicon: <FAVICON_URL>
@@ -25,6 +25,15 @@ images:
   favicon: "https://raw.githubusercontent.com/riscv-admin/riscv-landscape/main/images/favicon.png"
   header_logo: "https://raw.githubusercontent.com/riscv-admin/riscv-landscape/main/images/left-logo.svg"
   open_graph: "https://raw.githubusercontent.com/riscv-admin/riscv-landscape/main/images/social.png"
+
+# Analytics (optional)
+#
+# Analytics providers configuration. When an analytics provider is set up, some
+# additional code from the provider will be injected into the web application.
+#
+# analytics:
+#   gtm:                            # Google Tag Manager configuration
+#     container_id: <CONTAINER_ID>  # Landscape web application container ID
 
 # Categories (optional)
 #

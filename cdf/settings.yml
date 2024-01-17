@@ -13,7 +13,7 @@ foundation: CDF
 
 # Images (required)
 #
-# Urls some images used in the landscape UI.
+# Urls of some images used in the landscape UI.
 #
 # images:
 #   favicon: <FAVICON_URL>
@@ -26,6 +26,15 @@ images:
   header_logo: "https://raw.githubusercontent.com/cdfoundation/cdf-landscape/main/images/left-logo.svg"
   footer_logo: "https://raw.githubusercontent.com/cdfoundation/artwork/main/cdf/horizontal/white/cdf-horizontal-white.svg"
   open_graph: "https://github.com/cdfoundation/cdf-landscape/blob/main/images/social.png?raw=true"
+
+# Analytics (optional)
+#
+# Analytics providers configuration. When an analytics provider is set up, some
+# additional code from the provider will be injected into the web application.
+#
+# analytics:
+#   gtm:                            # Google Tag Manager configuration
+#     container_id: <CONTAINER_ID>  # Landscape web application container ID
 
 # Categories (optional)
 #

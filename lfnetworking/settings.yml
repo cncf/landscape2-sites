@@ -13,7 +13,7 @@ foundation: LF Networking
 
 # Images (required)
 #
-# Urls some images used in the landscape UI.
+# Urls of some images used in the landscape UI.
 #
 # images:
 #   favicon: <FAVICON_URL>
@@ -26,6 +26,15 @@ images:
   footer_logo: "https://lfnetworking.org/wp-content/uploads/sites/7/2022/03/LFN-Logo-White.svg"
   header_logo: "https://raw.githubusercontent.com/lfnetworking/member_landscape/bf96c81586ce855fa325bc9a7d6550a48df9906e/images/left-logo.svg"
   open_graph: "https://raw.githubusercontent.com/lfnetworking/member_landscape/main/images/favicon.png"
+
+# Analytics (optional)
+#
+# Analytics providers configuration. When an analytics provider is set up, some
+# additional code from the provider will be injected into the web application.
+#
+# analytics:
+#   gtm:                            # Google Tag Manager configuration
+#     container_id: <CONTAINER_ID>  # Landscape web application container ID
 
 # Categories (optional)
 #

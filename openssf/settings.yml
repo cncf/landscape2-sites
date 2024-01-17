@@ -13,7 +13,7 @@ foundation: OpenSSF
 
 # Images (required)
 #
-# Urls some images used in the landscape UI.
+# Urls of some images used in the landscape UI.
 #
 # images:
 #   favicon: <FAVICON_URL>
@@ -26,6 +26,15 @@ images:
   header_logo: "https://raw.githubusercontent.com/ossf/ossf-landscape/main/images/left-logo.svg"
   footer_logo: "https://openssf.org/wp-content/uploads/sites/132/2021/09/openssf_white.svg"
   open_graph: "https://openssf.org/wp-content/uploads/sites/132/2021/09/cropped-favicon-150x150.png"
+
+# Analytics (optional)
+#
+# Analytics providers configuration. When an analytics provider is set up, some
+# additional code from the provider will be injected into the web application.
+#
+# analytics:
+#   gtm:                            # Google Tag Manager configuration
+#     container_id: <CONTAINER_ID>  # Landscape web application container ID
 
 # Categories (optional)
 #

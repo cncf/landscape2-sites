@@ -13,7 +13,7 @@ foundation: Hyperledger DLT
 
 # Images (required)
 #
-# Urls some images used in the landscape UI.
+# Urls of some images used in the landscape UI.
 #
 # images:
 #   favicon: <FAVICON_URL>
@@ -25,6 +25,15 @@ images:
   favicon: "https://www.hyperledger.org/hubfs/hyperledgerfavicon.png"
   header_logo: "https://dltlandscape.hyperledger.org/images/left-logo.svg"
   open_graph: "https://www.hyperledger.org/hubfs/Hyperledger%20Foundation%20new%20look.jpeg#keepProtocol"
+
+# Analytics (optional)
+#
+# Analytics providers configuration. When an analytics provider is set up, some
+# additional code from the provider will be injected into the web application.
+#
+# analytics:
+#   gtm:                            # Google Tag Manager configuration
+#     container_id: <CONTAINER_ID>  # Landscape web application container ID
 
 # Categories (optional)
 #

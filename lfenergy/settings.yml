@@ -13,7 +13,7 @@ foundation: LFEnergy
 
 # Images (required)
 #
-# Urls some images used in the landscape UI.
+# Urls of some images used in the landscape UI.
 #
 # images:
 #   favicon: <FAVICON_URL>
@@ -26,6 +26,15 @@ images:
   footer_logo: "https://raw.githubusercontent.com/lf-energy/artwork/main/other/lf-energy/horizontal/white/lf-energy-horizontal-white.svg"
   header_logo: "https://raw.githubusercontent.com/lf-energy/lfenergy-landscape/main/images/left-logo.svg"
   open_graph: "https://raw.githubusercontent.com/lf-energy/lfenergy-landscape/main/images/favicon.png"
+
+# Analytics (optional)
+#
+# Analytics providers configuration. When an analytics provider is set up, some
+# additional code from the provider will be injected into the web application.
+#
+# analytics:
+#   gtm:                            # Google Tag Manager configuration
+#     container_id: <CONTAINER_ID>  # Landscape web application container ID
 
 # Categories (optional)
 #

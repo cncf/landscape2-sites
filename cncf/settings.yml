@@ -36,6 +36,10 @@ images:
 #   gtm:                            # Google Tag Manager configuration
 #     container_id: <CONTAINER_ID>  # Landscape web application container ID
 
+analytics:
+  gtm:                            # Google Tag Manager configuration
+    container_id: GTM-WJJ7VKZ     # Landscape web application container ID
+
 # Categories (optional)
 #
 # Categories information is read from the `landscape.yml` data file. The way

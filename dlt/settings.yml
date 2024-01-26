@@ -26,6 +26,14 @@ images:
   header_logo: "https://dltlandscape.hyperledger.org/images/left-logo.svg"
   open_graph: "https://www.hyperledger.org/hubfs/Hyperledger%20Foundation%20new%20look.jpeg#keepProtocol"
 
+# Url (required)
+#
+# Url where the landscape will be hosted.
+#
+# url: <LANDSCAPE_URL>
+#
+url: https://dlt.landscape2.io
+
 # Analytics (optional)
 #
 # Analytics providers configuration. When an analytics provider is set up, some
@@ -177,17 +185,6 @@ groups:
 # members_category: <CATEGORY_NAME>
 #
 members_category: Hyperledger Members
-
-# QR code configuration (optional)
-#
-# Defines the configuration of the QR code that will be displayed on the UI as
-# well as on the downloadable landscape in PDF and PNG formats.
-#
-# qr_code:
-#   url: <URL>
-#
-qr_code:
-  url: https://dlt.landscape2.io
 
 # Screenshot width (optional)
 #

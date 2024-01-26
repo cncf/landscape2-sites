@@ -27,6 +27,14 @@ images:
   footer_logo: "https://raw.githubusercontent.com/todogroup/artwork/main/OSPO/OSPO-white.svg"
   open_graph: "https://raw.githubusercontent.com/todogroup/ospolandscape/master/images/favicon.png"
 
+# Url (required)
+#
+# Url where the landscape will be hosted.
+#
+# url: <LANDSCAPE_URL>
+#
+url: https://ospo.landscape2.io
+
 # Analytics (optional)
 #
 # Analytics providers configuration. When an analytics provider is set up, some
@@ -142,17 +150,6 @@ grid_items_size: large
 #
 # members_category: <CATEGORY_NAME>
 #
-
-# QR code configuration (optional)
-#
-# Defines the configuration of the QR code that will be displayed on the UI as
-# well as on the downloadable landscape in PDF and PNG formats.
-#
-# qr_code:
-#   url: <URL>
-#
-qr_code:
-  url: https://ospo.landscape2.io
 
 # Screenshot width (optional)
 #

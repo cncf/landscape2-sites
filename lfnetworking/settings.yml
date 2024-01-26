@@ -27,6 +27,14 @@ images:
   header_logo: "https://raw.githubusercontent.com/lfnetworking/member_landscape/bf96c81586ce855fa325bc9a7d6550a48df9906e/images/left-logo.svg"
   open_graph: "https://raw.githubusercontent.com/lfnetworking/member_landscape/main/images/favicon.png"
 
+# Url (required)
+#
+# Url where the landscape will be hosted.
+#
+# url: <LANDSCAPE_URL>
+#
+url: https://lfnetworking.landscape2.io
+
 # Analytics (optional)
 #
 # Analytics providers configuration. When an analytics provider is set up, some
@@ -161,17 +169,6 @@ groups:
 # members_category: <CATEGORY_NAME>
 #
 members_category: LF Networking Member Roster
-
-# QR code configuration (optional)
-#
-# Defines the configuration of the QR code that will be displayed on the UI as
-# well as on the downloadable landscape in PDF and PNG formats.
-#
-# qr_code:
-#   url: <URL>
-#
-qr_code:
-  url: https://lfnetworking.landscape2.io
 
 # Screenshot width (optional)
 #

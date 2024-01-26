@@ -27,6 +27,14 @@ images:
   header_logo: "https://raw.githubusercontent.com/lfai/artwork/main/lfaidata-assets/lfaidata-landscape/horizontal/color/lfaidata-landscape-horizontal-color.svg"
   open_graph: "https://landscape.lfai.foundation/favicon.png"
 
+# Url (required)
+#
+# Url where the landscape will be hosted.
+#
+# url: <LANDSCAPE_URL>
+#
+url: https://lfai.landscape2.io
+
 # Analytics (optional)
 #
 # Analytics providers configuration. When an analytics provider is set up, some
@@ -181,17 +189,6 @@ groups:
 # members_category: <CATEGORY_NAME>
 #
 members_category: LF AI & Data Members
-
-# QR code configuration (optional)
-#
-# Defines the configuration of the QR code that will be displayed on the UI as
-# well as on the downloadable landscape in PDF and PNG formats.
-#
-# qr_code:
-#   url: <URL>
-#
-qr_code:
-  url: https://lfai.landscape2.io
 
 # Screenshot width (optional)
 #

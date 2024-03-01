@@ -10,5 +10,5 @@ jobs:
     uses: cncf/landscape2-sites/.github/workflows/build-and-deploy.yml@main
     with:
       foundation: camara
-      repository: cynthia-sg/camara-landscape
+      repository: camaraproject/camara-landscape
     secrets: inherit

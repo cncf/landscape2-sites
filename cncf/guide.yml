@@ -1095,124 +1095,59 @@ categories:
       all about. It runs across and observes all layers which is why it's on the side and not embedded
       in a specific layer.
 
-      Tools in this category are broken down into logging, monitoring, tracing, and chaos engineering.
+      Tools in this category are broken down into observability and chaos engineering.
       Please note that the category name is somewhat misleading — although chaos engineering is listed
       here, consider it a reliability tool rather than an observability or analysis tool.
 
     subcategories:
-      - subcategory: "Monitoring"
+      - subcategory: "Observability"
         keywords:
           - "Monitoring"
           - "Time series"
           - "Alerting"
           - "Metrics"
-        content: |
-          #### What it is
-
-          Monitoring refers to instrumenting an app to collect, aggregate, and analyze logs and metrics to
-          improve our understanding of its behavior. While logs describe specific events, metrics are a
-          measurement of a system at a given point in time — they are two different things but both necessary
-          to get the full picture of your system's health. Monitoring includes everything from watching disk
-          space, CPU usage, and memory consumption on individual nodes to doing detailed synthetic
-          transactions to see if a system or application is responding correctly and in a timely manner.
-          There are a number of different approaches to monitor systems and applications.
-
-          #### Problem it addresses
-
-          When running an application or platform, you want it to accomplish a specific task as designed and
-          ensure it's only accessed by authorized users. Monitoring allows you to know if it is working
-          correctly, securely, cost effectively, only accessed by authorized users, as well as any other
-          characteristic you may be tracking.
-
-          #### How it helps
-
-          Good monitoring allows operators to respond quickly, and even automatically, when an incident
-          arises. It provides insights into the current health of a system and watches for changes.
-          Monitoring tracks everything from application health to user behaviour and is an essential
-          part of effectively running applications.
-
-          #### Technical 101
-
-          Monitoring in a cloud native context is generally similar to monitoring traditional applications.
-          You need to track metrics, logs, and events to understand the health of your applications. The
-          main difference is that some of the managed objects are ephemeral, meaning they may not be long
-          lasting so tying your monitoring to objects like auto generated resource names won't be a good long
-          term strategy. There are a number of CNCF projects in this space that largely revolve around
-          Prometheus, the CNCF graduated project.
-
-      - subcategory: "Logging"
-        keywords:
           - "Logging"
-        content: |
-          #### What it is
-
-          Applications emit a steady stream of log messages describing what they are doing at any given time.
-          These log messages capture various events happening in the system such as failed or successful
-          actions, audit information, or health events. Logging tools collect, store, and analyze these
-          messages to track error reports and related data. Along with metrics and tracing, logging is one
-          of the pillars of observability.
-
-          #### Problem it addresses
-
-          Collecting, storing, and analyzing logs is a crucial part of building a modern platform and
-          logging performs one or all of those tasks. Some tools handle every aspect from collection to
-          analysis while others focus on a single task like collection. All logging tools aim at helping
-          organizations gain control over their log messages.
-
-          #### How it helps
-
-          When collecting, storing, and analyzing application log messages, you'll understand what an
-          application was communicating at any given time. But as logs only represent messages that
-          applications or platforms deliberately emit, they don't necessarily pinpoint the root cause of a
-          given issue. That being said, collecting and retaining log messages over time is an extremely
-          powerful capability and will help teams diagnose issues and meet regulatory and compliance
-          requirements.
-
-          #### Technical 101
-
-          Collecting, storing, and processing log messages is by no means a new problem, but cloud native
-          patterns and Kubernetes have significantly changed the way logs are handled. Some traditional
-          approaches to logging that were appropriate for virtual and physical machines, like writing logs
-          to a file on a local disk, are ill suited to containerized applications, where  file systems don't
-          outlast an application. In a cloud native environment, log collection tools like Fluentd run
-          alongside application containers and collect messages directly from the applications. Messages
-          are then forwarded on to a central log store to be aggregated and analyzed.
-
-          Fluentd is the only CNCF project in this space.
-
-      - subcategory: "Tracing"
-        keywords:
-          - "Span"
           - "Tracing"
         content: |
           #### What it is
 
-          In a microservices world, services are constantly communicating with each other over the network.
-          Tracing, a specialized use of logging, allows you to trace the path of a request as it moves
-          through a distributed system.
+          Observability is the practice and ability of a system to be understood
+          from its external outputs. Observability frameworks emit telemetry
+          data, that is consumed by analysis tools which aid in querying or
+          visualizing the data. These frameworks emit logs, metrics, and traces
+          from application code, underlying node infrastructure, orchestration
+          systems, and more. This data can be as simple as a statistic about the
+          amount of disk space available on a node, or as complex as an
+          end-to-end user transaction from client to server and back.
 
-          #### Problem It addresses
+          #### Problem it addresses
 
-          Understanding how a microservice application behaves at any given point in time is an extremely
-          challenging task. While many tools provide deep insights into service behavior, it can be difficult
-          to tie an action of an individual service to the broader understanding of how the entire app
-          behaves.
+          Systems are complex, and can fail or degrade in performance in many
+          different ways. Observability allows you to understand the health of
+          individual services or infrastructure components in a system, track
+          important statistical values over time, debug issues in production,
+          and much more.
 
           #### How it helps
 
-          Tracing solves this problem by adding a unique identifier to messages sent by the application.
-          That unique identifier allows you to follow (or trace) individual transactions as they move through
-          your system. You can use this information to see the health of your application as well as
-          debug problematic microservices or activities.
+          Operating cloud native systems at scale requires operators and
+          developers to have access to high quality telemetry data about the
+          state of the system in order to respond to incidents and make informed
+          decisions about how to improve the system. Observability helps
+          operators respond more quickly to incidents, helps developers debug
+          their applications in production, and helps organizations understand
+          user behavior and how system performance relates to business goals.
 
           #### Technical 101
 
-          Tracing is a very powerful debugging tool that allows you to troubleshoot and fine tune the
-          behaviour of a distributed application. That power does come at a cost. Application code needs
-          to be modified to emit tracing data and any spans (a representation of individual units of work
-          done in a distributed system) need to be propagated by infrastructure components (e.g. service
-          meshes and their proxies) in the data path of your application. Jaeger and Open Tracing are CNCF
-          projects in this space.
+          Cloud native observability is conceptually very similar to traditional
+          application monitoring, but with several key differences. Objects tend
+          to be ephemeral, and system complexity tends to increase exponentially
+          with the number of services you're deploying. This puts a greater
+          import on structured data and schemas as a way to determine what's
+          happening in a system, and a greater emphasis on data storage. Many
+          projects in this area of the landscape are designed with this model in
+          mind, such as OpenTelemetry or Prometheus.
 
       - subcategory: "Chaos Engineering"
         keywords:

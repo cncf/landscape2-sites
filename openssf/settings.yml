@@ -133,7 +133,7 @@ footer:
     linkedin: "https://www.linkedin.com/company/openssf/"
     twitter: "https://twitter.com/openssf"
     youtube: "https://www.youtube.com/c/OpenSSF/"
-  logo: "https://openssf.org/wp-content/uploads/sites/132/2021/09/openssf_white.svg"
+  logo: "https://raw.githubusercontent.com/ossf/artwork/master/openssf/horizontal/white/openssf-horizontal-white.svg"
   text: |
     Copyright © 2024 The Linux Foundation®. All rights reserved. The Linux Foundation has registered trademarks and uses trademarks. For a list of trademarks of The Linux Foundation, please see our [Trademark Usage page](https://www.linuxfoundation.org/trademark-usage). Linux is a registered trademark of Linus Torvalds. [Privacy Policy](https://www.linuxfoundation.org/privacy) and [Terms of Use](https://www.linuxfoundation.org/terms). This website contains data received from Crunchbase. This data is not licensed pursuant to the Apache License. It is subject to Crunchbase's Data Access Terms, available at <https://data.crunchbase.com/docs/terms>, and is only permitted to be used with Linux Foundation landscape projects.
 
@@ -194,8 +194,8 @@ header:
 #   open_graph: <OPEN_GRAPH_IMAGE_URL>
 #
 images:
-  favicon: "https://openssf.org/wp-content/uploads/sites/132/2021/09/cropped-favicon-150x150.png"
-  open_graph: "https://openssf.org/wp-content/uploads/sites/132/2021/09/cropped-favicon-150x150.png"
+  favicon: "https://raw.githubusercontent.com/ossf/artwork/master/openssf/icon/color/openssf-icon-color.png"
+  open_graph: "https://raw.githubusercontent.com/ossf/artwork/master/openssf/horizontal/color/openssf-horizontal-color.png"
 
 # Name of the members category (optional)
 #

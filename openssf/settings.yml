@@ -28,6 +28,14 @@ url: https://openssf.landscape2.io
 #   gtm:                            # Google Tag Manager configuration
 #     container_id: <CONTAINER_ID>  # Landscape web application container ID
 
+# Base path (optional)
+#
+# Base path where the landscape will be hosted. By default the generated
+# landscape is prepared to be hosted at the root of the domain. However, if the
+# landscape will be hosted in a subpath, this value must be set accordingly.
+#
+# base_path: /<BASE_PATH>
+
 # Categories (optional)
 #
 # Categories information is read from the `landscape.yml` data file. The way

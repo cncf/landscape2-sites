@@ -39,6 +39,7 @@ analytics:
 # landscape will be hosted in a subpath, this value must be set accordingly.
 #
 # base_path: /<BASE_PATH>
+#
 
 # Categories (optional)
 #
@@ -377,9 +378,19 @@ tags:
 #   end: <END_DATE>      # End date: (required, format: YYYY-MM-DD)
 #   banner_url: <URL>    # Event banner image url (required, recommended dimensions: 2400x300)
 #   details_url: <URL>   # Event details URL (required)
+#
 upcoming_event:
   name: "CloudNativeSecurityCon NA 2024"
   start: "2024-06-26"
   end: "2024-06-27"
   banner_url: "https://cncf.github.io/banners/events/CNSC-NA-2024-2400x300.png"
   details_url: "https://events.linuxfoundation.org/cloudnativesecuritycon-north-america/"
+
+# View mode (optional)
+#
+# This section allows customizing the default view mode of the landscape web
+# application. The view mode can be set to either `grid` or `card`. When
+# omitted, the default view mode is `grid`.
+#
+# view_mode: <grid|card>
+#

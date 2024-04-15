@@ -27,6 +27,7 @@ url: https://dlt.landscape2.io
 # analytics:
 #   gtm:                            # Google Tag Manager configuration
 #     container_id: <CONTAINER_ID>  # Landscape web application container ID
+#
 
 # Base path (optional)
 #
@@ -35,6 +36,7 @@ url: https://dlt.landscape2.io
 # landscape will be hosted in a subpath, this value must be set accordingly.
 #
 # base_path: /<BASE_PATH>
+#
 
 # Categories (optional)
 #
@@ -270,3 +272,13 @@ screenshot_width: 1500
 #   end: <END_DATE>      # End date: (required, format: YYYY-MM-DD)
 #   banner_url: <URL>    # Event banner image url (required, recommended dimensions: 2400x300)
 #   details_url: <URL>   # Event details URL (required)
+#
+
+# View mode (optional)
+#
+# This section allows customizing the default view mode of the landscape web
+# application. The view mode can be set to either `grid` or `card`. When
+# omitted, the default view mode is `grid`.
+#
+# view_mode: <grid|card>
+#

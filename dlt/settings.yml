@@ -225,6 +225,22 @@ images:
   favicon: "https://www.hyperledger.org/hubfs/hyperledgerfavicon.png"
   open_graph: "https://www.hyperledger.org/hubfs/Hyperledger%20Foundation%20new%20look.jpeg#keepProtocol"
 
+# Logos viewbox (optional)
+#
+# In order to display the logos as large as possible in the landscape, during
+# the build process we try to update their viewbox if `adjust` is set to true
+# (by default it is when this setting is not provided). However, sometimes this
+# does not help and logos may not be displayed correctly. In those cases, it is
+# possible to exclude some of them from being adjusted by adding the logo(s)
+# file name to the `exclude` list.
+#
+# logos_viewbox:
+#   adjust: true
+#   exclude:
+#     - logo1.svg
+#     - logo2.svg
+#
+
 # Name of the members category (optional)
 #
 # Landscapes usually have a special category dedicated to the members of the

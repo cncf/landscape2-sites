@@ -217,6 +217,9 @@ groups:
   - name: Wasm
     categories:
       - Wasm
+  - name: CNAI
+    categories:
+      - CNAI
 
 # Header (optional)
 #

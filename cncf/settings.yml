@@ -217,7 +217,7 @@ groups:
   - name: Wasm
     categories:
       - Wasm
-  - name: Cloud Native Artificial Intelligence
+  - name: CNAI
     categories:
       - CNAI
 

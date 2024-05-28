@@ -43,8 +43,8 @@ jobs:
           restore-keys: |
             landscape-cache-${{ inputs.foundation }}-
 
-      - name: Build landscape (without guide)
-        if: ${{ hashFiles(format('./{0}/guide.yml', inputs.foundation)) == '' }}
+      - name: Build landscape (no guide, no games)
+        if: ${{ hashFiles(format('./{0}/guide.yml', inputs.foundation)) == '' && hashFiles(format('./{0}/games.yml', inputs.foundation)) == '' }}
         env:
           GITHUB_TOKENS: ${{ secrets.GH_TOKENS }}
           CRUNCHBASE_API_KEY: ${{ secrets.CRUNCHBASE_API_KEY }}
@@ -57,8 +57,8 @@ jobs:
             --cache-dir /tmp/landscape-cache \
             --output-dir /tmp/landscape
 
-      - name: Build landscape (with guide)
-        if: ${{ hashFiles(format('./{0}/guide.yml', inputs.foundation)) != '' }}
+      - name: Build landscape (guide, no games)
+        if: ${{ hashFiles(format('./{0}/guide.yml', inputs.foundation)) != '' && hashFiles(format('./{0}/games.yml', inputs.foundation)) == '' }}
         env:
           GITHUB_TOKENS: ${{ secrets.GH_TOKENS }}
           CRUNCHBASE_API_KEY: ${{ secrets.CRUNCHBASE_API_KEY }}
@@ -67,6 +67,22 @@ jobs:
           landscape2 build \
             --settings-file ./${{ inputs.foundation }}/settings.yml \
             --guide-file ./${{ inputs.foundation }}/guide.yml \
+            --data-file ./landscape/landscape.yml \
+            --logos-path ./landscape/hosted_logos \
+            --cache-dir /tmp/landscape-cache \
+            --output-dir /tmp/landscape
+
+      - name: Build landscape (guide, games)
+        if: ${{ hashFiles(format('./{0}/guide.yml', inputs.foundation)) != '' && hashFiles(format('./{0}/games.yml', inputs.foundation)) != '' }}
+        env:
+          GITHUB_TOKENS: ${{ secrets.GH_TOKENS }}
+          CRUNCHBASE_API_KEY: ${{ secrets.CRUNCHBASE_API_KEY }}
+          RUST_LOG: "landscape2=debug"
+        run: |
+          landscape2 build \
+            --settings-file ./${{ inputs.foundation }}/settings.yml \
+            --guide-file ./${{ inputs.foundation }}/guide.yml \
+            --games-file ./${{ inputs.foundation }}/games.yml \
             --data-file ./landscape/landscape.yml \
             --logos-path ./landscape/hosted_logos \
             --cache-dir /tmp/landscape-cache \

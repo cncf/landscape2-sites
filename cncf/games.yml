@@ -1,0 +1,203 @@
+# Landscape games data
+
+quiz:
+  questions:
+    - title: "Which of the following projects provides an open source container orchestration engine for automating deployment, scaling, and management of containerized applications?"
+      options:
+        - item: Kubernetes
+          correct: true
+        - item: gRPC
+        - item: Cilium
+        - item: Argo
+
+    - title: "What could be a great option to manage Kubernetes applications?"
+      options:
+        - item: Helm
+          correct: true
+        - item: Prometheus
+        - item: Cilium
+        - item: Istio
+
+    - title: "Which project provides a specification to standardize feature flagging?"
+      options:
+        - item: OpenFeature
+          correct: true
+        - item: CloudEvents
+        - item: OpenTelemetry
+        - item: OpenMetrics
+
+    - title: "Which project allows you to easily discover (and publish your own!) Cloud Native packages?"
+      options:
+        - item: Artifact Hub
+          correct: true
+        - item: Prometheus
+        - item: OpenTelemetry
+        - item: Flux
+
+    - title: "Which of the following projects is an open source high performance Remote Procedure Call framework?"
+      options:
+        - item: gRPC
+          correct: true
+        - item: Keptn
+        - item: Backstage
+        - item: Helm
+
+    - title: "Which project provides an X.509 certificate controller for Kubernetes?"
+      options:
+        - item: cert-manager
+          correct: true
+        - item: Keycloak
+        - item: Open Policy Agent (OPA)
+        - item: Helm
+
+    - title: "Which of the following projects is a monitoring system and time series database?"
+      options:
+        - item: Prometheus
+          correct: true
+        - item: Fluentd
+        - item: Backstage
+        - item: OpenMetrics
+
+    - title: "What tool could you use to collect logs from multiple data sources?"
+      options:
+        - item: Fluentd
+          correct: true
+        - item: Cloud Custodian
+        - item: Linkerd
+        - item: Crossplane
+
+    - title: "Which project provides a service mesh based on the Envoy service proxy?"
+      options:
+        - item: Istio
+          correct: true
+        - item: Linkerd
+        - item: Cilium
+        - item: Harbor
+
+    - title: "Select the project that provides an scalable and reliable MySQL compatible database"
+      options:
+        - item: Vitess
+          correct: true
+        - item: TiKV
+        - item: Harbor
+        - item: Crossplane
+
+    - title: "What key-value store does Kubernetes use as the backing store for all cluster data?"
+      options:
+        - item: etcd
+          correct: true
+        - item: TiKV
+        - item: Vitess
+        - item: Artifact Hub
+
+    - title: "Select one example of a Kubernetes ingress controller"
+      options:
+        - item: Contour
+          correct: true
+        - item: Keptn
+        - item: Backstage
+        - item: Helm
+
+    - title: "Which of the following projects is a container runtime for Kubernetes?"
+      options:
+        - item: CRI-O
+          correct: true
+        - item: Linkerd
+        - item: Lima
+        - item: Envoy
+
+    - title: "Which project provides an event driven autoscaling solution for Kubernetes?"
+      options:
+        - item: KEDA
+          correct: true
+        - item: Helm
+        - item: Flux
+        - item: Envoy
+
+    - title: "What project provides a highly available Prometheus setup with extended storage capabilities?"
+      options:
+        - item: Thanos
+          correct: true
+        - item: OpenTelemetry
+        - item: OpenMetrics
+        - item: Argo
+
+    - title: "Select the project that provides a tool for working with OCI artifacts"
+      options:
+        - item: ORAS
+          correct: true
+        - item: Falco
+        - item: Kyverno
+        - item: Prometheus
+
+    - title: "Which project provides an open source framework for building developer portals?"
+      options:
+        - item: Backstage
+          correct: true
+        - item: Thanos
+        - item: Crossplane
+        - item: CoreDNS
+
+    - title: "Which project provides a way to run an Apache Kafka cluster on Kubernetes?"
+      options:
+        - item: Strimzi
+          correct: true
+        - item: Argo
+        - item: Flux
+        - item: gRPC
+
+    - title: "What project allows you building control planes without needing to write code?"
+      options:
+        - item: Crossplane
+          correct: true
+        - item: Linkerd
+        - item: KEDA
+        - item: Karmada
+
+    - title: "Which project provides a Cloud Native distributed block storage for Kubernetes?"
+      options:
+        - item: Longhorn
+          correct: true
+        - item: Harbor
+        - item: Contour
+        - item: Helm
+
+    - title: "Select the project that provides a framework to secure the integrity of software supply chains"
+      options:
+        - item: in-toto
+          correct: true
+        - item: Rook
+        - item: ContainerSSH
+        - item: Thanos
+
+    - title: "Which project provides a chaos and resiliency testing tool for Kubernetes?"
+      options:
+        - item: Krkn
+          correct: true
+        - item: Thanos
+        - item: Helm
+        - item: Argo
+
+    - title: "What project provides a policy engine designed for Kubernetes?"
+      options:
+        - item: Kyverno
+          correct: true
+        - item: Krkn
+        - item: in-toto
+        - item: KEDA
+
+    - title: "Select the project that provides connective technology that powers modern distributed systems"
+      options:
+        - item: NATS
+          correct: true
+        - item: Prometheus
+        - item: ContainerSSH
+        - item: cert-manager
+
+    - title: "What project provides a specification for describing event data in a common way?"
+      options:
+        - item: CloudEvents
+          correct: true
+        - item: OpenTelemetry
+        - item: OpenFeature
+        - item: OpenMetrics

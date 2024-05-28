@@ -75,8 +75,9 @@ categories:
 #   color2: <COLOR2>  # Some highlighted items like filters button, search icon
 #   color3: <COLOR3>  # Participation stats bars, spinners, modal titles
 #   color4: <COLOR4>  # Categories titles in filters, fieldset in filters modal
-#   color4: <COLOR5>  # Categories and subcategories frames (odd)
-#   color5: <COLOR6>  # Categories and subcategories frames (even)
+#   color5: <COLOR5>  # Categories and subcategories frames (odd)
+#   color6: <COLOR6>  # Categories and subcategories frames (even)
+#   color7: <COLOR7>  # Borders, shadows and options boxes in games
 #
 colors:
   color1: "rgba(1, 58, 68, 1)"

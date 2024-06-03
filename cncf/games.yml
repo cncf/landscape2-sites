@@ -201,3 +201,11 @@ quiz:
         - item: OpenTelemetry
         - item: OpenFeature
         - item: OpenMetrics
+
+    - title: "Which project provides deployment of machine learning workflows on Kubernetes?"
+      options:
+        - item: Kubeflow
+          correct: true
+        - item: KubeEdge
+        - item: Jaeger
+        - item: Dragonfly

@@ -82,6 +82,19 @@ colors:
   color6: "rgba(1, 196, 249, 0.9)"
   color7: "rgba(224, 241, 253, 1)"
 
+# End user (optional)
+#
+# This section allows defining what items should be marked as `end user` based
+# on the category and subcategory they belong to. If the `enduser` field has
+# been set on a given item, that value will take precedence.
+#
+# enduser:
+#   - category: <CATEGORY1>  (required)
+#     subcategories:         (optional)
+#       - <SUBCATEGORY1>
+#   - category: <CATEGORY2>
+#
+
 # Featured items (optional)
 #
 # This section allows highlighting items that match certain criteria. You can

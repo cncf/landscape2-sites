@@ -129,6 +129,11 @@ colors:
 #       - value: <SUBCATEGORY1_NAME>
 #       - value: <SUBCATEGORY2_NAME>
 #
+featured_items:
+  - field: subcategory
+    options:
+      - value: Platinum
+      - value: Gold
 
 # Footer (optional)
 #

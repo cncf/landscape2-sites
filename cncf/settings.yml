@@ -431,11 +431,11 @@ tags:
 #   details_url: <URL>   # Event details URL (required)
 #
 upcoming_event:
-  name: "CloudNativeSecurityCon NA 2024"
-  start: "2024-06-26"
-  end: "2024-06-27"
-  banner_url: "https://cncf.github.io/banners/events/CNSC-NA-2024-2400x300.png"
-  details_url: "https://events.linuxfoundation.org/cloudnativesecuritycon-north-america/"
+  name: "KubeCon CloudNativeCon NA 2024"
+  start: "2024-11-12"
+  end: "2024-11-15"
+  banner_url: "https://cncf.github.io/banners/events/Kubecon-NA-2400x300.png"
+  details_url: "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/"
 
 # View mode (optional)
 #

@@ -31,7 +31,7 @@ categories:
           the technical 101 is targeted to engineers just getting started with cloud native. We
           also included a section for associated buzzwords and lists CNCF projects.
 
-          > ##### INFOBOX
+          > ### INFOBOX
           >
           > When looking at the landscape, you'll note a few distinctions:
           >  * *Items in large boxes* are featured items, and they are used to highlight special
@@ -71,7 +71,7 @@ categories:
           - "Automation"
           - "Declarative Configuration"
         content: |
-          #### What it is
+          ### What it is
 
           Automation and configuration tools speed up the creation and configuration of compute
           resources (virtual machines, networks, firewall rules, load balancers, etc.). Tools in
@@ -79,7 +79,7 @@ categories:
           everything end-to-end. Most provide the ability to integrate with other projects and
           products in the space.
 
-          #### Problem it addresses
+          ### Problem it addresses
 
           Traditionally, IT processes relied on lengthy and labor intensive manual release cycles,
           typically between three to six months. Those cycles came with lots of human processes and
@@ -88,7 +88,7 @@ categories:
           rapid development cycles, infrastructure must be provisioned dynamically and without
           human intervention.
 
-          #### How it helps
+          ### How it helps
 
           Tools of this category allow engineers to build computing environments without human
           intervention. By codifying the environment setup it becomes reproducible with the click
@@ -98,7 +98,7 @@ categories:
           While tools may take different approaches, they all aim at reducing the required work
           to provision resources through automation.
 
-          #### Technical 101
+          ### Technical 101
 
           As we move from old-style human-driven provisioning to a new on-demand scaling model
           driven by the cloud, the patterns and tools we used before no longer meet our needs.
@@ -128,7 +128,7 @@ categories:
           - "OCI Image"
           - "Registry"
         content: |
-          #### What it is
+          ### What it is
 
           Before diving into container registries, we need to define three tightly related concepts:
 
@@ -146,17 +146,17 @@ categories:
           grouped in registries. Tools that build, run, and manage containers need access to those
           images. Access is provided by referencing the registry (the path to access the image).
 
-          #### Problem it addresses
+          ### Problem it addresses
 
           Cloud native applications are packaged and run as containers. Container registries store and provide
           the container images needed to run these apps.
 
-          #### How it helps
+          ### How it helps
 
           By centrally storing all container images in one place, they are easily accessible for any developer
           working on that app.
 
-          #### Technical 101
+          ### Technical 101
 
           Container registries either store and distribute images or enhance an existing registry in some
           way. Fundamentally, a registry is a web API that allows container runtimes to store and retrieve
@@ -179,7 +179,7 @@ categories:
           - "Audit"
           - "Certificate Management"
         content: |
-          #### What it is
+          ### What it is
 
           Cloud native applications are designed to be rapidly iterated on. Think of your mobile phone's
           continuous flow of app updates — they evolve everyday, presumably getting better. In order to
@@ -187,14 +187,14 @@ categories:
           secure and only accessed by authorized engineers. Tools and projects in this section provide
           some of the abilities needed to build and run modern applications securely.
 
-          #### Problem it addresses
+          ### Problem it addresses
 
           Security and compliance tools help harden, monitor, and enforce platform and application security.
           From containers to Kubernetes environments, these tools allow you to set policy (for compliance),
           get insights into existing vulnerabilities, catch misconfigurations, and harden the containers and
           clusters.
 
-          #### How it helps
+          ### How it helps
 
           To run containers securely, containers must be scanned for known vulnerabilities and signed to
           ensure they haven't been tampered with. Kubernetes has extremely permissive access control settings
@@ -202,7 +202,7 @@ categories:
           target for anyone looking to attack your systems. The tools and projects in this space help harden
           the cluster and detect when the system is behaving abnormally.
 
-          #### Technical 101
+          ### Technical 101
 
           * Audit and compliance
           * Path to production:
@@ -227,7 +227,7 @@ categories:
           - "Access"
           - "Secrets"
         content: |
-          #### What it is
+          ### What it is
 
           Before digging into key management, let's first define cryptographic keys. A key is a string of
           characters used to encrypt or sign data. Like a physical key, it locks (encrypts) data so that
@@ -238,7 +238,7 @@ categories:
           securely store passwords and other secrets (sensitive data such as API keys, encryption keys, etc.)
           to how to safely eliminate passwords and secrets from your microservices environment.
 
-          #### Problem it addresses
+          ### Problem it addresses
 
           Cloud native environments are highly dynamic, requiring on-demand secret distribution. That means
           it has to be entirely programmatic (no humans in the loop) and automated.
@@ -247,13 +247,13 @@ categories:
           (authentication) and if that request has the right to do whatever it's trying to do
           (authorization). This is commonly referred to as AuthN and AuthZ.
 
-          #### How it helps
+          ### How it helps
 
           Each tool or project takes a different approach but they all provide a way to either securely
           distribute secrets and keys or a service or specification related to authentication, authorization,
           or both.
 
-          #### Technical 101
+          ### Technical 101
 
           Tools in this category can be grouped into two sets: 1) key generation, storage, management, and
           rotation, and 2) single sign-on and identity management. Vault, for example, is a rather generic
@@ -288,14 +288,14 @@ categories:
           - "Storage API"
           - "Backup and restore"
         content: |
-          #### What it is
+          ### What it is
 
           Storage is where the persistent data of an app is stored, often referred to as a persistent volume.
           To function reliably, applications need to have easy access to storage. Generally, when we say
           persistent data, we mean storing things like databases, messages, or any other information we want
           to ensure doesn't disappear when an app gets restarted.
 
-          #### Problem it addresses
+          ### Problem it addresses
 
           Cloud native architectures are fluid, flexible, and elastic, making persisting data between
           restarts challenging. To scale up and down or self-heal, containerized apps are continuously
@@ -312,7 +312,7 @@ categories:
 
           Cloud native storage is tailored to this new cloud native reality.
 
-          #### How it helps
+          ### How it helps
 
           The tools in this category help either:
 
@@ -324,7 +324,7 @@ categories:
           (tools in the second category) and which can be provisioned automatically, enabling autoscaling
           and self-healing by eliminating the human bottleneck.
 
-          #### Technical 101
+          ### Technical 101
 
           Cloud native storage is largely made possible by the Container Storage Interface (CSI) which
           provides a standard API for providing file and block storage to containers. There are a number
@@ -341,7 +341,7 @@ categories:
           - "Container"
           - "MicroVM"
         content: |
-          #### What it is
+          ### What it is
 
           As discussed under container registry, a container is a set of compute constraints used to execute
           (or launch) an application. Containerized apps believe they are running on their own dedicated
@@ -353,7 +353,7 @@ categories:
           containerized app should look like. The runtime will start an app within a container and provide
           it with the needed resources.
 
-          #### Problem it addresses
+          ### Problem it addresses
 
           Container images (the files with the application specs) must be launched in a standardized, secure,
           and isolated way. Standardized because you need standard operating rules no matter where they are
@@ -362,7 +362,7 @@ categories:
           co-located application crashes). Isolation basically functions as protection. Additionally, the
           application needs to be provided resources, such as CPU, storage, and memory.
 
-          #### How it helps
+          ### How it helps
 
           The container runtime does all that. It launches apps in a standardized fashion across all
           environments and sets security boundaries. The latter is where some of these tools differ. Runtimes
@@ -370,7 +370,7 @@ categories:
           for the container. Without it, the app could consume resources as needed, potentially taking
           resources away from other apps, so you always need to set limits.
 
-          #### Technical 101
+          ### Technical 101
 
           Not all tools in this category are created equal. Containerd (part of the famous Docker product)
           and CRI-O are standard container runtime implementations. Then there are tools that expand the use
@@ -384,7 +384,7 @@ categories:
           - "Network Overlay"
           - "CNI"
         content: |
-          #### What it is
+          ### What it is
 
           Containers talk to each other and to the infrastructure layer through a cloud native network.
           [Distributed applications](https://thenewstack.io/primer-distributed-systems-and-cloud-native-computing/)
@@ -392,7 +392,7 @@ categories:
           a virtual network on top of existing networks specifically for apps to communicate, referred to
           as an **overlay network**.
 
-          #### Problem it addresses
+          ### Problem it addresses
 
           While it's common to refer to the code running in a container as an app, the reality is that most
           containers hold only a small specific set of functionalities of a larger application. Modern
@@ -408,7 +408,7 @@ categories:
           app to connect to virtual machines or services running outside the container network. The
           programmable and often declarative nature of cloud native networking makes this possible.
 
-          #### How it helps
+          ### How it helps
 
           Projects and products in this category use the Container Network Interface (CNI), a CNCF project,
           to provide networking functionalities to containerized applications. Some tools, like Flannel, are
@@ -419,7 +419,7 @@ categories:
           At a minimum, a container network needs to assign IP addresses to pods (that's where containerized
           apps run in Kubernetes), allowing other processes to access it.
 
-          #### Technical 101
+          ### Technical 101
 
           The variety and innovation in this space is largely made possible by the CNI (similar to storage
           and the Container Storage Interface mentioned above).The CNI standardizes the way network layers
@@ -457,7 +457,7 @@ categories:
           - "Scheduler"
           - "Orchestration"
         content: |
-          #### What it is
+          ### What it is
 
           Orchestration and scheduling refer to running and managing
           [containers](https://github.com/cncf/glossary/blob/main/content/en/container.md) across a cluster.
@@ -482,7 +482,7 @@ categories:
           and Kubernetes are both central to cloud native architectures, which is why we hear so much about
           them.
 
-          #### Problem it addresses
+          ### Problem it addresses
 
           As mentioned in the section 'cloud native networking', in cloud native architectures, applications
           are broken down into small components, or services, each placed in a container. You may have heard
@@ -492,7 +492,7 @@ categories:
           occurs. While it may be feasible to do all those things manually for a single service, you'll need
           automated processes when dealing with multiple services, each with its own containers.
 
-          #### How it helps
+          ### How it helps
 
           Container orchestrators automate container management. But what does that mean in practice? Let's
           answer that for Kubernetes since it is the de facto container orchestrator.
@@ -507,7 +507,7 @@ categories:
           In short, Kubernetes allows you to treat a cluster as one computer. It focuses only on what that
           environment should look like and handles the implementation details for you.
 
-          #### Technical 101
+          ### Technical 101
 
           Kubernetes lives in the orchestration and scheduling section along with other less widely
           adopted orchestrators like Docker Swarm and Mesos. It enables users to manage a number of
@@ -536,14 +536,14 @@ categories:
           - "DNS"
           - "Service Discovery"
         content: |
-          #### What it is
+          ### What it is
 
           Modern applications are composed of multiple individual services that need to collaborate to
           provide value to the end user. To collaborate, they communicate over a network (see cloud native
           networking), and to communicate, they must first locate one another. Service discovery is the
           process of figuring out how to do that.
 
-          #### Problem it addresses
+          ### Problem it addresses
 
           Cloud native architectures are dynamic and fluid, meaning they are constantly changing. When a
           container crashes on one node, a new container is spun up on a different node to replace it. Or,
@@ -551,7 +551,7 @@ categories:
           particular service is — the location of everything is constantly changing. Tools in this category
           keep track of services within the network so services can find one another when needed.
 
-          #### How it helps
+          ### How it helps
 
           Service discovery tools address this problem by providing a common place to find and potentially
           identify individual services. There are basically two types of tools in this category:
@@ -561,7 +561,7 @@ categories:
           2. **Name resolution tools**: tools that receive service location requests and return network
           address information (e.g. CoreDNS)
 
-          > ##### INFOBOX
+          > #### INFOBOX
           > In Kubernetes, to make a pod reachable a new abstraction layer called "service"  is introduced.
           > Services provide a single stable address for a dynamically changing group of pods.
           >
@@ -576,7 +576,7 @@ categories:
           > service (functionality within one or more containers) with a single end point (entry point)
           > which is the Kubernetes service.
 
-          #### Technical 101
+          ### Technical 101
 
           As distributed systems became more and more prevalent, traditional DNS processes and traditional
           load balancers were often unable to keep up with changing endpoint information. To make up for
@@ -589,23 +589,23 @@ categories:
         keywords:
           - "gRPC"
         content: |
-          #### What it is
+          ### What it is
 
           Remote Procedure Call (RPC) is a particular technique enabling applications to talk to each other.
           It's one way of structuring app communication.
 
-          #### Problem it addresses
+          ### Problem it addresses
 
           Modern apps are composed of numerous individual services that must communicate in order to
           collaborate. RPC is one option for handling the communication between applications.
 
-          #### How it helps
+          ### How it helps
 
           RPC provides a tightly coupled and highly opinionated way of handling communication between
           services. It allows for bandwidth-efficient communications and many programming languages enable
           RPC interface implementations.
 
-          #### Technical 101
+          ### Technical 101
 
           There are a lot of potential benefits with RPC: It makes coding connections easier, it allows for
           extremely efficient use of the network layer and well-structured communications between services.
@@ -618,7 +618,7 @@ categories:
           - "Service Proxy"
           - "Ingress"
         content: |
-          #### What it is
+          ### What it is
 
           A service proxy is a tool that intercepts traffic to or from a given service, applies some logic to
           it, then forwards that traffic to another service. It essentially acts as a "go-between" that can
@@ -631,7 +631,7 @@ categories:
           network into a Kubernetes cluster, service proxies are also building blocks for other systems, such
           as API gateways or service meshes, which we'll discuss below.
 
-          #### Problem it addresses
+          ### Problem it addresses
 
           Applications should send and receive network traffic in a controlled manner. To keep track of the
           traffic and potentially transform or redirect it, we need to collect data. Traditionally, the code
@@ -645,7 +645,7 @@ categories:
           globally needed service functionality such as routing or TLS termination from a single common
           location allows communication between services to become more reliable, secure, and performant.
 
-          #### How it helps
+          ### How it helps
 
           Proxies act as gatekeepers between the user and services or between different services. With this
           unique positioning, they provide insight into what type of communication is happening and can then
@@ -655,7 +655,7 @@ categories:
           if some services break down), encrypt connections, and cache content (reducing resource
           consumption).
 
-          #### Technical 101
+          ### Technical 101
 
           Service proxies work by intercepting traffic between services, applying logic on it, and allowing
           it to move on if permitted. Centrally controlled capabilities embedded into proxies allow
@@ -670,7 +670,7 @@ categories:
         keywords:
           - "API Gateway"
         content: |
-          #### What it is
+          ### What it is
 
           While humans generally interact with computer programs via a GUI (graphical user interface) such as
           a web page or a desktop application, computers interact with each other through APIs
@@ -680,7 +680,7 @@ categories:
           number of requests between applications, to a centrally managed location. It also functions as a
           common interface to (often external) API consumers.
 
-          #### Problem it addresses
+          ### Problem it addresses
 
           While most containers and core applications have an API, an API gateway is more than just an API.
           An API gateway simplifies how organizations manage and apply rules to all interactions.
@@ -689,7 +689,7 @@ categories:
           is encoded into the API gateway, remember?). They also enable teams to see and control the
           interactions between application users and the applications themselves.
 
-          #### How it helps
+          ### How it helps
 
           An API gateway sits between the users and the application. It acts as a go-between that takes the
           messages (requests) from the users and forwards them to the appropriate service. But before handing
@@ -700,7 +700,7 @@ categories:
           users. It also enables you to handoff tasks otherwise implemented within the app to the gateway,
           saving developer time and money.
 
-          > ##### EXAMPLE
+          > #### EXAMPLE
           >
           > Take Amazon store cards. To offer them, Amazon partners with a bank that will issue and manage
           > all Amazon store cards. In return, the bank will keep, let's say, $1 per transaction. The bank
@@ -709,7 +709,7 @@ categories:
           > All that functionality is encoded into the gateway, not the services using it. Services just
           > worry about issuing cards.
 
-          #### Technical 101
+          ### Technical 101
 
           Like proxies and service meshes (see below), an API gateway takes custom code out of our apps and
           brings it into a central system. The API gateway works by intercepting calls to backend services,
@@ -728,7 +728,7 @@ categories:
           - "Data plane"
           - "Control plane"
         content: |
-          #### What it is
+          ### What it is
 
           Service meshes manage traffic (i.e. communication) between services. They enable platform teams
           to add reliability, observability, and security features uniformly across all services running
@@ -737,7 +737,7 @@ categories:
           Along with Kubernetes, service meshes have become some of the most critical infrastructure
           components of the cloud native stack.
 
-          #### Problem it addresses
+          ### Problem it addresses
 
           In a cloud native world, we are dealing with multiple services all needing to communicate. This
           means a lot more traffic is going back and forth on an inherently unreliable and often slow
@@ -746,13 +746,13 @@ categories:
           This custom code often became a source of technical debt and provided new avenues for failures
           or vulnerabilities.
 
-          #### How it helps
+          ### How it helps
 
           Service meshes add reliability, observability, and security features uniformly across all services
           on a platform layer without touching the app code. They are compatible with any programming
           language, allowing development teams to focus on writing business logic.
 
-          > ##### INFOBOX
+          > #### INFOBOX
           >
           > Since traditionally, these service mesh features had to be coded into each service, each time
           > a new service was released or updated, the developer had to ensure these features were
@@ -766,7 +766,7 @@ categories:
           > gateways mentioned above. Service meshes and API gateways solve that very issue as they are
           > implemented by the platform owners and applied universally across all services.
 
-          #### Technical 101
+          ### Technical 101
 
           Service meshes bind all services running on a cluster together via service proxies creating a mesh
           of services, hence service mesh. These are managed and controlled through the service mesh control
@@ -784,7 +784,7 @@ categories:
           own container but lives in the same pod. Just like a motorcycle sidecar, it's a separate module
           attached to the motorcycle, following it wherever it goes.
 
-          > ##### EXAMPLE
+          > #### EXAMPLE
           >
           > Take circuit breaking. In microservice environments, individual components often fail or begin
           > running slowly. Without a service mesh, developers would have to write custom logic to handle
@@ -823,27 +823,27 @@ categories:
           - "DB"
           - "Persistence"
         content: |
-          #### What it is
+          ### What it is
 
           A database is an application through which other apps can efficiently store and retrieve data.
           Databases allow you to store data, ensure only authorized users access it, and enable users to
           retrieve it via specialized requests. While there are numerous different types of databases with
           different approaches, they ultimately all have these same overarching goals.
 
-          #### Problem it addresses
+          ### Problem it addresses
 
           Most applications need an effective way to store and retrieve data while keeping that data safe.
           Databases do this in a structured way with proven technology though there is quite a bit of
           complexity that goes into doing this well.
 
-          #### How it helps
+          ### How it helps
 
           Databases provide a common interface for applications to store and retrieve data. Developers use
           these standard interfaces and a relatively simple query language to store, query, and retrieve
           information. At the same time, databases allow users to continuously backup and save data, as
           well as encrypt and regulate access to it.
 
-          #### Technical 101
+          ### Technical 101
 
           Databases are apps that store and retrieve data, using a common language and interface compatible
           with a number of different languages and frameworks.
@@ -860,7 +860,7 @@ categories:
 
           Vitess and TiKV are CNCF projects in this space.
 
-          > ##### INFOBOX
+          > #### INFOBOX
           >
           > If you look at this category, you'll notice multiple names ending in DB (e.g. MongoDB,
           > CockroachDB, FaunaDB) which, as you may guess, stands for database. You'll also see various
@@ -875,7 +875,7 @@ categories:
           - "MQ"
           - "Message bus"
         content: |
-          #### What it is
+          ### What it is
 
           To accomplish a common goal, services need to communicate with one another and keep each other in
           the loop. Each time a service does something, it sends a message about that particular event.
@@ -886,14 +886,14 @@ categories:
           where individual apps are either publishers, meaning they write events, or subscribers that read
           events, or more likely both.
 
-          #### Problem it addresses
+          ### Problem it addresses
 
           As services proliferate, application environments become increasingly complex, making the
           management of communication between apps more challenging. A streaming or messaging platform
           provides a central place to publish and read all the events that occur within a system,
           allowing applications to work together without necessarily knowing anything about one another.
 
-          #### How it helps
+          ### How it helps
 
           When a service does something other services should know about, it "publishes" an event to the
           streaming or messaging tool. Services that need to know about these types of events “subscribe”
@@ -916,7 +916,7 @@ categories:
           system is, the more flexible and amenable it is to change. And that is exactly what engineers
           strive for in a system.
 
-          #### Technical 101
+          ### Technical 101
 
           Messaging and streaming tools have been around long before cloud native became a thing. To
           centrally manage business-critical events, organizations have built large enterprise service
@@ -943,7 +943,7 @@ categories:
           - "Charts"
           - "Operators"
         content: |
-          #### What it is
+          ### What it is
 
           Application definition and image build is a broad category that can be broken down into two main
           subgroups. First, developer-focused tools that help build application code into containers and/or
@@ -953,7 +953,7 @@ categories:
           this category serves as a catch-all for a number of projects and products that optimize the
           Kubernetes developer and operator experience.
 
-          #### Problem it addresses
+          ### Problem it addresses
 
           Kubernetes, and containerized environments more generally, are incredibly flexible and powerful.
           With that flexibility also comes complexity, mainly in the form of multiple configuration options
@@ -962,7 +962,7 @@ categories:
           apps into container environments, and finally, platform teams need to provide tools to simplify
           image creation and application deployment, both for in-house and third party applications.
 
-          #### How it Helps
+          ### How it Helps
 
           Tools in this space aim to solve some of these developer or operator challenges. On the developer
           side, there are tools that simplify the process of extending Kubernetes to build, deploy, and
@@ -974,7 +974,7 @@ categories:
           of diverse tools to simplify application build and deployments. As you start addressing operational
           and developer concerns in your environment, look for tools in this category.
 
-          #### Technical 101
+          ### Technical 101
 
           Application definition and build tools encompass a huge range of functionality. From extending
           Kubernetes to virtual machines with KubeVirt, to speeding app development by allowing you to port
@@ -1008,7 +1008,7 @@ categories:
           - "Blue/green"
           - "Canary deploy"
         content: |
-          #### What it is
+          ### What it is
 
           Continuous integration (CI) and continuous delivery (CD) tools enable fast and efficient development
           with embedded quality assurance. CI automates code changes by immediately building and testing the
@@ -1019,7 +1019,7 @@ categories:
           begin moving it from development to production where it has to pass a variety of tests or validation
           to determine if the process should continue or fail. Tools in this category enable such an approach.
 
-          #### Problem it addresses
+          ### Problem it addresses
 
           Building and deploying applications is a difficult and error-prone process, particularly when it
           involves a lot of human intervention and manual steps. The longer a developer works on a piece of
@@ -1035,7 +1035,7 @@ categories:
           pipeline. Kubernetes also provides information about app health, enabling cloud native CI/CD tools
           to more easily determine if a given change was successful or should be rolled back.
 
-          #### How it helps
+          ### How it helps
 
           CI tools ensure that any code change or updates developers introduce are built, validated, and
           integrated with other changes automatically and continuously. Each time a developer adds an update,
@@ -1048,7 +1048,7 @@ categories:
           the deployed app after each step in the process. All together these systems represent a CI/CD
           pipeline for that web app.
 
-          #### Technical 101
+          ### Technical 101
 
           Over time, a number of tools have been built to help with the process of moving code from a source
           code repository to production. Like most other areas of computing, the advent of cloud native
@@ -1109,7 +1109,7 @@ categories:
           - "Logging"
           - "Tracing"
         content: |
-          #### What it is
+          ### What it is
 
           Observability is the practice and ability of a system to be understood
           from its external outputs. Observability frameworks emit telemetry
@@ -1120,7 +1120,7 @@ categories:
           amount of disk space available on a node, or as complex as an
           end-to-end user transaction from client to server and back.
 
-          #### Problem it addresses
+          ### Problem it addresses
 
           Systems are complex, and can fail or degrade in performance in many
           different ways. Observability allows you to understand the health of
@@ -1128,7 +1128,7 @@ categories:
           important statistical values over time, debug issues in production,
           and much more.
 
-          #### How it helps
+          ### How it helps
 
           Operating cloud native systems at scale requires operators and
           developers to have access to high quality telemetry data about the
@@ -1138,7 +1138,7 @@ categories:
           their applications in production, and helps organizations understand
           user behavior and how system performance relates to business goals.
 
-          #### Technical 101
+          ### Technical 101
 
           Cloud native observability is conceptually very similar to traditional
           application monitoring, but with several key differences. Objects tend
@@ -1153,14 +1153,14 @@ categories:
         keywords:
           - "Chaos Engineering"
         content: |
-          #### What it is
+          ### What it is
 
           Chaos engineering refers to the practice of intentionally introducing faults into a system in
           order to test its resilience and ensure applications and engineering teams are able to withstand
           turbulent and unexpected events. A chaos engineering tool will provide a controlled way to
           introduce faults and run specific experiments against a particular instance of an application.
 
-          #### Problem it addresses
+          ### Problem it addresses
 
           Complex systems fail. They fail for a host of reasons and in a distributed system the consequences
           are typically hard to understand. Chaos engineering is embraced by organizations that accept that
@@ -1168,7 +1168,7 @@ categories:
           This is referred to as optimizing for
           [mean time to repair](https://en.wikipedia.org/wiki/Mean_time_to_repair), or MTTR.
 
-          > ##### INFOBOX
+          > #### INFOBOX
           >
           > The traditional approach to maintaining high availability for applications is referred to as
           > optimizing for [mean time between failures](https://en.wikipedia.org/wiki/Mean_time_between_failures),
@@ -1178,7 +1178,7 @@ categories:
           > high performing IT organizations achieve high availability by optimizing for mean time to
           > recovery, or MTTR, instead.
 
-          #### How it Helps
+          ### How it Helps
           In a cloud native world, applications must dynamically adjust to failures, a relatively new
           concept. That means, when something fails, the system doesn't go down completely but gracefully
           degrades or recovers. Chaos engineering tools enable you to experiment on a software system in
@@ -1189,7 +1189,7 @@ categories:
           place it under duress in controlled conditions to identify weaknesses and fix them before chance
           uncovers them for you.
 
-          #### Technical 101
+          ### Technical 101
 
           Chaos engineering tools and practices are critical to achieving high availability for your
           applications. Distributed systems are often too complex to be fully understood by any one engineer
@@ -1232,7 +1232,7 @@ categories:
     subcategories:
       - subcategory: "Certified Kubernetes - Distribution"
         content: |
-          #### What it is
+          ### What it is
 
           A distribution, or distro, is when a vendor takes core Kubernetes — that's the unmodified, open
           source code (although some modify it) — and packages it for redistribution. Usually this entails
@@ -1240,7 +1240,7 @@ categories:
           installation and upgrades. Many Kubernetes distributions include other proprietary or open source
           applications.
 
-          #### What it addresses
+          ### What it addresses
 
           [Open source Kubernetes](https://github.com/kubernetes/kubernetes) doesn't specify a particular
           installation tool and leaves many setup configuration choices to the user. Additionally, there is
@@ -1256,7 +1256,7 @@ categories:
           and efficient. All this requires deep Kubernetes expertise that may not be readily available
           in-house.
 
-          #### How it helps
+          ### How it helps
 
           Kubernetes distributions provide a trusted and reliable way to install Kubernetes and provide
           opinionated defaults that create a better and more secure operating environment. A Kubernetes
@@ -1274,7 +1274,7 @@ categories:
           running with cloud native tools without having to hire additional engineers with specialized
           expertise.
 
-          #### Technical 101
+          ### Technical 101
 
           If you've installed Kubernetes, you've likely used something like kubeadm to get your cluster up
           and running. Even then, you probably had to decide on a CNI, install, and configure it. Then, you
@@ -1292,21 +1292,21 @@ categories:
         keywords:
           - "Hosted"
         content: |
-          #### What it is
+          ### What it is
 
           Hosted Kubernetes is a service offered by infrastructure providers like AWS, Digital Ocean, Azure,
           and Google, allowing customers to spin up a Kubernetes cluster on-demand. The cloud provider
           takes responsibility for managing part of the Kubernetes cluster, usually called the control plane.
           They are similar to distributions but managed by the cloud provider on their infrastructure.
 
-          #### Problem it addresses
+          ### Problem it addresses
 
           Hosted Kubernetes allows teams to get started with Kubernetes without knowing or doing anything
           beyond setting up an account with a cloud vendor. It solves four of the five Ws of getting started
           with Kubernetes. Who (manages it): your cloud provider; what: their hosted Kubernetes offering;
           when: now; and where: on the cloud providers infrastructure. The why is up to you.
 
-          #### How it Helps
+          ### How it Helps
 
           Since the provider takes care of all management details, hosted Kubernetes is the easiest way to
           get started with cloud native. All users have to do is develop their apps and deploy them on the
@@ -1317,7 +1317,7 @@ categories:
           some reduced flexibility. The offering is bound to the cloud provider, and Kubernetes users don't
           have access to the control plane.
 
-          #### Technical 101
+          ### Technical 101
 
           Hosted Kubernetes are on-demand Kubernetes clusters provided by a vendor, usually an infrastructure
           hosting provider. The vendor takes responsibility for provisioning the cluster and managing the
@@ -1334,27 +1334,27 @@ categories:
         keywords:
           - "Installer"
         content: |
-          #### What it is
+          ### What it is
 
           Kubernetes installers help install Kubernetes on a machine. They automate the Kubernetes
           installation and configuration process and may even help with upgrades. Kubernetes installers
           are often coupled with or used by Kubernetes distributions or hosted Kubernetes offerings.
 
-          #### Problem it addresses
+          ### Problem it addresses
 
           Similar to Kubernetes distributions, Kubernetes installers simplify getting started with
           Kubernetes. Open source Kubernetes relies on installers like kubeadm which, as of this writing,
           is part of the Certified Kubernetes Administrator certification exam to get Kubernetes clusters
           up and running.
 
-          #### How it helps
+          ### How it helps
 
           Kubernetes installers ease the Kubernetes installation process. Like distributions, they provide a
           vetted source for the source code and version. They also often ship with opinionated Kubernetes
           environment configurations. Kubernetes installers like [kind](https://kind.sigs.k8s.io/)
           (Kubernetes in Docker) allow you to get a Kubernetes cluster with a single command.
 
-          #### Technical 101
+          ### Technical 101
 
           Whether you're installing Kubernetes locally on Docker, spinning up and provisioning new virtual
           machines, or preparing new physical servers, you're going to need a tool to handle all the
@@ -1371,21 +1371,21 @@ categories:
 
       - subcategory: "PaaS/Container Service"
         content: |
-          #### What it is
+          ### What it is
 
           A Platform-as-a-Service, or PaaS, is an environment that allows users to run applications
           without necessarily concerning themselves with the details of the underlying compute resources.
           PaaS and container services in this category are mechanisms to either host a PaaS for developers
           or host services they can use.
 
-          #### Problem it addresses
+          ### Problem it addresses
 
           We've talked a lot about the tools and technologies around cloud native. A PaaS attempts to
           connect many of the technologies found in this landscape in a way that provides direct value
           to developers. It answers the following questions: how will I run applications in various
           environments? And, once running, how will my team and users interact with them?
 
-          #### How it helps
+          ### How it helps
 
           PaaS provides opinions and choices around how to piece together the various open and closed
           source tools needed to run applications. Many offerings include tools that handle PaaS installation
@@ -1394,7 +1394,7 @@ categories:
           scaling of individual components and visibility into the performance and log messages of
           individual apps.
 
-          #### Technical 101
+          ### Technical 101
 
           Organizations are adopting cloud native technologies to achieve specific business or
           organizational objectives. A PaaS provides a quicker path to value than building a custom
@@ -1448,7 +1448,7 @@ categories:
       This concludes the CNCF Landscape guide. We hope you enjoyed the read and that we were able to
       bring a little more clarity to the landscape.
 
-      > ##### NOTE
+      > ## NOTE
       >
       > The cloud native space evolves quickly. If you see anything that's outdated, please submit a PR
       > so we can update it. We want this to be a living document and appreciate your contribution.

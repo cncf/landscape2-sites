@@ -111,6 +111,10 @@ colors:
 #       - <SUBCATEGORY1>
 #   - category: <CATEGORY2>
 #
+enduser:
+  - category: CNCF Members
+    subcategories:
+      - End User Supporter
 
 # Featured items (optional)
 #

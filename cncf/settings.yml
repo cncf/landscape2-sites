@@ -29,8 +29,8 @@ url: https://landscape.cncf.io
 #     container_id: <CONTAINER_ID>  # Landscape web application container ID
 #
 analytics:
-  gtm:                            # Google Tag Manager configuration
-    container_id: GTM-WJJ7VKZ     # Landscape web application container ID
+  gtm: # Google Tag Manager configuration
+    container_id: GTM-WJJ7VKZ # Landscape web application container ID
 
 # Base path (optional)
 #
@@ -111,7 +111,10 @@ colors:
 #       - <SUBCATEGORY1>
 #   - category: <CATEGORY2>
 #
-
+enduser:
+  - category: CNCF Members
+    subcategories:
+      - End User Supporter
 # Featured items (optional)
 #
 # This section allows highlighting items that match certain criteria. You can
@@ -432,7 +435,6 @@ upcoming_event:
   end: "2024-11-15"
   banner_url: "https://cncf.github.io/banners/events/Kubecon-NA-2400x300.png"
   details_url: "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/?utm_source=landscape&utm_medium=homepage&utm_campaign=KubeCon-NA-2024&utm_content=slim-bar"
-
 # View mode (optional)
 #
 # This section allows customizing the default view mode of the landscape web

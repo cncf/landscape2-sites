@@ -192,24 +192,12 @@ grid_items_size: large
 #       - <CATEGORY2_NAME>
 #
 groups:
-  - name: Products
-    categories:
-      - Platforms
-      - Multiparty Applications
-      - Application Tooling/Integrations
-      - Smart Contracts/Tokenization
-      - Interoperability
-      - Technology Intersections
-      - Distributed Ledgers
-      - Computing Infrastructure
-      - Standards
-      - Services
   - name: Projects
     categories:
-      - Hyperledger Projects
+      - LF Decentralized Trust Projects
   - name: Members
     categories:
-      - Hyperledger Members
+      - LF Decentralized Trust Members
   - name: CSPs
     categories:
       - Hyperledger Certified Service Providers
@@ -265,7 +253,7 @@ images:
 #
 # members_category: <CATEGORY_NAME>
 #
-members_category: Hyperledger Members
+members_category: LF Decentralized Trust Members
 
 # Osano (optional)
 #

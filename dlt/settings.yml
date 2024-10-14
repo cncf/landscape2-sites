@@ -58,7 +58,7 @@ url: https://dlt.landscape2.io
 #       - <SUBCATEGORY2_NAME>
 #
 categories:
-  - name: Hyperledger Members
+  - name: LF Decentralized Trust Members
     subcategories:
       - Premier
       - General

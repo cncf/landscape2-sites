@@ -9,7 +9,7 @@
 #
 # foundation: <FOUNDATION_NAME>
 #
-foundation: Hyperledger DLT
+foundation: LF Decentralized Trust DLT
 
 # Url (required)
 #
@@ -63,6 +63,11 @@ categories:
       - Premier
       - General
       - Associate
+  - name: LF Decentralized Trust Projects
+    subcategories:
+      - Distributed Ledgers
+      - Tools
+      - Libraries
 
 # Colors (optional)
 #
@@ -135,6 +140,7 @@ featured_items:
   - field: subcategory
     options:
       - value: Premier
+      - value: Hyperledger Fabric CSPs
 
 # Footer (optional)
 #

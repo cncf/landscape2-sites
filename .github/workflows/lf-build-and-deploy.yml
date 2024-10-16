@@ -11,5 +11,4 @@ jobs:
     with:
       foundation: lf
       repository: jmertic/lf-landscape
-      repository_ref: addprojects
     secrets: inherit

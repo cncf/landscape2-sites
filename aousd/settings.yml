@@ -24,10 +24,9 @@ url: https://aousd.landscape2.io
 # Analytics providers configuration. When an analytics provider is set up, some
 # additional code from the provider will be injected into the web application.
 #
-# analytics:
-#   gtm:                            # Google Tag Manager configuration
-#     container_id: <CONTAINER_ID>  # Landscape web application container ID
-#
+analytics:
+  gtm:                            # Google Tag Manager configuration
+    container_id: GTM-5QC4L5QJ  # Landscape web application container ID
 
 # Base path (optional)
 #
@@ -149,8 +148,8 @@ footer:
     youtube: https://www.youtube.com/@AllianceOpenUSD
   logo: https://aousd.org/wp-content/uploads/sites/28/2023/07/logo-vertical-white.svg
   text: |
-    Copyright © 2024 The Linux Foundation®. All rights reserved. The Linux Foundation has registered trademarks and uses trademarks. For a list of trademarks of The Linux Foundation, please see our [Trademark Usage page](https://www.linuxfoundation.org/trademark-usage). Linux is a registered trademark of Linus Torvalds. [Privacy Policy](https://www.linuxfoundation.org/privacy) and [Terms of Use](https://www.linuxfoundation.org/terms). This website contains data received from Crunchbase. This data is not licensed pursuant to the Apache License. It is subject to Crunchbase's Data Access Terms, available at <https://data.crunchbase.com/docs/terms>, and is only permitted to be used with Linux Foundation landscape projects.
-
+    Copyright © Alliance for OpenUSD. All rights reserved. Alliance for OpenUSD is a [Joint Development Foundation Project](https://jointdevelopment.org/), an affiliate of the [Linux Foundation](https://www.linuxfoundation.org/). [Privacy Policy](https://jointdevelopment.org/terms) and [Terms of Use](https://jointdevelopment.org/terms).
+    
 # Grid items size (optional)
 #
 # Defines the preferred size of the landscape items in the grid mode. When the
@@ -165,7 +164,7 @@ grid_items_size: large
 
 # Groups (optional)
 #
-# In some cases, specially when a landscape contains lots of items, it may be
+# In some cases, especially when a landscape contains lots of items, it may be
 # interesting to organize them in groups. Each group will be displayed on a
 # different tab in the landscape web application. Each entry must contain the
 # name of the group (it will be displayed as is) and a list with the categories

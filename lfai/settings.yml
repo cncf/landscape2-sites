@@ -221,6 +221,8 @@ groups:
       - Security & Privacy
       - Natural Language Processing
       - Notebook Environment
+      - Generative AI
+      - Notebook Environment
   - name: Members
     categories:
       - LF AI & Data Member Company

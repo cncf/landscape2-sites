@@ -1,0 +1,15 @@
+name: PyTorch build and deploy
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+jobs:
+  build-landscape:
+    uses: cncf/landscape2-sites/.github/workflows/build-and-deploy.yml@main
+    with:
+      foundation: pytorch
+      repository: pytorch/landscape
+      repository_ref: cynthia-sg/landscape-setup
+    secrets: inherit

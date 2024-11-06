@@ -228,7 +228,7 @@ groups:
 header:
   links:
     github: "https://github.com/dltlandscape/dlt-landscape"
-  logo: "https://dltlandscape.hyperledger.org/images/left-logo.svg"
+  logo: "https://raw.githubusercontent.com/hyperledger-dlt-landscape/hyperledger-dlt-landscape/refs/heads/main/images/lf_decentralized_trust_landscape.svg"
 
 # Images (optional)
 #

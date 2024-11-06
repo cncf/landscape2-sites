@@ -48,7 +48,7 @@ jobs:
         env:
           GITHUB_TOKENS: ${{ secrets.GH_TOKENS }}
           CRUNCHBASE_API_KEY: ${{ secrets.CRUNCHBASE_API_KEY }}
-          RUST_LOG: "landscape2=debug"
+          RUST_LOG: "landscape2=debug,headless_chrome=debug"
         run: |
           landscape2 build \
             --settings-file ./${{ inputs.foundation }}/settings.yml \

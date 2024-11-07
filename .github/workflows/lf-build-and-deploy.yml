@@ -17,4 +17,5 @@ jobs:
     with:
       foundation: lf
       repository: jmertic/lf-landscape
+      runner: ${{ github.event.inputs.runner }}
     secrets: inherit

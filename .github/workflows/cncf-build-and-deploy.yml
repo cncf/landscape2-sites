@@ -4,12 +4,6 @@ on:
   schedule:
     - cron: "0 8,20 * * *"
   workflow_dispatch:
-    inputs:
-      runner:
-        description: "Runner"
-        type: string
-        required: false
-        default: ubuntu-latest-16-cores
 
 jobs:
   build-landscape:

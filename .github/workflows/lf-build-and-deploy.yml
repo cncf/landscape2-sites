@@ -4,6 +4,12 @@ on:
   schedule:
     - cron: "0 5 * * *"
   workflow_dispatch:
+    inputs:
+      runner:
+        description: "Runner to use"
+        type: string
+        required: false
+        default: ubuntu-latest-16-cores
 
 jobs:
   build-landscape:
@@ -11,5 +17,4 @@ jobs:
     with:
       foundation: lf
       repository: jmertic/lf-landscape
-      runner: equinix-16cpu-64gb
     secrets: inherit

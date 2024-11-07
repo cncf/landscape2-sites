@@ -2,17 +2,17 @@ on:
   workflow_call:
     inputs:
       foundation:
-        required: true
         type: string
+        required: true
       repository:
+        type: string
         required: true
-        type: string
       repository_ref:
-        required: false
         type: string
+        required: false
       runner:
-        required: false
         type: string
+        required: false
         default: ubuntu-latest-16-cores
 
 jobs:

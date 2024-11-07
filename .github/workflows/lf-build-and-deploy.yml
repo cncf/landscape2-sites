@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
     inputs:
       runner:
-        description: "Runner to use"
+        description: "Runner"
         type: string
         required: false
         default: ubuntu-latest-16-cores

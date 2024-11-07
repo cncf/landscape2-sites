@@ -11,4 +11,5 @@ jobs:
     with:
       foundation: lf
       repository: jmertic/lf-landscape
+      runner: equinix-16cpu-64gb
     secrets: inherit

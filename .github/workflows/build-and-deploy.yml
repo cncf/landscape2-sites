@@ -10,11 +10,15 @@ on:
       repository_ref:
         required: false
         type: string
+      runner:
+        required: false
+        type: string
+        default: ubuntu-latest-16-cores
 
 jobs:
   build-landscape:
     runs-on:
-      labels: ubuntu-latest-16-cores
+      labels: ${{ inputs.runner }}
     container:
       image: public.ecr.aws/g6m3a0y9/landscape2
       options: --user root

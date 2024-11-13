@@ -258,6 +258,10 @@ images:
 #     - logo1.svg
 #     - logo2.svg
 #
+logos_viewbox:
+  adjust: true
+  exclude:
+    - akeana.svg
 
 # Name of the members category (optional)
 #

@@ -440,10 +440,10 @@ tags:
 #
 upcoming_event:
   name: "KubeCon CloudNativeCon NA 2024"
-  start: "2024-11-12"
-  end: "2024-11-15"
-  banner_url: "https://cncf.github.io/banners/events/Kubecon-NA-2400x300.png"
-  details_url: "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/?utm_source=landscape&utm_medium=homepage&utm_campaign=KubeCon-NA-2024&utm_content=slim-bar"
+  start: "2024-12-11"
+  end: "2024-12-12"
+  banner_url: "https://cncf.github.io/banners/events/KC-CNC-India-2024-2400x300.png"
+  details_url: "https://events.linuxfoundation.org/kubecon-cloudnativecon-india/?utm_source=landscape&utm_medium=homepage&utm_campaign=KubeCon-india-2024&utm_content=slim-bar"
 
 # View mode (optional)
 #

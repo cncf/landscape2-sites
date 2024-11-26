@@ -297,7 +297,9 @@ logos_viewbox:
     - cloudlink.svg
     - clusterpedia.svg
     - docker-member.svg
+    - hami.svg
     - krustlet.svg
+    - kube-ovn.svg
     - kui.svg
     - kusk.svg
     - spiderpool.svg

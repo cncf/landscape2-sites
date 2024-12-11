@@ -441,11 +441,11 @@ tags:
 #   details_url: <URL>   # Event details URL (required)
 #
 upcoming_event:
-  name: "KubeCon CloudNativeCon NA 2024"
-  start: "2024-12-11"
-  end: "2024-12-12"
-  banner_url: "https://cncf.github.io/banners/events/KC-CNC-India-2024-2400x300.png"
-  details_url: "https://events.linuxfoundation.org/kubecon-cloudnativecon-india/?utm_source=landscape&utm_medium=homepage&utm_campaign=KubeCon-india-2024&utm_content=slim-bar"
+  name: "CyberMonday 2024"
+  start: "2024-12-10"
+  end: "2024-12-15"
+  banner_url: "https://cncf.github.io/banners/events/728x90-CNCF-V1B.png"
+  details_url: "https://training.linuxfoundation.org/cyber-monday-cncf-2024/?utm_campaign=24Q4_CyberMonday&utm_source=landscapecncf"
 
 # View mode (optional)
 #

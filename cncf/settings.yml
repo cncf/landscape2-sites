@@ -443,8 +443,8 @@ tags:
 upcoming_event:
   name: "CyberMonday 2024"
   start: "2024-12-10"
-  end: "2024-12-15"
-  banner_url: "https://cncf.github.io/banners/events/cyberweek_2024.jpg"
+  end: "2024-12-17"
+  banner_url: "https://cncf.github.io/banners/events/cyberweek_2024_extension.png"
   details_url: "https://training.linuxfoundation.org/cyber-monday-cncf-2024/?utm_campaign=24Q4_CyberMonday&utm_source=landscapecncf"
 
 # View mode (optional)

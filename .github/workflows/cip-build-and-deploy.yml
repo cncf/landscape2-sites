@@ -1,0 +1,14 @@
+name: CIP build and deploy
+
+on:
+  schedule:
+    - cron: "30 0 * * *"
+  workflow_dispatch:
+
+jobs:
+  build-landscape:
+    uses: cncf/landscape2-sites/.github/workflows/build-and-deploy.yml@main
+    with:
+      foundation: cip
+      repository: civil-infrastructure-platform/cip-landscape
+    secrets: inherit

@@ -17,7 +17,7 @@ foundation: OpenAPI
 #
 # url: <LANDSCAPE_URL>
 #
-url: https://oai.landscape2.io
+url: https://landscape.openapis.org
 
 # Analytics (optional)
 #

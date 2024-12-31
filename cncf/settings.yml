@@ -297,7 +297,9 @@ logos_viewbox:
     - cloudlink.svg
     - clusterpedia.svg
     - docker-member.svg
+    - hami.svg
     - krustlet.svg
+    - kube-ovn.svg
     - kui.svg
     - kusk.svg
     - spiderpool.svg
@@ -439,11 +441,11 @@ tags:
 #   details_url: <URL>   # Event details URL (required)
 #
 upcoming_event:
-  name: "KubeCon CloudNativeCon NA 2024"
-  start: "2024-11-12"
-  end: "2024-11-15"
-  banner_url: "https://cncf.github.io/banners/events/Kubecon-NA-2400x300.png"
-  details_url: "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/?utm_source=landscape&utm_medium=homepage&utm_campaign=KubeCon-NA-2024&utm_content=slim-bar"
+  name: "CyberMonday 2024"
+  start: "2024-12-10"
+  end: "2024-12-17"
+  banner_url: "https://cncf.github.io/banners/events/cyberweek_2024_extension.png"
+  details_url: "https://training.linuxfoundation.org/cyber-monday-cncf-2024/?utm_campaign=24Q4_CyberMonday&utm_source=landscapecncf"
 
 # View mode (optional)
 #

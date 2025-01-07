@@ -218,6 +218,9 @@ groups:
   - name: ASWF Members
     categories:
       - ASWF Member Company
+  - name: ASWF Projects
+    categories: 
+      - ASWF Projects
 
 # Header (optional)
 #

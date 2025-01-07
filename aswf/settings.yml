@@ -140,6 +140,9 @@ featured_items:
       - value: sandbox
         order: 3
         label: ASWF Sandbox
+      - value: working-group
+        order: 4
+        label: ASWF Working Group
   - field: subcategory
     options:
       - value: Premier

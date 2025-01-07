@@ -208,14 +208,14 @@ grid_items_size: medium
 #       - <CATEGORY2_NAME>
 #
 groups:
-  - name: Projects and products
+  - name: Open Source Projects
     categories:
       - Imaging and Color
       - Assets and Workflow
       - Rendering and Queueing
       - Math and Simulation
       - Other
-  - name: Members
+  - name: ASWF Members
     categories:
       - ASWF Member Company
 

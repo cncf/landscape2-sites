@@ -139,18 +139,18 @@ featured_items:
       - value: earlyadoption
         order: 2
         label: Early Adoption
-      - value: incubation
+      - value: incubating
         order: 3
-        label: Incubation
+        label: Incubating
       - value: sandbox
         order: 4
         label: Sandbox
       - value: emeritus
         order: 5
         label: Emeritus
-      - value: lfess
+      - value: sig
         order: 6
-        label: Standards and Specs
+        label: SIG
       - value: working-group
         order: 7
         label: Working Group

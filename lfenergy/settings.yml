@@ -11,7 +11,7 @@
 #
 # foundation: <FOUNDATION_NAME>
 #
-foundation: LFEnergy
+foundation: LF Energy
 
 # Url (required)
 #
@@ -139,18 +139,18 @@ featured_items:
       - value: earlyadoption
         order: 2
         label: Early Adoption
-      - value: incubation
+      - value: incubating
         order: 3
-        label: Incubation
+        label: Incubating
       - value: sandbox
         order: 4
         label: Sandbox
       - value: emeritus
         order: 5
         label: Emeritus
-      - value: lfess
+      - value: sig
         order: 6
-        label: Standards and Specs
+        label: SIG
       - value: working-group
         order: 7
         label: Working Group
@@ -184,19 +184,19 @@ footer:
     github: "https://github.com/lf-energy"
     homepage: "https://lfenergy.org"
     linkedin: "https://www.linkedin.com/company/lf-energy-foundation"
-    slack: "https://join.slack.com/t/lfenergy/shared_invite/zt-f9z7c305-SYbhNb2ffXJ~8jGd_gpwWQ"
+    slack: "https://slack.lfenergy.org"
     twitter: "https://twitter.com/LFE_Foundation"
     youtube: "https://www.youtube.com/channel/UCW2V5Sj6cme8na9BkTqfoJA"
   logo: "https://raw.githubusercontent.com/lf-energy/artwork/main/other/lf-energy/horizontal/white/lf-energy-horizontal-white.svg"
   text: |
-    Copyright © 2024 The Linux Foundation®. All rights reserved. The Linux Foundation has registered trademarks and uses trademarks. For a list of trademarks of The Linux Foundation, please see our [Trademark Usage page](https://www.linuxfoundation.org/trademark-usage). Linux is a registered trademark of Linus Torvalds. [Privacy Policy](https://www.linuxfoundation.org/privacy) and [Terms of Use](https://www.linuxfoundation.org/terms). This website contains data received from Crunchbase. This data is not licensed pursuant to the Apache License. It is subject to Crunchbase's Data Access Terms, available at <https://data.crunchbase.com/docs/terms>, and is only permitted to be used with Linux Foundation landscape projects.
+    Copyright © The Linux Foundation®. All rights reserved. The Linux Foundation has registered trademarks and uses trademarks. For a list of trademarks of The Linux Foundation, please see our [Trademark Usage page](https://www.linuxfoundation.org/trademark-usage). Linux is a registered trademark of Linus Torvalds. [Privacy Policy](https://www.linuxfoundation.org/privacy) and [Terms of Use](https://www.linuxfoundation.org/terms). This website contains data received from Crunchbase. This data is not licensed pursuant to the Apache License. It is subject to Crunchbase's Data Access Terms, available at <https://data.crunchbase.com/docs/terms>, and is only permitted to be used with Linux Foundation landscape projects.
 
 # Grid items size (optional)
 #
 # Defines the preferred size of the landscape items in the grid mode. When the
 # landscape contains many items, it is recommended to use the `small` size.
 # However, if there aren't many items, choosing `medium` or `large` may make
-# the landscape look nicer. Users will still be able to adjust the items size
+# the landscape look nicer. Users will still be able to adjust the item's size
 # from the UI using the zoom controls.
 #
 # grid_items_size: <small|medium|large>
@@ -205,7 +205,7 @@ grid_items_size: small
 
 # Groups (optional)
 #
-# In some cases, specially when a landscape contains lots of items, it may be
+# In some cases, especially when a landscape contains lots of items, it may be
 # interesting to organize them in groups. Each group will be displayed on a
 # different tab in the landscape web application. Each entry must contain the
 # name of the group (it will be displayed as is) and a list with the categories
@@ -249,6 +249,9 @@ groups:
   - name: Software Stack
     categories:
       - Project Stack
+  - name: SIG
+    categories:
+      - SIG
 
 # Header (optional)
 #
@@ -333,7 +336,7 @@ screenshot_width: 3000
 # Projects items can specify which TAG owns them in the `landscape.yml` file
 # (by using the `tag` field in the `extra` item's section). However, sometimes
 # this information is not available at the item level. This configuration
-# section provides a mechanism to automatically asign a TAG to projects items
+# section provides a mechanism to automatically assign a TAG to projects items
 # based on the categories and subcategories they belong to.
 #
 # For example, we can define that all projects in the category <CATEGORY1> are

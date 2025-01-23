@@ -3,112 +3,112 @@
 categories:
   - category: "Modeling"
     content: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      Algorithms and statistical methods for performing tasks that typically require human intelligence, such as learning, reasoning, and problem-solving.
 
     subcategories:
       - subcategory: "Computer Vision"
         content: |
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Models that are designed to enable machines to interpret and understand visual information from the world, such as images and videos.
 
       - subcategory: "Language"
         content: |
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Models that are designed to understand, generate, and interpret human language.
 
       - subcategory: "Specialized"
         content: |
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Models that are designed to understand, generate, and interpret specific domains such as geography, time series data, and others.
 
       - subcategory: "Medical & Biology"
         content: |
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Models that are designed to work with medical and biological data.
 
       - subcategory: "Adversarial & Robustness"
         content: |
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Models and algorithms designed to assist and respond to intentional adversarial attacks or perturbations, ensuring model reliability and resilience.
 
       - subcategory: "Multimodal"
         content: |
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Models that are designed to work with varied data from multiple domains such as language, vision, and speech.
 
       - subcategory: "3D"
         content: |
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Models that are designed to work with 3 dimensional data.
 
       - subcategory: "Quantum"
         content: |
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Quantum computing models use the principles of quantum mechanics to perform computations, enabling them to solve complex problems much faster than traditional classical computers by leveraging quantum bits (qubits) and superposition.
 
       - subcategory: "Reinforcement Learning"
         content: |
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Tools and frameworks to develop, train, and evaluate reinforcement learning models, facilitating the implementation of various algorithms to optimize agents' decision-making processes through trial and error interactions with their environment..
 
   - category: "Training"
     content: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      Tools, packages, and algorithms for enhancing a model's parameters using backpropagation and gradient descent, through iterative processes of feeding data into the model, calculating the loss, and updating weights to improve the model's performance on specific tasks.
 
     subcategories:
       - subcategory: "General"
         content: |
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          A variety of packages and algorithms that assist with various model training techniques.
 
       - subcategory: "Probabilistic & Optimization"
         content: |
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Statistical techniques and optimization algorithms that enhance model training by efficiently navigating complex parameter spaces and improving convergence to optimal solutions.
 
       - subcategory: "Privacy"
         content: |
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Packages and algorithms that incorporate privacy techniques to ensure that individual data points are protected and cannot be reverse-engineered from the trained models.
 
       - subcategory: "Continuous Learning"
         content: |
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Enables models to incrementally learn and adapt over time by integrating new data and experiences, while retaining previously acquired knowledge, to enhance performance and robustness in dynamic environments.
 
       - subcategory: "Federated Learning"
         content: |
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Supports training algorithms across multiple decentralized devices or servers, enabling each device to maintain its local data privacy while collaboratively improving the model.
 
       - subcategory: "Reinforcement Learning"
         content: |
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Training techniques that use reward-based feedback mechanisms to teach agents how to make optimal decisions by exploring and interacting with their environments, ultimately aiming to maximize cumulative rewards.
 
       - subcategory: "Graph"
         content: |
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Training methods utilizing graph-based data structures and algorithms to represent and process complex relationships and dependencies within data, enhancing the modeling of interconnected systems and networked information. 
 
       - subcategory: "Multimodal"
         content: |
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Methods and algorithms for integrating and processing diverse types of data, such as text, images, and audio, to create models that can understand and leverage information from multiple sources for enhanced performance and richer insights.
 
       - subcategory: "Self supervised"
         content: |
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Methods and packages that support processing large amounts of unlabeled data to automatically generate labels from the data itself, enabling the model to learn useful representations and features without requiring extensive human-annotated datasets.
 
       - subcategory: "Distributed"
         content: |
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Methods and packages that facilitate the parallel processing of data and computations across multiple devices or nodes, enabling efficient and scalable model training through coordinated collaboration and resource sharing.
 
       - subcategory: "Quantum"
         content: |
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Methods that leverage quantum algorithms and hardware to enhance model training by exploiting the principles of quantum mechanics, such as superposition and entanglement, for faster and more efficient computations..
 
   - category: "Optimizations"
     content: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      Algorithms and techniques to adjust a model's parameters in order to minimize the loss function and improve the model's performance on specific tasks.
 
     subcategories:
       - subcategory: "General"
         content: |
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Various techniques and strategies to enhance the efficiency and performance of model training and inference by reducing computational overhead and improving resource utilization.
 
       - subcategory: "Compilers & Runtimes"
         content: |
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Techniques to enhance the execution efficiency of code, such as faster computation and reduced memory usage, by leveraging advanced compiler strategies and runtime improvements.
 
       - subcategory: "MLOps"
         content: |
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Techniques for streamlining and automating machine learning workflows, including model training, deployment, and monitoring, to enhance efficiency, scalability, and collaboration.
 
       - subcategory: "Distributed"
         content: |
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Techniques and methods for coordinating the optimization process across multiple devices or nodes to improve efficiency and scalability in training large-scale models by parallelizing computations and leveraging distributed resources.
 

@@ -443,11 +443,11 @@ tags:
 #   details_url: <URL>   # Event details URL (required)
 #
 upcoming_event:
-  name: "CyberMonday 2024"
-  start: "2024-12-10"
-  end: "2024-12-17"
-  banner_url: "https://cncf.github.io/banners/events/cyberweek_2024_extension.png"
-  details_url: "https://training.linuxfoundation.org/cyber-monday-cncf-2024/?utm_campaign=24Q4_CyberMonday&utm_source=landscapecncf"
+  name: "KubeCon + CloudNativeCon Europe 2025"
+  start: "2025-04-01"
+  end: "2025-04-04"
+  banner_url: "https://cncf.github.io/banners/events/KubeCon-EU-2025.png"
+  details_url: "https://events.linuxfoundation.org/kubecon-cloudnativecon-europe/?utm_source=landscapecncf&utm_campaign=KubeCon-EU-2025"
 
 # View mode (optional)
 #

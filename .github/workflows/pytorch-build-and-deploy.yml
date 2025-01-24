@@ -11,5 +11,4 @@ jobs:
     with:
       foundation: pytorch
       repository: pytorch/landscape
-      repository_ref: cynthia-sg/landscape-setup
     secrets: inherit

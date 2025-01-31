@@ -10,5 +10,5 @@ jobs:
     uses: cncf/landscape2-sites/.github/workflows/build-and-deploy.yml@main
     with:
       foundation: pytorch
-      repository: pytorch/landscape
+      repository: pytorch-fdn/landscape
     secrets: inherit

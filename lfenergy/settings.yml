@@ -221,7 +221,12 @@ grid_items_size: small
 #       - <CATEGORY2_NAME>
 #
 groups:
-  - name: Projects and products
+  - name: LF Energy Projects
+    categories:
+      - Transmission
+      - Distribution
+      - Behind-the-Meter
+  - name: Energy-related open source project ecosystem
     categories:
       - Renewable Energy
       - Energy Storage
@@ -234,22 +239,13 @@ groups:
       - Natural Resources
       - Sustainable Development
       - Asset Management
-      - Acquisition and Control
       - Customer and Market
       - Shared
       - System Management
-      - Generation
-      - Transmission
-      - Distribution
-      - DER
-      - Customer Premises
-  - name: Members
+  - name: LF Energy Members
     categories:
       - LF Energy Member
-  - name: Software Stack
-    categories:
-      - Project Stack
-  - name: SIG
+  - name: LF Energy SIGs
     categories:
       - SIG
 

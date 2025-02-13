@@ -204,7 +204,7 @@ grid_items_size: large
 #
 header:
   links:
-    github: "https://github.com/cncf/landscape"
+    github: "https://github.com/Open3DFoundation/o3df-landscape"
   logo: "https://o3df.org/wp-content/uploads/sites/13/2023/03/O3DF-Logo.svg"
 
 # Images (optional)

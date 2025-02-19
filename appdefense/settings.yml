@@ -1,0 +1,33 @@
+foundation: App Defense Alliance
+url: https://landscape.appdefensealliance.org
+analytics:
+  gtm:
+    container_id: null
+colors:
+  color1: rgba(32, 145, 208, 1)
+  color2: rgba(5, 85, 182, 1)
+  color3: rgba(32, 145, 208, 1)
+  color4: rgba(32, 145, 208, 0.9)
+  color5: rgba(32, 145, 208, 0.85)
+  color6: rgba(52, 198, 243, 0.85)
+  color7: rgba(232, 244, 250, 1)
+footer:
+  links:
+    facebook: null
+    github: https://github.com/appdefensealliance
+    homepage: https://www.appdefensealliance.org/
+    instagram: null
+    linkedin: null
+    twitter: null
+    youtube: null
+  logo: https://aousd.org/wp-content/uploads/sites/28/2023/07/logo-vertical-white.svg
+  text: >
+    Copyright © App Defense Alliance. All rights reserved. App Defense Alliance is a [Joint Development Foundation Project](https://jointdevelopment.org/), an
+    affiliate of the [Linux Foundation](https://www.linuxfoundation.org/). [Privacy Policy](https://jointdevelopment.org/terms) and [Terms of
+    Use](https://jointdevelopment.org/terms).
+grid_items_size: large
+header:
+  links:
+    github: https://github.com/appdefensealliance/landscape
+  logo: https://aousd.org/wp-content/uploads/sites/28/2023/07/logo-horizontal-color.svg
+screenshot_width: 1500

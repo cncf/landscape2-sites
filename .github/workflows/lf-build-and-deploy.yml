@@ -1,8 +1,8 @@
 name: LF build and deploy
 
 on:
-  # schedule:
-  #   - cron: "0 5 * * *"
+  schedule:
+    - cron: "0 5 * * *"
   workflow_dispatch:
 
 jobs:

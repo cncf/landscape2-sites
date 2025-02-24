@@ -149,7 +149,7 @@ footer:
   links:
     github: https://github.com/appdefensealliance
     homepage: https://www.appdefensealliance.org/
-  logo: https://lh3.googleusercontent.com/xokJ6MJ28XbUc9Tl5s2iaoxgKZuTSMRtxPgp3UDPnwXNT9JxHB7EPpR3E5LUi4hBuPre7NAPvbcpBP_Pn3_2BeI=w16383
+  logo: https://raw.githubusercontent.com/cynthia-sg/appdefense/refs/heads/cynthia-sg/ada-logo/logos/ada-logo.png
   text: |
     Copyright © App Defense Alliance. All rights reserved. App Defense Alliance is a [Joint Development Foundation Project](https://jointdevelopment.org/), an
     affiliate of the [Linux Foundation](https://www.linuxfoundation.org/). [Privacy Policy](https://jointdevelopment.org/terms) and [Terms of
@@ -197,7 +197,7 @@ grid_items_size: large
 header:
   links:
     github: https://github.com/appdefensealliance/landscape
-  logo: https://lh3.googleusercontent.com/xokJ6MJ28XbUc9Tl5s2iaoxgKZuTSMRtxPgp3UDPnwXNT9JxHB7EPpR3E5LUi4hBuPre7NAPvbcpBP_Pn3_2BeI=w16383
+  logo: https://raw.githubusercontent.com/cynthia-sg/appdefense/refs/heads/cynthia-sg/ada-logo/logos/ada-logo.png
 
 # Images (optional)
 #
@@ -207,9 +207,6 @@ header:
 #   favicon: <FAVICON_URL>
 #   open_graph: <OPEN_GRAPH_IMAGE_URL>
 #
-images:
-  favicon: https://lh3.googleusercontent.com/xokJ6MJ28XbUc9Tl5s2iaoxgKZuTSMRtxPgp3UDPnwXNT9JxHB7EPpR3E5LUi4hBuPre7NAPvbcpBP_Pn3_2BeI=w16383
-  open_graph: https://lh3.googleusercontent.com/xokJ6MJ28XbUc9Tl5s2iaoxgKZuTSMRtxPgp3UDPnwXNT9JxHB7EPpR3E5LUi4hBuPre7NAPvbcpBP_Pn3_2BeI=w16383
 
 # Logos viewbox (optional)
 #

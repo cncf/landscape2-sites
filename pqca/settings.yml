@@ -65,7 +65,7 @@ url: https://landscape.pqca.org
 #       - <SUBCATEGORY2_NAME>
 #
 categories:
-  - name: Members
+  - name: PQCA Members
     subcategories:
       - Premier
       - General
@@ -245,7 +245,7 @@ images:
 #
 # members_category: <CATEGORY_NAME>
 #
-members_category: Members
+members_category: PQCA Members
 
 # Osano (optional)
 #

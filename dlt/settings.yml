@@ -171,10 +171,10 @@ featured_items:
 #
 footer:
   links:
-    homepage: "https://hyperledger.org"
-    linkedin: "https://www.linkedin.com/company/hyperledger-project"
-    twitter: "https://twitter.com/Hyperledger"
-    youtube: "https://www.youtube.com/c/Hyperledger"
+    homepage: "https://lfdecentralizedtrust.org"
+    linkedin: "https://www.linkedin.com/company/lfdecentralizedtrust"
+    twitter: "https://x.com/lfdecentralized"
+    youtube: "https://www.youtube.com/@lfdecentralizedtrust"
   text: |
     Copyright © 2024 The Linux Foundation®. All rights reserved. The Linux Foundation has registered trademarks and uses trademarks. For a list of trademarks of The Linux Foundation, please see our [Trademark Usage page](https://www.linuxfoundation.org/trademark-usage). Linux is a registered trademark of Linus Torvalds. [Privacy Policy](https://www.linuxfoundation.org/privacy) and [Terms of Use](https://www.linuxfoundation.org/terms). This website contains data received from Crunchbase. This data is not licensed pursuant to the Apache License. It is subject to Crunchbase's Data Access Terms, available at <https://data.crunchbase.com/docs/terms>, and is only permitted to be used with Linux Foundation landscape projects.
 

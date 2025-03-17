@@ -1,0 +1,14 @@
+name: LFEdge build and deploy
+
+on:
+  schedule:
+    - cron: "30 2 * * *"
+  workflow_dispatch:
+
+jobs:
+  build-landscape:
+    uses: cncf/landscape2-sites/.github/workflows/build-and-deploy.yml@main
+    with:
+      foundation: lfedge
+      repository: State-of-the-Edge/lfedge-landscape
+    secrets: inherit

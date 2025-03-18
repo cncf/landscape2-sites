@@ -201,6 +201,9 @@ groups:
       - Modeling
       - Training
       - Optimizations
+  - name: Members
+    categories:
+      - PyTorch Members
 
 # Header (optional)
 #

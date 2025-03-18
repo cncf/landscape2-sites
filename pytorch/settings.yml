@@ -58,12 +58,12 @@ url: https://pytorch.landscape2.io
 #   - Card mode: items in excluded subcategories won't be displayed when
 #     filtering by group or classifying by category
 #
-# categories:
-#   - name: <CATEGORY_NAME>
-#     subcategories:
-#       - <SUBCATEGORY1_NAME>
-#       - <SUBCATEGORY2_NAME>
-#
+categories:
+  - name: PyTorch Members
+    subcategories:
+      - Premier
+      - General
+      - Associate
 
 # Colors (optional)
 #

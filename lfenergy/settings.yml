@@ -226,6 +226,7 @@ groups:
       - Transmission
       - Distribution
       - Behind-the-Meter
+      - Other
   - name: Energy-related open source project ecosystem
     categories:
       - Renewable Energy

@@ -1,0 +1,14 @@
+name: FINOS build and deploy
+
+on:
+  schedule:
+    - cron: "30 3 * * *"
+  workflow_dispatch:
+
+jobs:
+  build-landscape:
+    uses: cncf/landscape2-sites/.github/workflows/build-and-deploy.yml@main
+    with:
+      foundation: finos
+      repository: finos/finos-landscape
+    secrets: inherit

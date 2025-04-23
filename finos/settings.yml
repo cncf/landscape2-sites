@@ -127,11 +127,14 @@ colors:
 featured_items:
   - field: maturity
     options:
-      - value: incubating
+      - value: active
         order: 1
+        label: Active
+      - value: incubating
+        order: 2
         label: Incubating
       - value: sig
-        order: 2
+        order: 3
         label: SIG
 
 # Footer (optional)

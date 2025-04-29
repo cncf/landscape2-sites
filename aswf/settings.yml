@@ -135,16 +135,19 @@ featured_items:
     options:
       - value: graduated
         order: 1
-        label: ASWF Adopted
+        label: Adopted
       - value: incubating
         order: 2
-        label: ASWF Incubation
+        label: Incubation
       - value: sandbox
         order: 3
-        label: ASWF Sandbox
+        label: Sandbox
       - value: working-group
         order: 4
-        label: ASWF Working Group
+        label: Working Group
+      - value: long-term-working-group
+        order: 5
+        label: Long Term Working Group
   - field: subcategory
     options:
       - value: Premier

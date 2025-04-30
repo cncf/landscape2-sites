@@ -233,8 +233,8 @@ header:
 # but it is important that we define it here as there are some special
 # operations that depend on it.
 #
-# members_category: <CATEGORY_NAME>
-#
+ members_category: AOUSD Members
+
 
 # Osano (optional)
 #

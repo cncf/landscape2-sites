@@ -1,4 +1,4 @@
-# yaml-language-server: $schema=https://raw.githubusercontent.com/cncf/landscape2/refs/heads/main/docs/config/schema/settings.schema.json
+# yaml-language-server: $schema=https://cncf.github.io/landscape2/config/schema/settings.schema.json
 
 # Landscape2 settings
 #
@@ -205,7 +205,7 @@ grid_items_size: large
 header:
   links:
     github: "https://github.com/Open3DFoundation/o3df-landscape"
-  logo: "https://o3df.org/wp-content/uploads/sites/13/2023/03/O3DF-Logo.svg"
+  logo: "https://cncf.github.io/landscape2-sites/o3df/logo_header.svg"
 
 # Images (optional)
 #
@@ -216,8 +216,8 @@ header:
 #   open_graph: <OPEN_GRAPH_IMAGE_URL>
 #
 images:
-  favicon: "https://o3df.org/wp-content/uploads/sites/13/2022/10/O3DF-favicon.png"
-  open_graph: "https://o3df.org/wp-content/uploads/sites/13/2022/10/O3DF-favicon.png"
+  favicon: "https://cncf.github.io/landscape2-sites/o3df/favicon.png"
+  open_graph: "https://cncf.github.io/landscape2-sites/o3df/favicon.png"
 
 # Logos viewbox (optional)
 #

@@ -1,4 +1,4 @@
-# yaml-language-server: $schema=https://raw.githubusercontent.com/cncf/landscape2/refs/heads/main/docs/config/schema/guide.schema.json
+# yaml-language-server: $schema=https://cncf.github.io/landscape2/config/schema/guide.schema.json
 
 categories:
   - category: "Modeling"
@@ -73,7 +73,7 @@ categories:
 
       - subcategory: "Graph"
         content: |
-          Training methods utilizing graph-based data structures and algorithms to represent and process complex relationships and dependencies within data, enhancing the modeling of interconnected systems and networked information. 
+          Training methods utilizing graph-based data structures and algorithms to represent and process complex relationships and dependencies within data, enhancing the modeling of interconnected systems and networked information.
 
       - subcategory: "Multimodal"
         content: |

@@ -1,4 +1,4 @@
-# yaml-language-server: $schema=https://raw.githubusercontent.com/cncf/landscape2/refs/heads/main/docs/config/schema/settings.schema.json
+# yaml-language-server: $schema=https://cncf.github.io/landscape2/config/schema/settings.schema.json
 
 # Landscape2 settings
 #
@@ -165,7 +165,7 @@ footer:
     slack: http://slack.confidentialcomputing.io
     twitter: https://twitter.com/confidentialc2
     youtube: https://www.youtube.com/@confidentialcomputingconso5871
-  logo: "http://confidentialcomputing.io/wp-content/uploads/sites/10/2022/07/Logo_White.svg"
+  logo: "https://cncf.github.io/landscape2-sites/ccc/logo_footer.svg"
 
 # Grid items size (optional)
 #
@@ -209,7 +209,7 @@ grid_items_size: large
 header:
   links:
     github: "https://github.com/confidential-computing/landscape"
-  logo: "https://confidentialcomputing.io/wp-content/uploads/sites/10/2022/07/cc_consortium-color.svg"
+  logo: "https://cncf.github.io/landscape2-sites/ccc/logo_header.svg"
 
 # Images (optional)
 #

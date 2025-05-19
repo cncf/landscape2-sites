@@ -1,4 +1,4 @@
-# yaml-language-server: $schema=https://raw.githubusercontent.com/cncf/landscape2/refs/heads/main/docs/config/schema/settings.schema.json
+# yaml-language-server: $schema=https://cncf.github.io/landscape2/config/schema/settings.schema.json
 
 # Landscape2 settings
 #
@@ -150,7 +150,7 @@ footer:
     homepage: "https://spdx.org"
     github: "https://github.com/spdx"
     twitter: "https://twitter.com/SPDXTeam"
-  logo: "https://spdx.dev/wp-content/uploads/sites/31/2023/08/logo-white.svg"
+  logo: "https://cncf.github.io/landscape2-sites/spdx/logo_footer.svg"
   text: |
     Copyright © 2024 The Linux Foundation®. All rights reserved. The Linux Foundation has registered trademarks and uses trademarks. For a list of trademarks of The Linux Foundation, please see our [Trademark Usage page](https://www.linuxfoundation.org/trademark-usage). Linux is a registered trademark of Linus Torvalds. [Privacy Policy](https://www.linuxfoundation.org/privacy) and [Terms of Use](https://www.linuxfoundation.org/terms). This website contains data received from Crunchbase. This data is not licensed pursuant to the Apache License. It is subject to Crunchbase's Data Access Terms, available at <https://data.crunchbase.com/docs/terms>, and is only permitted to be used with Linux Foundation landscape projects.
 
@@ -196,7 +196,7 @@ grid_items_size: large
 header:
   links:
     github: "https://github.com/spdx/sbom-landscape"
-  logo: "https://raw.githubusercontent.com/spdx/sbom-landscape/1f5537571ee3acf6a17fe339cab3615073f1bf39/images/left-logo.svg"
+  logo: "https://cncf.github.io/landscape2-sites/spdx/logo_header.svg"
 
 # Images (optional)
 #
@@ -207,8 +207,8 @@ header:
 #   open_graph: <OPEN_GRAPH_IMAGE_URL>
 #
 images:
-  favicon: "https://spdx.dev/wp-content/uploads/sites/31/2023/08/favicon-150x150.png"
-  open_graph: "https://spdx.dev/wp-content/uploads/sites/31/2023/08/favicon.png"
+  favicon: "https://cncf.github.io/landscape2-sites/spdx/favicon.png"
+  open_graph: "https://cncf.github.io/landscape2-sites/spdx/open_graph.png"
 
 # Logos viewbox (optional)
 #

@@ -148,6 +148,7 @@ featured_items:
     options:
       - value: Premier
       - value: Hyperledger Fabric CSPs
+      - value: Besu CSPs
 
 # Footer (optional)
 #

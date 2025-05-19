@@ -1,4 +1,4 @@
-# yaml-language-server: $schema=https://raw.githubusercontent.com/cncf/landscape2/refs/heads/main/docs/config/schema/settings.schema.json
+# yaml-language-server: $schema=https://cncf.github.io/landscape2/config/schema/settings.schema.json
 
 # Landscape2 settings
 #
@@ -187,7 +187,7 @@ footer:
     slack: "https://slack.lfenergy.org"
     twitter: "https://twitter.com/LFE_Foundation"
     youtube: "https://www.youtube.com/channel/UCW2V5Sj6cme8na9BkTqfoJA"
-  logo: "https://raw.githubusercontent.com/lf-energy/artwork/main/other/lf-energy/horizontal/white/lf-energy-horizontal-white.svg"
+  logo: "https://cncf.github.io/landscape2-sites/lfenergy/logo_footer.svg"
   text: |
     Copyright © The Linux Foundation®. All rights reserved. The Linux Foundation has registered trademarks and uses trademarks. For a list of trademarks of The Linux Foundation, please see our [Trademark Usage page](https://www.linuxfoundation.org/trademark-usage). Linux is a registered trademark of Linus Torvalds. [Privacy Policy](https://www.linuxfoundation.org/privacy) and [Terms of Use](https://www.linuxfoundation.org/terms). This website contains data received from Crunchbase. This data is not licensed pursuant to the Apache License. It is subject to Crunchbase's Data Access Terms, available at <https://data.crunchbase.com/docs/terms>, and is only permitted to be used with Linux Foundation landscape projects.
 
@@ -262,7 +262,7 @@ groups:
 header:
   links:
     github: "https://github.com/lf-energy/lfenergy-landscape"
-  logo: "https://raw.githubusercontent.com/lf-energy/lfenergy-landscape/main/images/left-logo.svg"
+  logo: "https://cncf.github.io/landscape2-sites/lfenergy/logo_header.svg"
 
 # Images (optional)
 #
@@ -273,8 +273,8 @@ header:
 #   open_graph: <OPEN_GRAPH_IMAGE_URL>
 #
 images:
-  favicon: "https://raw.githubusercontent.com/lf-energy/lfenergy-landscape/main/images/favicon.png"
-  open_graph: "https://raw.githubusercontent.com/lf-energy/lfenergy-landscape/main/images/favicon.png"
+  favicon: "https://cncf.github.io/landscape2-sites/lfenergy/favicon.png"
+  open_graph: "https://cncf.github.io/landscape2-sites/lfenergy/favicon.png"
 
 # Logos viewbox (optional)
 #

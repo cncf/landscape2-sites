@@ -1,4 +1,4 @@
-# yaml-language-server: $schema=https://raw.githubusercontent.com/cncf/landscape2/refs/heads/main/docs/config/schema/settings.schema.json
+# yaml-language-server: $schema=https://cncf.github.io/landscape2/config/schema/settings.schema.json
 
 # Landscape2 settings
 #
@@ -195,7 +195,7 @@ grid_items_size: large
 header:
   links:
     github: "https://github.com/camaraproject/camara-landscape"
-  logo: "https://camaraproject.org/wp-content/uploads/sites/12/2022/09/camara-logo-1.png"
+  logo: "https://cncf.github.io/landscape2-sites/camara/logo_header.png"
 
 # Images (optional)
 #
@@ -206,8 +206,8 @@ header:
 #   open_graph: <OPEN_GRAPH_IMAGE_URL>
 #
 images:
-  favicon: "https://camaraproject.org/wp-content/uploads/sites/12/2022/10/network-iconpng.png"
-  open_graph: "https://camaraproject.org/wp-content/uploads/sites/12/2022/09/camara-logo-1.png"
+  favicon: "https://cncf.github.io/landscape2-sites/camara/favicon.png"
+  open_graph: "https://cncf.github.io/landscape2-sites/camara/open_graph.png"
 
 # Logos viewbox (optional)
 #

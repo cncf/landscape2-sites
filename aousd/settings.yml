@@ -1,4 +1,4 @@
-# yaml-language-server: $schema=https://raw.githubusercontent.com/cncf/landscape2/refs/heads/main/docs/config/schema/settings.schema.json
+# yaml-language-server: $schema=https://cncf.github.io/landscape2/config/schema/settings.schema.json
 
 # Landscape2 settings
 #
@@ -153,7 +153,7 @@ footer:
     linkedin: https://www.linkedin.com/company/allianceopenusd/
     twitter: https://twitter.com/allianceopenusd
     youtube: https://www.youtube.com/@AllianceOpenUSD
-  logo: https://aousd.org/wp-content/uploads/sites/28/2023/07/logo-vertical-white.svg
+  logo: "https://cncf.github.io/landscape2-sites/aousd/logo_footer.svg"
   text: |
     Copyright © Alliance for OpenUSD. All rights reserved. Alliance for OpenUSD is a [Joint Development Foundation Project](https://jointdevelopment.org/), an affiliate of the [Linux Foundation](https://www.linuxfoundation.org/). [Privacy Policy](https://jointdevelopment.org/terms) and [Terms of Use](https://jointdevelopment.org/terms).
 
@@ -199,7 +199,7 @@ grid_items_size: large
 header:
   links:
     github: https://github.com/aousd/landscape
-  logo: https://aousd.org/wp-content/uploads/sites/28/2023/07/logo-horizontal-color.svg
+  logo: "https://cncf.github.io/landscape2-sites/aousd/logo_header.svg"
 
 # Images (optional)
 #

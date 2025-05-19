@@ -1,4 +1,4 @@
-# yaml-language-server: $schema=https://raw.githubusercontent.com/cncf/landscape2/refs/heads/main/docs/config/schema/settings.schema.json
+# yaml-language-server: $schema=https://cncf.github.io/landscape2/config/schema/settings.schema.json
 
 # Landscape2 settings
 #
@@ -230,7 +230,7 @@ groups:
 header:
   links:
     github: "https://github.com/dltlandscape/dlt-landscape"
-  logo: "https://raw.githubusercontent.com/hyperledger-dlt-landscape/hyperledger-dlt-landscape/refs/heads/main/images/lf_decentralized_trust_landscape.svg"
+  logo: "https://cncf.github.io/landscape2-sites/dlt/logo_header.svg"
 
 # Images (optional)
 #
@@ -241,8 +241,8 @@ header:
 #   open_graph: <OPEN_GRAPH_IMAGE_URL>
 #
 images:
-  favicon: "https://www.hyperledger.org/hubfs/hyperledgerfavicon.png"
-  open_graph: "https://www.hyperledger.org/hubfs/Hyperledger%20Foundation%20new%20look.jpeg#keepProtocol"
+  favicon: "https://cncf.github.io/landscape2-sites/dlt/favicon.png"
+  open_graph: "https://cncf.github.io/landscape2-sites/dlt/open_graph.jpeg"
 
 # Logos viewbox (optional)
 #

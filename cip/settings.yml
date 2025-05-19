@@ -1,4 +1,4 @@
-# yaml-language-server: $schema=https://raw.githubusercontent.com/cncf/landscape2/refs/heads/main/docs/config/schema/settings.schema.json
+# yaml-language-server: $schema=https://cncf.github.io/landscape2/config/schema/settings.schema.json
 
 # Landscape2 settings
 #
@@ -150,7 +150,7 @@ footer:
     homepage: https://cip-project.org
     linkedin: https://www.linkedin.com/company/civil-infrastructure-platform/
     twitter: https://twitter.com/cip_project
-  logo: https://www.cip-project.org/wp-content/uploads/sites/17/2024/07/civil-infrastructure-platform_cip_logo_white-horizontal.svg
+  logo: "https://cncf.github.io/landscape2-sites/cip/logo_footer.svg"
   text: |
     Copyright © Civil Infrastructure Platform is a Linux Foundation Project. All Rights Reserved. Linux Foundation is a registered [trademark](https://www.linuxfoundation.org/programs/legal/trademark)</a> of The Linux Foundation. Linux is a registered trademark of Linus Torvalds. Please see our [privacy policy](https://www.linuxfoundation.org/privacy) and [terms of use](https://www.linuxfoundation.org/terms).
 
@@ -196,7 +196,7 @@ grid_items_size: large
 header:
   links:
     github: https://github.com/cip-project/landscape
-  logo: https://www.cip-project.org/wp-content/uploads/sites/17/2024/07/civil-infrastructure-platform_cip_logo_color-horizontal.svg
+  logo: "https://cncf.github.io/landscape2-sites/cip/logo_header.svg"
 
 # Images (optional)
 #
@@ -207,8 +207,8 @@ header:
 #   open_graph: <OPEN_GRAPH_IMAGE_URL>
 #
 images:
-  favicon: https://www.cip-project.org/wp-content/uploads/sites/17/2021/02/cropped-CIP-logo-web-icon-150x150.png
-  open_graph: https://www.cip-project.org/wp-content/uploads/sites/17/2021/02/cropped-CIP-logo-web-icon-200x200.png
+  favicon: "https://cncf.github.io/landscape2-sites/cip/favicon.png"
+  open_graph: "https://cncf.github.io/landscape2-sites/cip/open_graph.png"
 
 # Logos viewbox (optional)
 #

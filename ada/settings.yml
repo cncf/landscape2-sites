@@ -1,4 +1,4 @@
-# yaml-language-server: $schema=https://raw.githubusercontent.com/cncf/landscape2/refs/heads/main/docs/config/schema/settings.schema.json
+# yaml-language-server: $schema=https://cncf.github.io/landscape2/config/schema/settings.schema.json
 
 # Landscape2 settings
 #
@@ -149,7 +149,7 @@ footer:
   links:
     github: https://github.com/appdefensealliance
     homepage: https://www.appdefensealliance.org/
-  logo: https://raw.githubusercontent.com/cynthia-sg/appdefense/refs/heads/cynthia-sg/ada-logo/logos/ada-logo.png
+  logo: "https://cncf.github.io/landscape2-sites/ada/logo_footer.png"
   text: |
     Copyright © App Defense Alliance. All rights reserved. App Defense Alliance is a [Joint Development Foundation Project](https://jointdevelopment.org/), an
     affiliate of the [Linux Foundation](https://www.linuxfoundation.org/). [Privacy Policy](https://jointdevelopment.org/terms) and [Terms of
@@ -197,7 +197,7 @@ grid_items_size: large
 header:
   links:
     github: https://github.com/appdefensealliance/landscape
-  logo: https://raw.githubusercontent.com/cynthia-sg/appdefense/refs/heads/cynthia-sg/ada-logo/logos/ada-logo.png
+  logo: "https://cncf.github.io/landscape2-sites/ada/logo_header.png"
 
 # Images (optional)
 #

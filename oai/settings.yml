@@ -1,4 +1,4 @@
-# yaml-language-server: $schema=https://raw.githubusercontent.com/cncf/landscape2/refs/heads/main/docs/config/schema/settings.schema.json
+# yaml-language-server: $schema=https://cncf.github.io/landscape2/config/schema/settings.schema.json
 
 # Landscape2 settings
 #
@@ -158,7 +158,7 @@ footer:
     slack: https://slack.openapis.org/
     twitter: https://twitter.com/OpenApiSpec
     youtube: https://www.youtube.com/@OpenApi
-  logo: https://raw.githubusercontent.com/OAI/landscape/refs/heads/main/img/OpenAPI_Logo_White.svg
+  logo: "https://cncf.github.io/landscape2-sites/oai/logo_footer.svg"
   text: |
     Copyright © 2024 The Linux Foundation®. All rights reserved. The Linux Foundation has registered trademarks and uses trademarks. For a list of trademarks of The Linux Foundation, please see our [Trademark Usage page](https://www.linuxfoundation.org/trademark-usage). Linux is a registered trademark of Linus Torvalds. [Privacy Policy](https://www.linuxfoundation.org/privacy) and [Terms of Use](https://www.linuxfoundation.org/terms). This website contains data received from Crunchbase. This data is not licensed pursuant to the Apache License. It is subject to Crunchbase's Data Access Terms, available at <https://data.crunchbase.com/docs/terms>, and is only permitted to be used with Linux Foundation landscape projects.
 
@@ -204,7 +204,7 @@ grid_items_size: large
 header:
   links:
     github: https://github.com/OAI/landscape
-  logo: "https://raw.githubusercontent.com/OAI/landscape/refs/heads/main/img/OpenAPI_Logo_Pantone.svg"
+  logo: "https://cncf.github.io/landscape2-sites/oai/logo_header.svg"
 
 # Images (optional)
 #
@@ -215,8 +215,8 @@ header:
 #   open_graph: <OPEN_GRAPH_IMAGE_URL>
 #
 images:
-  favicon: "https://www.openapis.org/wp-content/uploads/sites/3/2016/11/favicon.png"
-  open_graph: "https://www.openapis.org/wp-content/uploads/sites/3/2019/06/favicon-300x300.png"
+  favicon: "https://cncf.github.io/landscape2-sites/oai/favicon.png"
+  open_graph: "https://cncf.github.io/landscape2-sites/oai/open_graph.png"
 
 # Logos viewbox (optional)
 #

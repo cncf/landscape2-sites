@@ -230,7 +230,7 @@ groups:
 #
 header:
   links:
-    github: "https://github.com/dltlandscape/dlt-landscape"
+    github: "https://github.com/hyperledger-dlt-landscape/hyperledger-dlt-landscape"
   logo: "https://cncf.github.io/landscape2-sites/dlt/logo_header.svg"
 
 # Images (optional)

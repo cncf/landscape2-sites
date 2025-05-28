@@ -127,9 +127,9 @@ colors:
 featured_items:
   - field: maturity
     options:
-      - value: graduated
+      - value: foundation
         order: 1
-        label: Graduated
+        label: Foundation
 
 # Footer (optional)
 #

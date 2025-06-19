@@ -443,11 +443,11 @@ tags:
 #   details_url: <URL>   # Event details URL (required)
 #
 upcoming_event:
-  name: "KubeCon CloudNativeCon Asia 2025"
-  start: "2025-06-10"
-  end: "2025-06-17"
-  banner_url: "https://cncf.github.io/banners/events/KC-Asia-2025-slim.jpg"
-  details_url: "https://events.linuxfoundation.org/?_sft_lfevent-category=kubecon-cloudnativecon-cncf-events&_sft_lfevent-country=asia-pacific&utm_source=landscapecncf"
+  name: "KubeCon CloudNativeCon India 2025"
+  start: "2025-08-06"
+  end: "2025-08-07"
+  banner_url: "https://cncf.github.io/banners/events/KC-CNC-India-25-2275x281.jpg"
+  details_url: "https://events.linuxfoundation.org/kubecon-cloudnativecon-india/?_sft_lfevent-category=kubecon-cloudnativecon-cncf-events&_sft_lfevent-country=india&utm_source=landscapecncf"
 
 # View mode (optional)
 #

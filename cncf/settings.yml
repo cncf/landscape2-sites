@@ -373,62 +373,6 @@ screenshot_width: 3000
 #   <TAG2>:
 #     - category: <CATEGORY2>
 #
-tags:
-  app-delivery:
-    - category: "App Definition and Development"
-    - category: "Wasm"
-      subcategories:
-        - "Packaging, Registries & Application Delivery"
-  contributor-strategy: []
-  environmental-sustainability: []
-  network:
-    - category: "Orchestration & Management"
-      subcategories:
-        - "API Gateway"
-        - "Remote Procedure Call"
-        - "Service Mesh"
-        - "Service Proxy"
-    - category: "Runtime"
-      subcategories:
-        - "Cloud Native Network"
-  observability:
-    - category: "Observability and Analysis"
-    - category: "Wasm"
-      subcategories:
-        - "Debugging & Observability"
-  runtime:
-    - category: "Orchestration & Management"
-      subcategories:
-        - "Coordination & Service Discovery"
-        - "Scheduling & Orchestration"
-    - category: "Provisioning"
-      subcategories:
-        - "Automation & Configuration"
-        - "Container Registry"
-    - category: "Runtime"
-      subcategories:
-        - "Container Runtime"
-    - category: "Serverless"
-      subcategories:
-        - "Hosted Platform"
-        - "Installable Platform"
-    - category: "Wasm"
-      subcategories:
-        - "Edge/Bare metal"
-        - "Orchestration & Management"
-        - "Runtimes"
-  security:
-    - category: "Provisioning"
-      subcategories:
-        - "Key Management"
-        - "Security & Compliance"
-    - category: "Serverless"
-      subcategories:
-        - "Security"
-  storage:
-    - category: "Runtime"
-      subcategories:
-        - "Cloud Native Storage"
 
 # Upcoming event (optional)
 #

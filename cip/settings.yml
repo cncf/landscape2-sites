@@ -195,7 +195,7 @@ grid_items_size: large
 #
 header:
   links:
-    github: https://github.com/cip-project/landscape
+    github: https://github.com/civil-infrastructure-platform/cip-landscape
   logo: "https://cncf.github.io/landscape2-sites/cip/logo_header.svg"
 
 # Images (optional)

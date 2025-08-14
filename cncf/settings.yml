@@ -387,11 +387,11 @@ screenshot_width: 3000
 #   details_url: <URL>   # Event details URL (required)
 #
 upcoming_event:
-  name: "KubeCon CloudNativeCon India 2025"
-  start: "2025-08-06"
-  end: "2025-08-07"
-  banner_url: "https://cncf.github.io/banners/events/KC-CNC-India-25-2275x281.jpg"
-  details_url: "https://events.linuxfoundation.org/kubecon-cloudnativecon-india/?_sft_lfevent-category=kubecon-cloudnativecon-cncf-events&_sft_lfevent-country=india&utm_source=landscapecncf"
+  name: "KubeCon CloudNativeCon North America 2025"
+  start: "2025-11-10"
+  end: "2025-11-13"
+  banner_url: "https://cncf.github.io/banners/events/Kubecon-NA-2025-2184x270.png"
+  details_url: "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/?_sft_lfevent-category=kubecon-cloudnativecon-cncf-events&_sft_lfevent-country=north-america&utm_source=landscapecncf"
 
 # View mode (optional)
 #

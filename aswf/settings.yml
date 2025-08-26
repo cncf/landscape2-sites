@@ -135,7 +135,7 @@ featured_items:
     options:
       - value: graduated
         order: 1
-        label: Adopted
+        label: Graduated
       - value: incubating
         order: 2
         label: Incubation

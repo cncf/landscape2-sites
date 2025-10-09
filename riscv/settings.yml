@@ -67,9 +67,10 @@ url: https://riscv.landscape2.io
 categories:
   - name: RISC-V Members
     subcategories:
-      - Premier
+      - Premier Board
       - Premier TSC
       - Strategic
+      - Strategic Start-up
       - Community
 
 # Colors (optional)
@@ -274,7 +275,6 @@ logos_viewbox:
 #
 members_category: RISC-V Members
 
-
 # Osano (optional)
 #
 # Osano cookies consent form configuration. When the Osano configuration is
@@ -299,7 +299,6 @@ members_category: RISC-V Members
 # screenshot_width: <WIDTH_IN_PIXELS>
 #
 screenshot_width: 1500
-
 # Upcoming event (optional)
 #
 # This section allows configuring an upcoming event that will be featured on

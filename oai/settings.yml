@@ -93,6 +93,7 @@ colors:
   color5: rgba(94, 93, 95, 1)
   color6: rgba(87, 128, 0, 1)
   color7: rgba(252, 255, 246, 1)
+
 # Description (optional)
 #
 # Text describing the landscape. Aim for ~150 characters so search engines may

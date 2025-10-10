@@ -89,6 +89,14 @@ colors:
   color6: "rgba(65, 65, 65, 1)"
   color7: "rgba(254, 245, 244, 1)"
 
+# Description (optional)
+#
+# Text describing the landscape. Aim for ~150 characters so search engines may
+# use this content as the site's description in results pages.
+#
+# description: <LANDSCAPE_DESCRIPTION>
+#
+
 # End user (optional)
 #
 # This section allows defining what items should be marked as `end user` based
@@ -213,11 +221,19 @@ groups:
 #   links:
 #     github: <GITHUB_URL>
 #   logo: <LOGO_URL>  # Foundation logo featured on the header
+#   motd: <MOTD_TEXT>  # Message of the day displayed at the top of the header (supports markdown)
 #
 header:
   links:
     github: "https://github.com/pytorch-fdn/landscape"
   logo: "https://cncf.github.io/landscape2-sites/pytorch/logo_header.svg"
+
+# Hide organization section in projects (optional)
+#
+# When set to true, the organization section won't be displayed in the item
+# modal for project items.
+#
+# hide_organization_section_in_projects: false
 
 # Images (optional)
 #

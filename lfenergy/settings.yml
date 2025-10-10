@@ -283,7 +283,7 @@ header:
 # When set to true, the organization section won't be displayed in the item
 # modal for project items.
 #
-# hide_organization_section_in_projects: false
+hide_organization_section_in_projects: true
 
 # Images (optional)
 #

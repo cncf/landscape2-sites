@@ -274,10 +274,7 @@ header:
   logo: "https://cncf.github.io/landscape2-sites/lfenergy/logo_header.svg"
   motd: |
     The LF Energy Interactive Landscape is a tool for exploring the open source ecosystem in the energy
-    industry.
-    
-    - [Click here](https://github.com/lf-energy/lfenergy-landscape/issues/new?template=new-landscape-entry.yml) to add a new entry to the landscape
-    - [Click here](https://github.com/lf-energy/lfenergy-landscape/issues/new?template=update-landscape-entry.yml) to update an existing landscape entry
+    industry. [Click here](https://github.com/lf-energy/lfenergy-landscape/issues/new?template=new-landscape-entry.yml) to add a new entry to the landscape, or [click here](https://github.com/lf-energy/lfenergy-landscape/issues/new?template=update-landscape-entry.yml) to update an existing landscape entry
     
     We want to thank [Open Sustainable Technology](https://opensustain.tech/) for its work in curating the list of many of the projects in this landscape.
 

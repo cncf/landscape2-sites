@@ -67,9 +67,10 @@ url: https://riscv.landscape2.io
 categories:
   - name: RISC-V Members
     subcategories:
-      - Premier
+      - Premier Board
       - Premier TSC
       - Strategic
+      - Strategic Start-Up
       - Community
 
 # Colors (optional)

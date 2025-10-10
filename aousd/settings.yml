@@ -87,6 +87,13 @@ colors:
   color5: rgba(32, 145, 208, 0.85)
   color6: rgba(52, 198, 243, 0.85)
   color7: rgba(232, 244, 250, 1)
+# Description (optional)
+#
+# Text describing the landscape. Aim for ~150 characters so search engines may
+# use this content as the site's description in results pages.
+#
+# description: <LANDSCAPE_DESCRIPTION>
+#
 
 # End user (optional)
 #
@@ -195,6 +202,7 @@ grid_items_size: large
 #   links:
 #     github: <GITHUB_URL>
 #   logo: <LOGO_URL>  # Foundation logo featured on the header
+#   motd: <MOTD_TEXT>  # Message of the day displayed at the top of the header (supports markdown)
 #
 header:
   links:

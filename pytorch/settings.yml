@@ -227,6 +227,8 @@ header:
   links:
     github: "https://github.com/pytorch-fdn/landscape"
   logo: "https://cncf.github.io/landscape2-sites/pytorch/logo_header.svg"
+  motd: |
+    **Submit to the Ecosystem:** [Start here →](https://github.com/pytorch-fdn/foundation-hosted)
 
 # Hide organization section in projects (optional)
 #

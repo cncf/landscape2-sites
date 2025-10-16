@@ -113,6 +113,7 @@ colors:
 #
 # description: <LANDSCAPE_DESCRIPTION>
 #
+description: The CNCF Cloud Native Landscape is intended as a map through the previously uncharted terrain of Cloud Native technologies. It attempts to categorize projects and products in the Cloud Native space.
 
 # End user (optional)
 #

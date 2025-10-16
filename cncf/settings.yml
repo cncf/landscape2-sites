@@ -230,12 +230,14 @@ grid_items_size: small
 #
 # groups:
 #   - name: <GROUP_NAME>
+#     alias: <GROUP_ALIAS>  # Optional alias enabling cleaner URLs (e.g. /projects)
 #     categories:
 #       - <CATEGORY1_NAME>
 #       - <CATEGORY2_NAME>
 #
 groups:
   - name: Projects and products
+    alias: projects
     categories:
       - App Definition and Development
       - Orchestration & Management
@@ -243,19 +245,24 @@ groups:
       - Provisioning
       - Observability and Analysis
   - name: Members
+    alias: members
     categories:
       - CNCF Members
   - name: Certified partners and providers
+    alias: partners
     categories:
       - Platform
       - Special
   - name: Serverless
+    alias: serverless
     categories:
       - Serverless
   - name: Wasm
+    alias: wasm
     categories:
       - Wasm
   - name: CNAI
+    alias: ai
     categories:
       - CNAI
 

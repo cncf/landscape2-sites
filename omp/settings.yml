@@ -256,6 +256,8 @@ header:
 # When set to true, the organization section won't be displayed in the item
 # modal for project items.
 #
+# hide_organization_section_in_projects: false
+#
 hide_organization_section_in_projects: true
 
 # Images (optional)
@@ -321,34 +323,6 @@ members_category: Open Mainframe Project Member Company
 # screenshot_width: <WIDTH_IN_PIXELS>
 #
 screenshot_width: 1500
-
-# TAGs (optional)
-#
-# Projects items can specify which TAG owns them in the `landscape.yml` file
-# (by using the `tag` field in the `extra` item's section). However, sometimes
-# this information is not available at the item level. This configuration
-# section provides a mechanism to automatically assign a TAG to projects items
-# based on the categories and subcategories they belong to.
-#
-# For example, we can define that all projects in the category <CATEGORY1> are
-# owned by <TAG1>. When the items are processed, the corresponding TAG will be
-# set in the items that match the rule defined. The TAG defined at the item
-# level always takes precedence, so when it's present it won't be replaced.
-#
-# NOTE: TAGs names should only use lowercase case letters and hyphens (no
-# spaces or other characters), and should not be prefixed with "tag". The
-# subcategories field is optional and, when omitted, all of them will be
-# included.
-#
-# tags:
-#   <TAG1>:
-#     - category: <CATEGORY1>
-#       subcategories:
-#         - <SUBCATEGORY1>
-#         - <SUBCATEGORY2>
-#   <TAG2>:
-#     - category: <CATEGORY2>
-#
 
 # Upcoming event (optional)
 #

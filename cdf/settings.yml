@@ -26,6 +26,10 @@ url: https://cdf.landscape2.io
 # Analytics providers configuration. When an analytics provider is set up, some
 # additional code from the provider will be injected into the web application.
 #
+# analytics:
+#   gtm:                            # Google Tag Manager configuration
+#     container_id: <CONTAINER_ID>  # Landscape web application container ID
+#
 analytics:
   gtm:                            # Google Tag Manager configuration
     container_id: GTM-NB6PDMP     # Landscape web application container ID

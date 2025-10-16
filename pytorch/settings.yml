@@ -58,6 +58,12 @@ url: https://pytorch.landscape2.io
 #   - Card mode: items in excluded subcategories won't be displayed when
 #     filtering by group or classifying by category
 #
+# categories:
+#   - name: <CATEGORY_NAME>
+#     subcategories:
+#       - <SUBCATEGORY1_NAME>
+#       - <SUBCATEGORY2_NAME>
+#
 categories:
   - name: PyTorch Members
     subcategories:
@@ -272,8 +278,9 @@ images:
 # but it is important that we define it here as there are some special
 # operations that depend on it.
 #
+# members_category: <CATEGORY_NAME>
+#
 members_category: PyTorch Members
-
 
 # Osano (optional)
 #

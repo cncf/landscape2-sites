@@ -26,6 +26,10 @@ url: https://cip.landscape2.io
 # Analytics providers configuration. When an analytics provider is set up, some
 # additional code from the provider will be injected into the web application.
 #
+# analytics:
+#   gtm:                            # Google Tag Manager configuration
+#     container_id: <CONTAINER_ID>  # Landscape web application container ID
+#
 analytics:
   gtm:                            # Google Tag Manager configuration
     container_id: GTM-53DPL       # Landscape web application container ID
@@ -249,8 +253,9 @@ images:
 # but it is important that we define it here as there are some special
 # operations that depend on it.
 #
+# members_category: <CATEGORY_NAME>
+#
 members_category: CIP Members
-
 
 # Osano (optional)
 #

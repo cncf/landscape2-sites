@@ -174,7 +174,7 @@ footer:
     homepage: "https://www.linuxfoundation.eu"
     linkedin: "https://www.linkedin.com/showcase/linux-foundation-europe"
     twitter: "https://twitter.com/LF_Europe"
-  logo: "https://cncf.github.io/landscape2-sites/lfeu/logo_footer.png"
+  logo: "https://cncf.github.io/landscape2-sites/lfeu/logo_footer.svg"
   text: |
     Copyright © The Linux Foundation Europe. All rights reserved. [View Policies](https://linuxfoundation.eu/en/policies)
 
@@ -228,7 +228,7 @@ groups:
 header:
   links:
     github: "https://github.com/jmertic/lfeu-landscape"
-  logo: "https://cncf.github.io/landscape2-sites/lfeu/logo_header.png"
+  logo: "https://cncf.github.io/landscape2-sites/lfeu/logo_header.svg"
 
 # Hide organization section in projects (optional)
 #

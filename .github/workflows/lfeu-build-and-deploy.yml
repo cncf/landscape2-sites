@@ -1,0 +1,14 @@
+name: LFEU build and deploy
+
+on:
+  schedule:
+    - cron: "30 4 * * *"
+  workflow_dispatch:
+
+jobs:
+  build-landscape:
+    uses: cncf/landscape2-sites/.github/workflows/build-and-deploy.yml@main
+    with:
+      foundation: lfeu
+      repository: jmertic/lfeu-landscape
+    secrets: inherit

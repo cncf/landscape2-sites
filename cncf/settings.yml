@@ -412,10 +412,10 @@ screenshot_width: 3000
 #
 upcoming_event:
   name: "KubeCon CloudNativeCon North America 2025"
-  start: "2025-11-10"
-  end: "2025-11-13"
-  banner_url: "https://cncf.github.io/banners/events/Kubecon-NA-2025-2184x270.png"
-  details_url: "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/?_sft_lfevent-category=kubecon-cloudnativecon-cncf-events&_sft_lfevent-country=north-america&utm_source=landscapecncf"
+  start: "2025-12-01"
+  end: "2025-12-09"
+  banner_url: "https://cncf.github.io/banners/events/cyberweek_2025_2184x270_b.png"
+  details_url: "https://training.linuxfoundation.org/cyber-week-cncf-2025/?utm_source=landscape&utm_campaign=CyberWeek-2025"
 
 # View mode (optional)
 #

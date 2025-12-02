@@ -1,0 +1,18 @@
+name: EBPF validate settings
+
+on:
+  pull_request:
+    branches:
+      - main
+    paths:
+      - ebpf/settings.yml
+
+jobs:
+  validate-landscape-settings:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: cncf/landscape2-validate-action@v2
+        with:
+          target_kind: settings
+          target_path: ebpf/settings.yml

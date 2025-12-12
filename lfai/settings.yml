@@ -137,6 +137,9 @@ colors:
 #     options:
 #       - value: <SUBCATEGORY1_NAME>
 #       - value: <SUBCATEGORY2_NAME>
+#     exclude:
+#       groups:
+#         - <GROUP_NAME>
 #
 featured_items:
   - field: maturity

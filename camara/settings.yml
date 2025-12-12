@@ -131,6 +131,9 @@ colors:
 #     options:
 #       - value: <SUBCATEGORY1_NAME>
 #       - value: <SUBCATEGORY2_NAME>
+#     exclude:
+#       groups:
+#         - <GROUP_NAME>
 #
 
 # Footer (optional)
@@ -189,7 +192,17 @@ grid_items_size: large
 #       - <CATEGORY1_NAME>
 #       - <CATEGORY2_NAME>
 #
+groups:
+  - name: Members
+    categories:
+      - Members
 
+  - name: Organizations
+    categories:
+      - Planning
+      - Integration
+      - Solution Provider
+      - Operation
 # Header (optional)
 #
 # This section allows customizing some aspects of the header.

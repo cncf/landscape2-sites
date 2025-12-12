@@ -153,6 +153,9 @@ enduser:
 #     options:
 #       - value: <SUBCATEGORY1_NAME>
 #       - value: <SUBCATEGORY2_NAME>
+#     exclude:
+#       groups:
+#         - <GROUP_NAME>
 #
 featured_items:
   - field: maturity
@@ -163,6 +166,9 @@ featured_items:
       - value: incubating
         order: 2
         label: CNCF Incubating
+    exclude:
+      groups:
+        - Certified partners and providers
   - field: subcategory
     options:
       - value: Platinum

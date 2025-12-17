@@ -417,11 +417,11 @@ screenshot_width: 3000
 #   details_url: <URL>   # Event details URL (required)
 #
 upcoming_event:
-  name: "CyberWeek 2025"
-  start: "2025-12-01"
-  end: "2025-12-10"
-  banner_url: "https://cncf.github.io/banners/events/cyberweek_2025_2184x270_b.png"
-  details_url: "https://training.linuxfoundation.org/cyber-week-cncf-2025/?utm_source=landscape&utm_campaign=CyberWeek-2025"
+  name: "KubeCon CloudNativeCon Europe 2026"
+  start: "2026-03-23"
+  end: "2026-03-27"
+  banner_url: "https://cncf.github.io/banners/events/Kubecon-EU-2026-2400x300.png"
+  details_url: "https://events.linuxfoundation.org/kubecon-cloudnativecon-europe/?utm_source=landscape&utm_campaign=KubeCon-EU-2026"
 
 # View mode (optional)
 #

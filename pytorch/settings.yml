@@ -67,8 +67,9 @@ url: https://pytorch.landscape2.io
 categories:
   - name: PyTorch Members
     subcategories:
-      - Premier
-      - General
+      - Platinum
+      - Gold
+      - Silver
       - Associate
 
 # Colors (optional)

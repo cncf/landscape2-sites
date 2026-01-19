@@ -73,7 +73,7 @@ categories:
       - Platinum
       - Gold
       - Silver
-      - End User Supporter
+      - End User Supporter and Contributor
       - Nonprofit
       - Academic
   - name: Special
@@ -130,7 +130,7 @@ description: The CNCF Cloud Native Landscape is intended as a map through the pr
 enduser:
   - category: CNCF Members
     subcategories:
-      - End User Supporter
+      - End User Supporter and Contributor
 
 # Featured items (optional)
 #

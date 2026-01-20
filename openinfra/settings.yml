@@ -146,7 +146,6 @@ featured_items:
   - field: subcategory
     options:
       - value: Platinum
-      - value: Gold
 
 # Footer (optional)
 #

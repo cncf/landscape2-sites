@@ -175,8 +175,7 @@ footer:
     homepage: "https://openinfra.org"
     linkedin: "https://www.linkedin.com/company/open-infrastructure-foundation"
     twitter: "https://x.com/openinfradev"
-  # logo: "https://cncf.github.io/landscape2-sites/openinfra/logo_footer.svg"
-  logo: "https://raw.githubusercontent.com/OpenStackweb/openinfra-foundation-brand-guide/7c037a2b06a72c87be58355e0cfc21523491a524/catalog/static/assets/logos/foundation-logos/OpenInfrastructureFoundation-logo-RGB-horiz3-w.svg"
+  logo: "https://cncf.github.io/landscape2-sites/openinfra/logo_footer.svg"
   text: |
     Copyright © 2024 The Linux Foundation®. All rights reserved. The Linux Foundation has registered trademarks and uses trademarks. For a list of trademarks of The Linux Foundation, please see our [Trademark Usage page](https://www.linuxfoundation.org/trademark-usage). Linux is a registered trademark of Linus Torvalds. [Privacy Policy](https://www.linuxfoundation.org/privacy) and [Terms of Use](https://www.linuxfoundation.org/terms). This website contains data received from Crunchbase. This data is not licensed pursuant to the Apache License. It is subject to Crunchbase's Data Access Terms, available at <https://data.crunchbase.com/docs/terms>, and is only permitted to be used with Linux Foundation landscape projects.
 
@@ -222,9 +221,8 @@ grid_items_size: large
 #
 header:
   links:
-    github: "https://github.com/ossf/ossf-landscape"
-  # logo: "https://cncf.github.io/landscape2-sites/openinfra/logo_header.svg"
-  logo: "https://raw.githubusercontent.com/OpenStackweb/openinfra-foundation-brand-guide/7c037a2b06a72c87be58355e0cfc21523491a524/catalog/static/assets/logos/foundation-logos/OpenInfrastructureFoundation-logo-RGB-horiz3.svg"
+    github: "https://github.com/OpenStackweb/landscape"
+  logo: "https://cncf.github.io/landscape2-sites/openinfra/logo_header.svg"
 
 # Hide organization section in projects (optional)
 #
@@ -242,8 +240,7 @@ header:
 #   open_graph: <OPEN_GRAPH_IMAGE_URL>
 #
 images:
-  # favicon: "https://cncf.github.io/landscape2-sites/openinfra/favicon.png"
-  favicon: "https://github.com/OpenStackweb/openstack-org/blob/68ae66129684f606d02724e3df9dac52b0598764/favicon/favicon-16x16.png?raw=true"
+  favicon: "https://cncf.github.io/landscape2-sites/openinfra/favicon.png"
 
 # Logos viewbox (optional)
 #

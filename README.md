@@ -1,7 +1,9 @@
 # Landscape2 sites
 
-This repository contains the settings and deployment workflows of some foundations' landscapes.
+This repository contains the settings and deployment workflows of some
+foundations' landscapes.
 
+<!-- markdownlint-disable MD013 -->
 | Foundation                                                                                                                                                                                                                                           | Landscape url                                |
 | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------- |
 | [![AAIF build and deploy](https://github.com/cncf/landscape2-sites/actions/workflows/aaif-build-and-deploy.yml/badge.svg?branch=main)](https://github.com/cncf/landscape2-sites/actions/workflows/aaif-build-and-deploy.yml)                         | <https://aaif.landscape2.io>                 |
@@ -20,10 +22,13 @@ This repository contains the settings and deployment workflows of some foundatio
 | [![LFAI build and deploy](https://github.com/cncf/landscape2-sites/actions/workflows/lfai-build-and-deploy.yml/badge.svg?branch=main)](https://github.com/cncf/landscape2-sites/actions/workflows/lfai-build-and-deploy.yml)                         | <https://lfai.landscape2.io>                 |
 | [![LFEdge build and deploy](https://github.com/cncf/landscape2-sites/actions/workflows/lfedge-build-and-deploy.yml/badge.svg)](https://github.com/cncf/landscape2-sites/actions/workflows/lfedge-build-and-deploy.yml)                               | <https://lfedge.landscape2.io>               |
 | [![LFEnergy build and deploy](https://github.com/cncf/landscape2-sites/actions/workflows/lfenergy-build-and-deploy.yml/badge.svg?branch=main)](https://github.com/cncf/landscape2-sites/actions/workflows/lfenergy-build-and-deploy.yml)             | <https://lfenergy.landscape2.io>             |
+| [![LFEU build and deploy](https://github.com/cncf/landscape2-sites/actions/workflows/lfeu-build-and-deploy.yml/badge.svg?branch=main)](https://github.com/cncf/landscape2-sites/actions/workflows/lfeu-build-and-deploy.yml)                         | <https://landscape.linuxfoundation.eu>       |
 | [![LFNetworking build and deploy](https://github.com/cncf/landscape2-sites/actions/workflows/lfnetworking-build-and-deploy.yml/badge.svg?branch=main)](https://github.com/cncf/landscape2-sites/actions/workflows/lfnetworking-build-and-deploy.yml) | <https://lfnetworking.landscape2.io>         |
 | [![O3DF build and deploy](https://github.com/cncf/landscape2-sites/actions/workflows/o3df-build-and-deploy.yml/badge.svg?branch=main)](https://github.com/cncf/landscape2-sites/actions/workflows/o3df-build-and-deploy.yml)                         | <https://landscape.o3df.org>                 |
 | [![OAI build and deploy](https://github.com/cncf/landscape2-sites/actions/workflows/oai-build-and-deploy.yml/badge.svg?branch=main)](https://github.com/cncf/landscape2-sites/actions/workflows/oai-build-and-deploy.yml)                            | <https://landscape.openapis.org>             |
 | [![OMP build and deploy](https://github.com/cncf/landscape2-sites/actions/workflows/omp-build-and-deploy.yml/badge.svg?branch=main)](https://github.com/cncf/landscape2-sites/actions/workflows/omp-build-and-deploy.yml)                            | <https://omp.landscape2.io>                  |
+| [![OpenChain build and deploy](https://github.com/cncf/landscape2-sites/actions/workflows/openchain-build-and-deploy.yml/badge.svg?branch=main)](https://github.com/cncf/landscape2-sites/actions/workflows/openchain-build-and-deploy.yml)          | <https://openchain.landscape2.io>            |
+| [![OpenInfra build and deploy](https://github.com/cncf/landscape2-sites/actions/workflows/openinfra-build-and-deploy.yml/badge.svg?branch=main)](https://github.com/cncf/landscape2-sites/actions/workflows/openinfra-build-and-deploy.yml)          | <https://openinfra.landscape2.io>            |
 | [![OpenSSF build and deploy](https://github.com/cncf/landscape2-sites/actions/workflows/openssf-build-and-deploy.yml/badge.svg?branch=main)](https://github.com/cncf/landscape2-sites/actions/workflows/openssf-build-and-deploy.yml)                | <https://openssf.landscape2.io>              |
 | [![OSPO build and deploy](https://github.com/cncf/landscape2-sites/actions/workflows/ospo-build-and-deploy.yml/badge.svg?branch=main)](https://github.com/cncf/landscape2-sites/actions/workflows/ospo-build-and-deploy.yml)                         | <https://landscape.todogroup.org>            |
 | [![Overture Maps build and deploy](https://github.com/cncf/landscape2-sites/actions/workflows/overturemaps-build-and-deploy.yml/badge.svg)](https://github.com/cncf/landscape2-sites/actions/workflows/overturemaps-build-and-deploy.yml)            | <https://landscape.overturemaps.org>         |
@@ -32,6 +37,7 @@ This repository contains the settings and deployment workflows of some foundatio
 | [![PyTorch build and deploy](https://github.com/cncf/landscape2-sites/actions/workflows/pytorch-build-and-deploy.yml/badge.svg?branch=main)](https://github.com/cncf/landscape2-sites/actions/workflows/pytorch-build-and-deploy.yml)                | <https://pytorch.landscape2.io>              |
 | [![RISCV build and deploy](https://github.com/cncf/landscape2-sites/actions/workflows/riscv-build-and-deploy.yml/badge.svg?branch=main)](https://github.com/cncf/landscape2-sites/actions/workflows/riscv-build-and-deploy.yml)                      | <https://riscv.landscape2.io>                |
 | [![SPDX build and deploy](https://github.com/cncf/landscape2-sites/actions/workflows/spdx-build-and-deploy.yml/badge.svg?branch=main)](https://github.com/cncf/landscape2-sites/actions/workflows/spdx-build-and-deploy.yml)                         | <https://spdx.landscape2.io>                 |
+<!-- markdownlint-enable MD013 -->
 
 ## Contributing
 

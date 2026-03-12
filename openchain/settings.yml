@@ -171,8 +171,7 @@ footer:
     linkedin: "https://www.linkedin.com/company/openchain/"
     slack: "http://slack.openchainproject.org/"
     twitter: "https://twitter.com/openchainproj"
-  logo: "https://openchainproject.org/wp-content/uploads/sites/30/2024/07/long-logo-white.png"
-  # logo: "https://cncf.github.io/landscape2-sites/openchain/logo_footer.svg"
+  logo: "https://cncf.github.io/landscape2-sites/openchain/logo_footer.svg"
 
 # Grid items size (optional)
 #
@@ -228,8 +227,7 @@ groups:
 header:
   links:
     github: "https://github.com/cncf/landscape2"
-  logo: "https://openchainproject.org/wp-content/uploads/sites/30/2019/10/openchain-hztl-color-01.svg"
-  # logo: "https://cncf.github.io/landscape2-sites/openchain/logo_header.svg"
+  logo: "https://cncf.github.io/landscape2-sites/openchain/logo_header.svg"
 
 # Hide organization section in projects (optional)
 #
@@ -247,10 +245,8 @@ header:
 #   open_graph: <OPEN_GRAPH_IMAGE_URL>
 #
 images:
-  favicon: "https://openchainproject.org/wp-content/uploads/sites/30/2019/06/cropped-openchain-favicon-150x150.png"
-  open_graph: "https://openchainproject.org/wp-content/uploads/sites/30/2019/06/cropped-openchain-favicon-150x150.png"
-  # favicon: "https://cncf.github.io/landscape2-sites/openchain/favicon.png"
-  # open_graph: "https://cncf.github.io/landscape2-sites/openchain/open_graph.jpg"
+  favicon: "https://cncf.github.io/landscape2-sites/openchain/favicon.png"
+  open_graph: "https://cncf.github.io/landscape2-sites/openchain/open_graph.jpg"
 
 # Logos viewbox (optional)
 #

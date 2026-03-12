@@ -226,7 +226,7 @@ groups:
 #
 header:
   links:
-    github: "https://github.com/cncf/landscape2"
+    github: "https://github.com/OpenChain-Project/landscape"
   logo: "https://cncf.github.io/landscape2-sites/openchain/logo_header.svg"
 
 # Hide organization section in projects (optional)

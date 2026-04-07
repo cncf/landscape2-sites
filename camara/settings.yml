@@ -199,10 +199,26 @@ groups:
 
   - name: Organizations
     categories:
-      - Planning
-      - Integration
-      - Solution Provider
-      - Operation
+  - name: Planning
+    subcategories:
+      - Research Partners
+      - Ecosystem Consultants & Training Partners
+      - Associations
+  - name: Integration
+    subcategories:
+      - System Integrators
+  - name: Solution Provider
+    subcategories:
+      - Network Capability Solution Providers
+      - Transformation Function Solution Providers
+      - API Exposure Platform Solution Providers
+      - Portal Solution Providers
+      - Independent Software Vendors
+  - name: Operation
+    subcategories:
+      - Operators
+      - Hyperscalers, CPaaS Providers, Aggregators
+      - API Customers
 # Header (optional)
 #
 # This section allows customizing some aspects of the header.

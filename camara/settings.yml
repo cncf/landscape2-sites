@@ -135,7 +135,18 @@ colors:
 #       groups:
 #         - <GROUP_NAME>
 #
-
+featured_items:
+  - field: subcategory
+    options:
+      - value: Premier
+        order: 1
+        label: Premier
+      - value: General
+        order: 2
+        label: General
+      - value: Associate
+        order: 3
+        label: Associate
 # Footer (optional)
 #
 # This section allows customizing some aspects of the footer.
@@ -192,13 +203,7 @@ grid_items_size: large
 #       - <CATEGORY1_NAME>
 #       - <CATEGORY2_NAME>
 #
-groups:
-  - name: Members
-    categories:
-      - Members
-
-  - name: Organizations
-    categories:
+categories:
   - name: Planning
     subcategories:
       - Research Partners
@@ -219,6 +224,18 @@ groups:
       - Operators
       - Hyperscalers, CPaaS Providers, Aggregators
       - API Customers
+
+groups:
+  - name: Members
+    categories:
+      - Members
+
+  - name: Organizations
+    categories:
+      - Planning
+      - Integration
+      - Solution Provider
+      - Operation
 # Header (optional)
 #
 # This section allows customizing some aspects of the header.

@@ -204,6 +204,11 @@ grid_items_size: large
 #       - <CATEGORY2_NAME>
 #
 categories:
+  - name: Members
+    subcategories:
+      - Premier
+      - General
+      - Associate
   - name: Planning
     subcategories:
       - Research Partners

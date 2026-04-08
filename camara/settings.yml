@@ -135,7 +135,18 @@ colors:
 #       groups:
 #         - <GROUP_NAME>
 #
-
+featured_items:
+  - field: subcategory
+    options:
+      - value: Premier
+        order: 1
+        label: Premier
+      - value: General
+        order: 2
+        label: General
+      - value: Associate
+        order: 3
+        label: Associate
 # Footer (optional)
 #
 # This section allows customizing some aspects of the footer.
@@ -192,6 +203,33 @@ grid_items_size: large
 #       - <CATEGORY1_NAME>
 #       - <CATEGORY2_NAME>
 #
+categories:
+  - name: Members
+    subcategories:
+      - Premier
+      - General
+      - Associate
+  - name: Planning
+    subcategories:
+      - Research Partners
+      - Ecosystem Consultants & Training Partners
+      - Associations
+  - name: Integration
+    subcategories:
+      - System Integrators
+  - name: Solution Provider
+    subcategories:
+      - Network Capability Solution Providers
+      - Transformation Function Solution Providers
+      - API Exposure Platform Solution Providers
+      - Portal Solution Providers
+      - Independent Software Vendors
+  - name: Operation
+    subcategories:
+      - Operators
+      - Hyperscalers, CPaaS Providers, Aggregators
+      - API Customers
+
 groups:
   - name: Members
     categories:

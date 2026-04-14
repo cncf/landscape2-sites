@@ -135,18 +135,6 @@ colors:
 #       groups:
 #         - <GROUP_NAME>
 #
-featured_items:
-  - field: subcategory
-    options:
-      - value: Premier
-        order: 1
-        label: Premier
-      - value: General
-        order: 2
-        label: General
-      - value: Associate
-        order: 3
-        label: Associate
 # Footer (optional)
 #
 # This section allows customizing some aspects of the footer.

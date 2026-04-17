@@ -81,6 +81,18 @@ categories:
       - Kubernetes Certified Service Provider
       - Kubernetes and Cloud Native Training Partner
       - Certified CNFs
+  - name: AI Native Infra
+    subcategories:
+      - Gateway
+      - Orchestration and Scheduling
+      - Workload Runtime
+      - Accelerator and SuperPod
+      - Storage
+      - Network
+      - Model Asset and Registry
+      - Governance, Policy and Security
+      - Observability
+      - Continuous Integration and Delivery
 
 # Colors (optional)
 #
@@ -267,10 +279,14 @@ groups:
     alias: wasm
     categories:
       - Wasm
-  - name: CNAI
-    alias: ai
+  - name: AI Native
+    alias: ai-native
     categories:
-      - CNAI
+      - AI Agent
+      - Inference
+      - Training
+      - Data
+      - AI Native Infra
 
 # Header (optional)
 #

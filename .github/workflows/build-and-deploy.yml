@@ -17,6 +17,9 @@ on:
 
 jobs:
   build-landscape:
+    concurrency:
+      group: landscape-build-and-deploy
+      queue: max
     runs-on:
       labels: ${{ inputs.runner }}
     container:

@@ -175,7 +175,6 @@ footer:
     zulip: "https://linuxfoundation.zulipchat.com/#narrow/channel/525732-neonephos-discussion"
     youtube: "https://www.youtube.com/channel/UCqTJlPfPRAynwpcNI0O7xkw"
     logo: "https://cncf.github.io/landscape2-sites/neonephos/logo_footer.svg"
-  # logo: "https://raw.githubusercontent.com/neonephos/artwork/df8258a3e902ba98e9ceccde30d0a4e568f58319/other/neonephos_foundation/horizontal/white/neonephos_horizontal_white.svg"
   text: |
     **Copyright © Linux Foundation Europe.**
     NeoNephos is a project of Linux Foundation Europe.
@@ -240,7 +239,6 @@ header:
   links:
     homepage: "https://neonephos.org/"
   logo: "https://cncf.github.io/landscape2-sites/neonephos/logo_header.svg"
-  # logo: "https://raw.githubusercontent.com/neonephos/artwork/df8258a3e902ba98e9ceccde30d0a4e568f58319/other/neonephos_foundation/horizontal/color/neonephos_horizontal_color.svg"
 
 # Hide organization section in projects (optional)
 #

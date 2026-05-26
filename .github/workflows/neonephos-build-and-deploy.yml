@@ -1,0 +1,14 @@
+name: NeoNephos build and deploy
+
+on:
+  schedule:
+    - cron: "30 9 * * *"
+  workflow_dispatch:
+
+jobs:
+  build-landscape:
+    uses: cncf/landscape2-sites/.github/workflows/build-and-deploy.yml@main
+    with:
+      foundation: neonephos
+      repository: neonephos/landscape
+    secrets: inherit

@@ -213,17 +213,9 @@ groups:
   - name: Sponsors
     categories:
       - NeoNephos Foundation Sponsors
-  - name: NeoNephos Projects
+  - name: Projects
     categories:
-      - Federation
-      - Sustainability
-      - Security and Compliance
-      - Management
-      - Application
-      - Data
-      - Service Orchestration
-      - Cloud Edge Platform
-      - Virtualization
+      - NeoNephos Foundation Projects
 
 # Header (optional)
 #

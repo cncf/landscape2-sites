@@ -233,12 +233,14 @@ grid_items_size: small
 #
 groups:
   - name: LF Energy Projects
+    alias: projects
     categories:
       - Transmission
       - Distribution
       - Behind-the-Meter
       - Other
   - name: Energy-related open source project ecosystem
+    alias: open-source-ecosystem
     categories:
       - Renewable Energy
       - Energy Storage
@@ -255,9 +257,11 @@ groups:
       - Shared
       - System Management
   - name: LF Energy Members
+    alias: members
     categories:
       - LF Energy Member
   - name: LF Energy SIGs
+    alias: sigs
     categories:
       - SIG
 

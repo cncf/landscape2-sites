@@ -227,15 +227,19 @@ grid_items_size: medium
 #
 groups:
   - name: Projects
+    alias: projects
     categories:
       - Projects
   - name: Open Source Ecosystem
+    alias: open-source-ecosystem
     categories:
       - Broad Open Source
   - name: Members
+    alias: members
     categories:
       - Open Mainframe Project Member Company
   - name: Zowe Conformant
+    alias: zowe-conformant
     categories:
       - Zowe Conformant
 

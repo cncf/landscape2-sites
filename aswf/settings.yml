@@ -228,6 +228,7 @@ grid_items_size: medium
 #
 groups:
   - name: Open Source Projects
+    alias: open-source-ecosystem
     categories:
       - Imaging and Color
       - Assets and Workflow
@@ -235,9 +236,11 @@ groups:
       - Math and Simulation
       - Other
   - name: ASWF Members
+    alias: members
     categories:
       - ASWF Member Company
   - name: ASWF Projects
+    alias: projects
     categories:
       - ASWF Projects
 

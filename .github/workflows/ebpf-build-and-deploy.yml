@@ -1,8 +1,8 @@
 name: EBPF build and deploy
 
 on:
-  schedule:
-    - cron: "30 5 * * *"
+  # schedule:
+  #   - cron: "30 5 * * *"
   workflow_dispatch:
 
 jobs:

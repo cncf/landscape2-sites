@@ -150,6 +150,9 @@ featured_items:
       - value: sig
         order: 4
         label: SIG
+      - value: labs
+        order: 5
+        label: Labs
 
 # Footer (optional)
 #

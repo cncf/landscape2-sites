@@ -233,6 +233,15 @@ groups:
   - name: Members
     categories:
       - CDF Members
+  - name: DataOps
+    alias: dataops
+    categories:
+      - Data Integration & Streaming
+      - Data Storage & Query
+      - Data Processing & Analytics
+      - Data Pipeline Orchestration & CI/CD
+      - Data Quality, Governance & Observability
+      - Data for AI & ML
 
 # Header (optional)
 #

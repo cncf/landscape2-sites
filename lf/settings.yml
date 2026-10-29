@@ -244,7 +244,7 @@ groups:
 #
 header:
   links:
-    github: "https://github.com/jmertic/lf-landscape"
+    github: "https://github.com/linuxfoundation/lf-landscape"
   logo: "https://cncf.github.io/landscape2-sites/lf/logo_header.svg"
 
 # Hide organization section in projects (optional)

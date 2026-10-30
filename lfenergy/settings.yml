@@ -235,9 +235,11 @@ groups:
   - name: LF Energy Projects
     alias: projects
     categories:
+      - Generation
       - Transmission
       - Distribution
       - Behind-the-Meter
+      - Cross-cutting
       - Other
   - name: Energy-related open source project ecosystem
     alias: open-source-ecosystem

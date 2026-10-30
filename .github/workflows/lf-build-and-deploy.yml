@@ -16,6 +16,6 @@ jobs:
     uses: cncf/landscape2-sites/.github/workflows/build-and-deploy.yml@main
     with:
       foundation: lf
-      repository: jmertic/lf-landscape
+      repository: linuxfoundation/lf-landscape
       runner: ${{ github.event.inputs.runner || 'ubuntu-latest-16-cores' }}
     secrets: inherit

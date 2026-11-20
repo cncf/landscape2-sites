@@ -275,7 +275,7 @@ groups:
     alias: serverless
     categories:
       - Serverless
-  - name: Wasm
+  - name: Isolation
     alias: wasm
     categories:
       - Wasm

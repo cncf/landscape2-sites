@@ -67,7 +67,10 @@ url: https://landscape.todogroup.org
 categories:
   - name: OSPO Adopter
     subcategories:
-      - OSPO Adоpter
+      - Enterprise
+      - Public Sector
+      - Nonprofit
+      - Academic
       - OSPO Associate
 
 # Colors (optional)
@@ -202,6 +205,15 @@ grid_items_size: large
 #       - <CATEGORY1_NAME>
 #       - <CATEGORY2_NAME>
 #
+groups:
+  - name: Adopters and Tools
+    categories:
+      - OSPO Adopter
+      - OSPO Tools
+  - name: Members and Associates
+    categories:
+      - TODO Group Member
+      - OSPO Associate
 
 # Header (optional)
 #

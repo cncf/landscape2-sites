@@ -341,8 +341,6 @@ logos_viewbox:
   adjust: true
   exclude:
     - authing.svg
-    - calyptia.svg
-    - cloudlink.svg
     - clusterpedia.svg
     - docker-member.svg
     - hami.svg
